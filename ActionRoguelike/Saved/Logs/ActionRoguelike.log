@@ -1,0 +1,805 @@
+﻿Log file open, 06/24/22 19:51:28
+LogInit: Display: Running engine for game: ActionRoguelike
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.160828
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Software/Epic/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.06.24-10.51.28:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.06.24-10.51.28:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.06.24-10.51.28:413][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.06.24-10.51.28:416][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.06.24-10.51.28:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.06.24-10.51.28:417][  0]LogInit: Selected Device Profile: [Windows]
+[2022.06.24-10.51.28:417][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.06.24-10.51.28:417][  0]LogHAL: Display: Platform has ~ 32 GB [34046742528 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.06.24-10.51.28:417][  0]LogInit: Going up to parent DeviceProfile []
+[2022.06.24-10.51.28:417][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.06.24-10.51.28:417][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.06.24-10.51.28:418][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.06.24-10.51.28:418][  0]LogInit: Computer: MSI
+[2022.06.24-10.51.28:418][  0]LogInit: User: win10
+[2022.06.24-10.51.28:418][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.06.24-10.51.28:418][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.06.24-10.51.28:418][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2022.06.24-10.51.28:418][  0]LogMemory: Platform Memory Stats for Windows
+[2022.06.24-10.51.28:418][  0]LogMemory: Process Physical Memory: 120.10 MB used, 120.11 MB peak
+[2022.06.24-10.51.28:418][  0]LogMemory: Process Virtual Memory: 100.06 MB used, 100.06 MB peak
+[2022.06.24-10.51.28:418][  0]LogMemory: Physical Memory: 13696.41 MB used,  18773.09 MB free, 32469.50 MB total
+[2022.06.24-10.51.28:418][  0]LogMemory: Virtual Memory: 5187.81 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2022.06.24-10.51.28:449][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.06.24-10.51.28:490][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.06.24-10.51.28:491][  0]LogInit: Using OS detected language (zh-CN).
+[2022.06.24-10.51.28:491][  0]LogInit: Using OS detected locale (zh-CN).
+[2022.06.24-10.51.28:493][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2022.06.24-10.51.28:564][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2022.06.24-10.51.28:564][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2022.06.24-10.51.28:564][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2022.06.24-10.51.28:564][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2022.06.24-10.51.28:564][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2022.06.24-10.51.28:564][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2022.06.24-10.51.28:565][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2022.06.24-10.51.28:565][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2022.06.24-10.51.28:565][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2022.06.24-10.51.28:565][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2022.06.24-10.51.28:565][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2022.06.24-10.51.28:600][  0]LogInit: Setting process to per monitor DPI aware
+[2022.06.24-10.51.28:624][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.06.24-10.51.28:624][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.06.24-10.51.28:731][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.06.24-10.51.28:731][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.06.24-10.51.28:731][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.06.24-10.51.28:731][  0]LogD3D11RHI: D3D11 adapters:
+[2022.06.24-10.51.28:822][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070 Laptop GPU' (Feature Level 11_0)
+[2022.06.24-10.51.28:822][  0]LogD3D11RHI:       8044/0/16234 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.06.24-10.51.28:850][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2022.06.24-10.51.28:850][  0]LogD3D11RHI:       128/0/16234 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.06.24-10.51.28:851][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.06.24-10.51.28:851][  0]LogD3D11RHI:       0/0/16234 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.06.24-10.51.28:851][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.06.24-10.51.28:857][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.06.24-10.51.28:857][  0]LogD3D11RHI:     GPU DeviceId: 0x249d (for the marketing name, search the web for "GPU Device Id")
+[2022.06.24-10.51.28:857][  0]LogWindows: EnumDisplayDevices:
+[2022.06.24-10.51.28:857][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2022.06.24-10.51.28:857][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.06.24-10.51.28:858][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.06.24-10.51.28:858][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.06.24-10.51.28:858][  0]LogWindows:    4. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.06.24-10.51.28:858][  0]LogWindows:    5. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.06.24-10.51.28:859][  0]LogWindows:    6. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.06.24-10.51.28:859][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2022.06.24-10.51.28:859][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070 Laptop GPU
+[2022.06.24-10.51.28:859][  0]LogD3D11RHI:   Driver Version: 516.40 (internal:31.0.15.1640, unified:516.40)
+[2022.06.24-10.51.28:859][  0]LogD3D11RHI:      Driver Date: 6-6-2022
+[2022.06.24-10.51.28:859][  0]LogRHI: Texture pool is 5630 MB (70% of 8044 MB)
+[2022.06.24-10.51.28:907][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.06.24-10.51.28:907][  0]LogD3D11RHI: Async texture creation enabled
+[2022.06.24-10.51.28:907][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.06.24-10.51.28:932][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.06.24-10.51.29:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.06.24-10.51.29:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.06.24-10.51.29:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.06.24-10.51.29:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.06.24-10.51.29:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.06.24-10.51.29:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.06.24-10.51.29:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.06.24-10.51.29:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.06.24-10.51.29:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.06.24-10.51.29:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.06.24-10.51.29:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.06.24-10.51.29:238][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.06.24-10.51.29:238][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.06.24-10.51.29:245][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.06.24-10.51.29:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.06.24-10.51.29:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.06.24-10.51.29:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.06.24-10.51.29:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.06.24-10.51.29:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.06.24-10.51.29:283][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.06.24-10.51.29:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.06.24-10.51.29:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.06.24-10.51.29:310][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.06.24-10.51.29:310][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.06.24-10.51.29:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.06.24-10.51.29:323][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.06.24-10.51.29:329][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.06.24-10.51.29:335][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.06.24-10.51.29:335][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.06.24-10.51.29:340][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.06.24-10.51.29:381][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Intermediate/Shaders/WorkingDirectory/8108/).
+[2022.06.24-10.51.29:382][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/win10/AppData/Local/Temp/UnrealShaderWorkingDir/6127692044A61C63CB31BDB8D9FE9B6C/'.
+[2022.06.24-10.51.29:382][  0]LogXGEController: Cleaning working directory: C:/Users/win10/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.06.24-10.51.29:382][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.06.24-10.51.29:382][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.06.24-10.51.29:382][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.06.24-10.51.29:950][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.06.24-10.51.29:991][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/win10/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.06.24-10.51.29:991][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/win10/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.06.24-10.51.29:991][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.06.24-10.51.29:991][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.06.24-10.51.29:991][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.06.24-10.51.29:991][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.06.24-10.51.29:999][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.06.24-10.51.29:999][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.06.24-10.51.29:999][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.06.24-10.51.30:000][  0]LogDerivedDataCache: Using Local data cache path C:/Users/win10/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.06.24-10.51.30:000][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.06.24-10.51.30:000][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.06.24-10.51.30:037][  0]LogSlate: Using FreeType 2.10.0
+[2022.06.24-10.51.30:037][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.06.24-10.51.30:055][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2022.06.24-10.51.30:216][  0]LogInit: Selected Device Profile: [Windows]
+[2022.06.24-10.51.30:299][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.06.24-10.51.30:299][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.06.24-10.51.30:299][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.06.24-10.51.30:299][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.06.24-10.51.30:299][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.06.24-10.51.30:311][  0]LogNetVersion: ActionRoguelike 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3012751956)
+[2022.06.24-10.51.30:597][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001FB55C1E3C0), frame # 0
+[2022.06.24-10.51.30:597][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FB55BE87C0), frame # 0
+[2022.06.24-10.51.30:598][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FB55C0DE00), frame # 0
+[2022.06.24-10.51.30:644][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 2 prioritized culture(s) in 0.042137 seconds
+[2022.06.24-10.51.30:648][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.06.24-10.51.30:648][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.06.24-10.51.30:648][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.06.24-10.51.30:875][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.06.24-10.51.30:879][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.06.24-10.51.30:933][  0]SourceControl: 源码管理已禁用
+[2022.06.24-10.51.30:933][  0]SourceControl: 源码管理已禁用
+[2022.06.24-10.51.30:936][  0]SourceControl: 源码管理已禁用
+[2022.06.24-10.51.30:938][  0]SourceControl: 源码管理已禁用
+[2022.06.24-10.51.30:943][  0]SourceControl: 源码管理已禁用
+[2022.06.24-10.51.31:111][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.06.24-10.51.31:126][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.06.24-10.51.31:126][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.06.24-10.51.31:159][  0]LogOcInput: OculusInput pre-init called
+[2022.06.24-10.51.31:167][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.06.24-10.51.31:167][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.06.24-10.51.31:208][  0]LogEngine: Initializing Engine...
+[2022.06.24-10.51.31:209][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.06.24-10.51.31:209][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.06.24-10.51.31:210][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.06.24-10.51.31:289][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.06.24-10.51.31:294][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.06.24-10.51.31:294][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FB57BA3C00), frame # 0
+[2022.06.24-10.51.31:294][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FB57C216C0), frame # 0
+[2022.06.24-10.51.31:304][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.24-10.51.31:304][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.24-10.51.31:304][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.24-10.51.31:304][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.24-10.51.31:304][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.24-10.51.31:304][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.24-10.51.31:304][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.24-10.51.31:304][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.24-10.51.31:304][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.24-10.51.31:304][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.24-10.51.31:341][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.24-10.51.31:341][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.06.24-10.51.31:893][  0]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.06.24-10.51.31:894][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.24-10.51.31:896][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.24-10.51.31:896][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.24-10.51.31:896][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.24-10.51.31:897][  0]LogInit: FAudioDevice initialized.
+[2022.06.24-10.51.31:897][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.06.24-10.51.31:939][  0]LogDerivedDataCache: Saved boot cache 0.04s 76MB C:/Users/win10/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.06.24-10.51.31:940][  0]LogInit: Texture streaming: Enabled
+[2022.06.24-10.51.31:951][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.06.24-10.51.31:951][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.06.24-10.51.31:952][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.06.24-10.51.31:982][  0]LogInit: Transaction tracking system initialized
+[2022.06.24-10.51.31:997][  0]BlueprintLog: New page: 编辑器加载
+[2022.06.24-10.51.32:044][  0]LocalizationService: 本地化服务已禁用
+[2022.06.24-10.51.32:138][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.06.24-10.51.32:138][  0]LogCook: Display: Mobile HDR setting 1
+[2022.06.24-10.51.32:225][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Content/' took 0.01s
+[2022.06.24-10.51.32:368][  0]SourceControl: 源码管理已禁用
+[2022.06.24-10.51.32:368][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.263
+[2022.06.24-10.51.32:368][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.06.24-10.51.32:368][  0]LightingResults: New page: 光照构建
+[2022.06.24-10.51.32:368][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.06.24-10.51.32:368][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.24-10.51.32:368][  0]MapCheck: New page: 地图检测
+[2022.06.24-10.51.32:368][  0]LightingResults: New page: 光照构建
+[2022.06.24-10.51.32:379][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FB57BA3C00), frame # 0
+[2022.06.24-10.51.32:379][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FB57C216C0), frame # 0
+[2022.06.24-10.51.32:380][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.06.24-10.51.32:421][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.06.24-10.51.32:421][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FB46629C00), frame # 0
+[2022.06.24-10.51.32:421][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FB46851D00), frame # 0
+[2022.06.24-10.51.32:423][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.06.24-10.51.32:435][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.06.24-10.51.32:435][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.06.24-10.51.32:435][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.092毫秒。
+[2022.06.24-10.51.32:435][  0]LogFileHelpers: Loading map 'Template_Default' took 0.067
+[2022.06.24-10.51.32:436][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.331
+[2022.06.24-10.51.32:541][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.24-10.51.32:545][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.24-10.51.32:549][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.24-10.51.32:554][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.24-10.51.32:558][  0]LogCollectionManager: Loaded 0 collections in 0.000669 seconds
+[2022.06.24-10.51.32:569][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Collections/' took 0.00s
+[2022.06.24-10.51.32:569][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Content/Developers/win10/Collections/' took 0.00s
+[2022.06.24-10.51.32:569][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Content/Collections/' took 0.00s
+[2022.06.24-10.51.32:569][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 3429 classes and 824 folders.
+[2022.06.24-10.51.32:570][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.06.24-10.51.32:607][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.06.24-10.51.32:608][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2022.06.24-10.51.32:873][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.06.24-10.51.32:874][  0]LogSlate: Took 0.001120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.06.24-10.51.32:875][  0]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.06.24-10.51.32:877][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.06.24-10.51.32:921][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2022.06.24-10.51.32:968][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.06.24-10.51.32:969][  0]LogLoad: (Engine Initialization) Total time: 5.86 seconds
+[2022.06.24-10.51.32:969][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.06.24-10.51.33:043][  0]LogAssetRegistry: Asset discovery search completed in 2.9879 seconds
+[2022.06.24-10.51.33:045][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.06.24-10.51.33:046][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.06.24-10.51.33:063][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.06.24-10.51.41:701][186]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.06.24-10.51.41:716][186]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ActionRoguelike/PlayerCharacter.PlayerCharacter
+[2022.06.24-10.51.41:731][186]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2022.06.24-10.51.41:836][186]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2022.06.24-10.51.50:716][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ActionRoguelike/PlayerCharacter" FILE="../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/PlayerCharacter.uasset" SILENT=true
+[2022.06.24-10.51.50:723][652]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/PlayerCharacter46EA1B7C4E13812532410D852ABDE3CD.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/PlayerCharacter.uasset'
+[2022.06.24-10.51.50:737][652]AssetCheck: New page: 资产保存：PlayerCharacter
+[2022.06.24-10.51.50:737][652]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/PlayerCharacter.PlayerCharacter
+[2022.06.24-10.51.51:421][693]BlueprintLog: New page: 编译PlayerCharacter
+[2022.06.24-10.51.51:501][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.06.24-10.51.52:700][763]LogSlate: Window 'PlayerCharacter' being destroyed
+[2022.06.24-10.51.52:709][763]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.06.24-10.51.52:709][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.24-10.51.52:761][763]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ActionRoguelike/PlayerCharacter.PlayerCharacter
+[2022.06.24-10.51.53:003][763]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.06.24-10.51.53:696][804]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.06.24-10.51.57:445][ 15]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.06.24-10.52.02:342][290]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Materials/M_CharacterSimple.uasset”时未能加载“/Game/ActionRoguelike/Materials/MF_HitFlashDemo”：无法找到文件。
+[2022.06.24-10.52.02:342][290]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Materials/M_CharacterSimple.uasset”时未能加载“/Game/ActionRoguelike/Materials/MF_HitFlashDemo”：无法找到文件。
+[2022.06.24-10.52.02:342][290]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Materials/M_CharacterSimple.uasset”时未能加载“/Game/ActionRoguelike/Materials/MF_HitFlashDemo”：无法找到文件。
+[2022.06.24-10.52.02:343][290]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Materials/M_CharacterSimple.uasset”时未能加载“/Game/ActionRoguelike/Materials/MF_HitFlashDemo”：无法找到文件。
+[2022.06.24-10.52.02:345][290]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Materials/M_CharacterSimple.uasset”时未能加载“/Game/ActionRoguelike/Materials/MF_HitFlashDemo”：无法找到文件。
+[2022.06.24-10.52.02:345][290]LoadErrors: 加载失败 /Game/ActionRoguelike/Materials/MF_HitFlashDemo.MF_HitFlashDemo 引用者 M_CharacterSimple
+[2022.06.24-10.52.02:345][290]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Materials/M_CharacterSimple.uasset”时未能加载“/Game/ActionRoguelike/Materials/MF_HitFlashDemo”：无法找到文件。
+[2022.06.24-10.52.02:345][290]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Materials/M_CharacterSimple.uasset”时未能加载“/Game/ActionRoguelike/Materials/MF_HitFlashDemo”：无法找到文件。
+[2022.06.24-10.52.02:345][290]LoadErrors: 加载失败 /Game/ActionRoguelike/Materials/MF_HitFlashDemo.MF_HitFlashDemo 引用者 MaterialExpressionMaterialFunctionCall_0
+[2022.06.24-10.52.02:345][290]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Materials/M_CharacterSimple.uasset”时未能加载“/Game/ActionRoguelike/Materials/MF_HitFlashDemo”：无法找到文件。
+[2022.06.24-10.52.02:430][290]LogMaterial: Display: Missing cached shader map for material M_CharacterSimple, compiling. 
+[2022.06.24-10.52.02:431][290]LogMaterial: Warning: D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Content\ExampleContent\Materials\M_CharacterSimple.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.06.24-10.52.02:431][290]LogMaterial: Display: 	Missing Material Function
+[2022.06.24-10.52.05:029][419]BlueprintLog: New page: 编译PlayerCharacter
+[2022.06.24-10.52.05:069][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.06.24-10.52.05:089][419]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.06.24-10.52.17:809][114]LogSlate: Window 'PlayerCharacter' being destroyed
+[2022.06.24-10.52.17:817][114]LogSlate: Window 'PlayerCharacter' being destroyed
+[2022.06.24-10.52.17:824][114]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.06.24-10.52.17:824][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.24-10.52.21:320][304]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ActionRoguelike/PlayerCharacter.PlayerCharacter
+[2022.06.24-10.52.22:779][363]BlueprintLog: New page: 编译PlayerCharacter
+[2022.06.24-10.52.22:816][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.06.24-10.52.23:596][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ActionRoguelike/PlayerCharacter" FILE="../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/PlayerCharacter.uasset" SILENT=true
+[2022.06.24-10.52.23:606][402]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/PlayerCharacterDF40606745F556794B1B82B9050B070B.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/PlayerCharacter.uasset'
+[2022.06.24-10.52.23:621][402]AssetCheck: New page: 资产保存：PlayerCharacter
+[2022.06.24-10.52.23:621][402]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/PlayerCharacter.PlayerCharacter
+[2022.06.24-10.52.24:571][454]LogSlate: Window 'PlayerCharacter' being destroyed
+[2022.06.24-10.52.24:578][454]LogSlate: Window 'PlayerCharacter' being destroyed
+[2022.06.24-10.52.24:580][454]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.06.24-10.52.24:580][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.24-10.53.11:381][752]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.uasset”时未能加载“/Game/ActionRoguelike/Sprinting_BS_1D”：无法找到文件。
+[2022.06.24-10.53.11:381][752]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.uasset”时未能加载“/Game/ActionRoguelike/Sprinting_BS_1D”：无法找到文件。
+[2022.06.24-10.53.11:381][752]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.uasset”时未能加载“/Game/ActionRoguelike/Sprinting_BS_1D”：无法找到文件。
+[2022.06.24-10.53.11:381][752]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.uasset”时未能加载“/Game/ActionRoguelike/Sprinting_BS_1D”：无法找到文件。
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:382][752]LogLinker: Warning: Unable to load Default__Gideon_AnimBlueprint_C with outer Package /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint because its class does not exist
+[2022.06.24-10.53.11:389][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:390][752]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.uasset”时未能加载“/Game/ActionRoguelike/Sprinting_BS_1D”：无法找到文件。
+[2022.06.24-10.53.11:390][752]LoadErrors: 加载失败 /Game/ActionRoguelike/Sprinting_BS_1D.Sprinting_BS_1D 引用者 AnimGraphNode_BlendSpacePlayer_0
+[2022.06.24-10.53.11:390][752]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.uasset”时未能加载“/Game/ActionRoguelike/Sprinting_BS_1D”：无法找到文件。
+[2022.06.24-10.53.11:393][752]LogBlueprint: Warning: FMemberReference::ResolveMember (TryGetPawnOwner) bSelfContext == true, but no scope supplied!
+[2022.06.24-10.53.11:393][752]LogBlueprint: Warning: FMemberReference::ResolveMember (GetCurveValue) bSelfContext == true, but no scope supplied!
+[2022.06.24-10.53.11:394][752]LogBlueprint: Warning: FMemberReference::ResolveMember (TryGetPawnOwner) bSelfContext == true, but no scope supplied!
+[2022.06.24-10.53.11:394][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:394][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:394][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:394][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:394][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:394][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:394][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:394][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:394][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:394][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:395][752]LogLinker: Warning: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:431][752]LoadErrors: Warning: 创建导出：资产“ExecuteUbergraph_Gideon_AnimBlueprint”的外部容器加载失败：AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:431][752]LoadErrors: Warning: 创建导出：资产“Attacking_Event_0”的外部容器加载失败：AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:431][752]LoadErrors: Warning: 创建导出：资产“EvaluateGraphExposedInputs_ExecuteUbergraph_Gideon_AnimBlueprint_AnimGraphNode_TransitionResult_6601F0D94711153024264FAF2B91E9CF”的外部容器加载失败：AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:431][752]LoadErrors: Warning: 创建导出：资产“BlueprintInitializeAnimation”的外部容器加载失败：AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:431][752]LoadErrors: Warning: 创建导出：资产“EvaluateGraphExposedInputs_ExecuteUbergraph_Gideon_AnimBlueprint_AnimGraphNode_TransitionResult_48A96C294CD295CEC1731C8EB9C4B759”的外部容器加载失败：AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:431][752]LoadErrors: Warning: 创建导出：资产“BlueprintUpdateAnimation”的外部容器加载失败：AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:431][752]LoadErrors: Warning: 创建导出：资产“EvaluateGraphExposedInputs_ExecuteUbergraph_Gideon_AnimBlueprint_AnimGraphNode_TransitionResult_E299EBFB47A5281E411808A77CC1EC9F”的外部容器加载失败：AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:431][752]LoadErrors: Warning: 创建导出：资产“EvaluateGraphExposedInputs_ExecuteUbergraph_Gideon_AnimBlueprint_AnimGraphNode_BlendListByBool_3EB8F08349E0CBC525BB638FBEBC0215”的外部容器加载失败：AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:431][752]LoadErrors: Warning: 创建导出：资产“EvaluateGraphExposedInputs_ExecuteUbergraph_Gideon_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_4258C06E45DFC1190FA7139FDCF5B6F3”的外部容器加载失败：AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.11:431][752]LoadErrors: Warning: 创建导出：资产“AnimGraph”的外部容器加载失败：AnimBlueprintGeneratedClass /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C
+[2022.06.24-10.53.14:536][921]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint
+[2022.06.24-10.53.15:852][921]LogSlate: Window '消息' being destroyed
+[2022.06.24-10.53.15:858][921]Message dialog closed, result: Ok, title: 消息, text: 动画蓝图已损坏，因此无法被加载。
+[2022.06.24-10.53.22:393][274]LogSlate: Window '选择骨骼' being destroyed
+[2022.06.24-10.53.22:402][274]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.06.24-10.53.22:402][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.24-10.53.22:411][274]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.06.24-10.53.22:411][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.24-10.53.24:532][386]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint
+[2022.06.24-10.53.25:448][386]LogSlate: Window '消息' being destroyed
+[2022.06.24-10.53.25:455][386]Message dialog closed, result: Ok, title: 消息, text: 动画蓝图已损坏，因此无法被加载。
+[2022.06.24-10.53.29:174][557]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/ParagonGideon/Characters/Heroes/Gideon/Meshes/Gideon.Gideon
+[2022.06.24-10.53.29:179][557]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.06.24-10.53.29:309][557]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.06.24-10.53.29:310][557]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2022.06.24-10.53.29:360][557]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.06.24-10.53.30:056][557]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2022.06.24-10.53.30:065][558]LogRenderer: Reallocating scene render targets to support 1208x636 Format 10 NumSamples 1 (Frame:1).
+[2022.06.24-10.53.33:630][733]LogSlate: Window 'Gideon' being destroyed
+[2022.06.24-10.53.33:638][733]LogSlate: Window 'Gideon' being destroyed
+[2022.06.24-10.53.33:638][733]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.06.24-10.53.33:638][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
