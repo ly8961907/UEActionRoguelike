@@ -1,0 +1,7 @@
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\Definitions.ActionRoguelike.h
+D:\Software\Epic\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Software\Epic\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike/Public/SMagicProjectile.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SProjectileBase.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SProjectileBase.generated.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SMagicProjectile.generated.h

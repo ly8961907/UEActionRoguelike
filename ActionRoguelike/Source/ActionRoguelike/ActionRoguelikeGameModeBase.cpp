@@ -3,9 +3,3 @@
 
 #include "ActionRoguelikeGameModeBase.h"
 
-
-AActionRoguelikeGameModeBase::AActionRoguelikeGameModeBase()
-{
-
-}
-

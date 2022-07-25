@@ -1,0 +1,3 @@
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\Definitions.ActionRoguelike.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SAttributeComponent.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SAttributeComponent.generated.h

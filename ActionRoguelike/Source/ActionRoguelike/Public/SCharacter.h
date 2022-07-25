@@ -18,23 +18,76 @@ public:
 protected:
 
 
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	UPROPERTY(EditAnywhere, Category = "Attack")
+		TSubclassOf<AActor> MagicProjectileclass;
 
+	UPROPERTY(EditAnywhere, Category = "Attack")
+		TSubclassOf<AActor> BlackholeProjectileclass;
 
-public:	
+	UPROPERTY(EditAnywhere, Category = "Attack")
+		TSubclassOf<AActor> DashProjectileclass;
+
+	UPROPERTY(EditAnywhere, Category = "Attack")
+		class UAnimMontage* PrimaryAttackAnim;
+
+	UPROPERTY(EditAnywhere, Category = "Attack")
+		class UAnimMontage* BlackholeAttackAnim;
+
+	UPROPERTY(EditAnywhere, Category = "Attack")
+		class UAnimMontage* DashAttackAnim;
+
+	/* Particle System played during attack animation */
+	UPROPERTY(EditAnywhere, Category = "Attack")
+		class UParticleSystem* CastingEffect;
+
+	FTimerHandle TimerHandle_PrimaryAttack;
+	FTimerHandle TimerHandle_BlackholeAttack;
+	FTimerHandle TimerHandle_DashAttack;
+
+public:
+
+	UPROPERTY(VisibleAnywhere)
+		class USpringArmComponent* SpringArmComp;
+
+	UPROPERTY(VisibleAnywhere)
+		class UCameraComponent* CameraComp;
+
+	UPROPERTY(VisibleAnywhere)
+		class USInteractionComponent* InterationComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+		class USAttributeComponent* AttributeComp;
 
 	void MoveForward(float value);
 
-	UPROPERTY(EditAnywhere)
-	class USpringArmComponent* SpringArmComp;
+	void MoveRight(float value);
 
-	UPROPERTY(EditAnywhere)
-	class UCameraComponent* CameraComp;
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	virtual void Jump() override;
+
+	void PrimaryAttack();
+
+	void PrimaryAttack_TimeElapsed();
+
+	void BlackholeAttack();
+
+	void BlackholeAttack_TimeElapsed();
+
+	void DashAttack();
+
+	void DashAttack_TimeElapsed();
+
+	void StartAttackEffect(int Hand);
+
+	void PrimaryInteract();
+
+	// Re-use spawn logic between attacks
+	void SpawnProjectile(TSubclassOf<AActor> ClassToSpawn, int Hand);
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	virtual void PostInitializeComponents() override;
+
+	UFUNCTION()
+		void OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth, float Delta);
 };
