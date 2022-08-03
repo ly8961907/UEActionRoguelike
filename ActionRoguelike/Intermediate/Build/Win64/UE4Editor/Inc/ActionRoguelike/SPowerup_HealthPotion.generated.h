@@ -59,7 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASPowerup_HealthPotion); \
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SPowerup_HealthPotion_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(ASPowerup_HealthPotion, MeshComp); }
+	FORCEINLINE static uint32 __PPO__CreditCost() { return STRUCT_OFFSET(ASPowerup_HealthPotion, CreditCost); }
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SPowerup_HealthPotion_h_12_PROLOG

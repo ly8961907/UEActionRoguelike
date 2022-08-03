@@ -1,13 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
   Building ActionRoguelikeEditor...
   Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 16 processes...
-    [1/5] SAICharacter.cpp
-    [2/5] SGameModeBase.cpp
-    [3/5] UE4Editor-ActionRoguelike-0036.lib
-      ���ڴ����� D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-0036.lib �Ͷ��� D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-0036.exp
-    [4/5] UE4Editor-ActionRoguelike-0036.dll
-      ���ڴ����� D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-0036.suppressed.lib �Ͷ��� D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-0036.suppressed.exp
-    [5/5] ActionRoguelikeEditor.target
-  Total time in Parallel executor: 2.10 seconds
-  Total execution time: 2.57 seconds
+  Building 1 action with 16 processes...
+    [1/1] ActionRoguelikeEditor.target
+  Total time in Parallel executor: 0.88 seconds
+  Total execution time: 1.44 seconds

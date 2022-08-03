@@ -8,6 +8,7 @@
 #include "SInteractionComponent.h"
 #include "SAttributeComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "SActionComponent.h"
 
 // Sets default values
 ASCharacter::ASCharacter()
@@ -27,9 +28,11 @@ ASCharacter::ASCharacter()
 	
 	AttributeComp = CreateDefaultSubobject<USAttributeComponent>("AttributeComp");
 
-	GetCharacterMovement()->bOrientRotationToMovement = true;//让角色朝着摄像机面向的方向移动
+	ActionComp = CreateDefaultSubobject<USActionComponent>("ActionComp");
 
-	bUseControllerRotationYaw = false;
+	GetCharacterMovement()->bOrientRotationToMovement = true;//让角色朝着摄像机面向的方向移动
+	bUseControllerRotationYaw = false;	
+
 }
 
 void ASCharacter::PostInitializeComponents()
@@ -39,6 +42,10 @@ void ASCharacter::PostInitializeComponents()
 	AttributeComp->OnHealthChanged.AddDynamic(this, &ASCharacter::OnHealthChanged);
 }
 
+FVector ASCharacter::GetPawnViewLocation() const//让射线从摄像机射出 而不是
+{
+	return CameraComp->GetComponentLocation();
+}
 
 // Called to bind functionality to input
 void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -47,10 +54,12 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ASCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ASCharacter::MoveRight);
-	
 
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("Lookup", this, &APawn::AddControllerPitchInput);
+
+	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &ASCharacter::SprintStart);
+	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &ASCharacter::SprintStop);
 
 	PlayerInputComponent->BindAction("PrimaryAttack", IE_Pressed, this, &ASCharacter::PrimaryAttack);
 	PlayerInputComponent->BindAction("BlackholeAttack", IE_Pressed, this, &ASCharacter::BlackholeAttack);
@@ -61,6 +70,11 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ASCharacter::Jump);
 	//PlayerInputComponent->BindAction("Jump", IE_Released, this, &ASCharacter::StopJumping);
 
+}
+
+void ASCharacter::HealSelf(float Amount /* Default 100 */)
+{
+	AttributeComp->ApplyHealthChange(this, Amount);
 }
 
 void ASCharacter::MoveForward(float value)
@@ -80,6 +94,16 @@ void ASCharacter::MoveRight(float value)
 	AddMovementInput(RightVector, value);
 }
 
+void ASCharacter::SprintStart()
+{
+	ActionComp->StartActionByName(this, "Sprint");
+}
+
+void ASCharacter::SprintStop()
+{
+	ActionComp->StopActionByName(this, "Sprint");
+}
+
 void ASCharacter::Jump()
 {
 	Super::Jump();
@@ -92,124 +116,17 @@ void ASCharacter::Jump()
 
 void ASCharacter::PrimaryAttack()//攻击函数
 {
-	PlayAnimMontage(PrimaryAttackAnim);
-	StartAttackEffect(1);
-	GetWorldTimerManager().SetTimer(TimerHandle_PrimaryAttack, this, &ASCharacter::PrimaryAttack_TimeElapsed, 0.2f);//0.2f后执行PrimaryAttack_TimeElapsed
-	
-	//GetWorldTimerManager().ClearTimer(TimeHandle_PrimaryAttack);如果人物死了 仍然在攻击，使用这个函数可以解决这个问题
-
+	ActionComp->StartActionByName(this, "PrimaryAttack");
 }
-
-void ASCharacter::PrimaryAttack_TimeElapsed()
-{
-	SpawnProjectile(MagicProjectileclass, 1);
-}
-
 
 void ASCharacter::BlackholeAttack()
 {
-	PlayAnimMontage(BlackholeAttackAnim);
-	StartAttackEffect(2);
-	GetWorldTimerManager().SetTimer(TimerHandle_BlackholeAttack, this, &ASCharacter::BlackholeAttack_TimeElapsed, 0.2f);//0.2f后执行PrimaryAttack_TimeElapsed
-
-}
-
-void ASCharacter::BlackholeAttack_TimeElapsed()
-{	
-	SpawnProjectile(BlackholeProjectileclass, 2);
+	ActionComp->StartActionByName(this, "BlackholeAttack");
 }
 
 void ASCharacter::DashAttack()
 {
-	PlayAnimMontage(DashAttackAnim);
-	StartAttackEffect(1);
-	GetWorldTimerManager().SetTimer(TimerHandle_DashAttack, this, &ASCharacter::DashAttack_TimeElapsed, 0.2f);
-}
-
-void ASCharacter::DashAttack_TimeElapsed()
-{
-	SpawnProjectile(DashProjectileclass, 1);
-}
-
-void ASCharacter::StartAttackEffect(int Hand)
-{
-	FName HandSocketName;
-	switch (Hand)
-	{
-	case 1:
-		HandSocketName = "Muzzle_01";
-
-	case 2:
-		HandSocketName = "Muzzle_02";
-
-	case 3:
-		HandSocketName = "Muzzle_03";
-
-	default:
-		HandSocketName = "Muzzle_01";
-	}
-
-	UGameplayStatics::SpawnEmitterAttached(CastingEffect, GetMesh(), HandSocketName, FVector::ZeroVector, FRotator::ZeroRotator, EAttachLocation::SnapToTarget);
-
-}
-
-
-
-void ASCharacter::SpawnProjectile(TSubclassOf<AActor> ClassToSpawn, int Hand)
-{
-	if (ensureAlways(ClassToSpawn))
-	{
-		FVector HandLocation;
-		switch (Hand)
-		{
-			case 1:
-				HandLocation = GetMesh()->GetSocketLocation("Muzzle_01");
-			
-			case 2:
-				HandLocation = GetMesh()->GetSocketLocation("Muzzle_02");
-
-			case 3:
-				HandLocation = GetMesh()->GetSocketLocation("Muzzle_03");
-
-			default:
-				HandLocation = GetMesh()->GetSocketLocation("Muzzle_01");
-		}
-		
-		FActorSpawnParameters SpawnParams;
-		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-		SpawnParams.Instigator = this;
-
-		FCollisionShape Shape;
-		Shape.SetSphere(20.0f);
-
-		// Ignore Player
-		FCollisionQueryParams Params;
-		Params.AddIgnoredActor(this);
-
-		//block 物体
-		FCollisionObjectQueryParams ObjParams;
-		ObjParams.AddObjectTypesToQuery(ECC_WorldDynamic);
-		ObjParams.AddObjectTypesToQuery(ECC_WorldStatic);
-		ObjParams.AddObjectTypesToQuery(ECC_Pawn);
-
-		FVector TraceStart = CameraComp->GetComponentLocation();
-
-		// endpoint far into the look-at distance (not too far, still adjust somewhat towards crosshair on a miss)
-		FVector TraceEnd = CameraComp->GetComponentLocation() + (GetControlRotation().Vector() * 5000);
-
-		FHitResult Hit;
-		if (GetWorld()->SweepSingleByObjectType(Hit, TraceStart, TraceEnd, FQuat::Identity, ObjParams, Shape, Params))
-		{
-			TraceEnd = Hit.ImpactPoint;
-		}
-
-		// find new direction/rotation from Hand pointing to impact point in world.
-		FRotator ProjRotation = FRotationMatrix::MakeFromX(TraceEnd - HandLocation).Rotator();
-
-		FTransform SpawnTM = FTransform(ProjRotation, HandLocation);
-		GetWorld()->SpawnActor<AActor>(ClassToSpawn, SpawnTM, SpawnParams);
-	}
-
+	ActionComp->StartActionByName(this, "DashAttack");
 }
 
 void ASCharacter::PrimaryInteract()
@@ -220,6 +137,12 @@ void ASCharacter::PrimaryInteract()
 
 void ASCharacter::OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth, float Delta)
 {
+
+	if (Delta < 0.0f)
+	{
+		GetMesh()->SetScalarParameterValueOnMaterials(TimeToHitParamName, GetWorld()->TimeSeconds);
+	}
+
 	if (NewHealth <= 0.0f && Delta <= 0.0f)
 	{
 		APlayerController* PC = Cast<APlayerController>(GetController());

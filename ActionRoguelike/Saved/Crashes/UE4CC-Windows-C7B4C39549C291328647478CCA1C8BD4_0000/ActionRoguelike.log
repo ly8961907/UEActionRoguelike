@@ -1,0 +1,1140 @@
+﻿Log file open, 08/03/22 16:40:11
+LogInit: Display: Running engine for game: ActionRoguelike
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.158798
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Software/Epic/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.03-07.40.11:977][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.08.03-07.40.11:977][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.08.03-07.40.11:978][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.03-07.40.11:978][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.03-07.40.11:980][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.08.03-07.40.11:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.08.03-07.40.11:981][  0]LogInit: Selected Device Profile: [Windows]
+[2022.08.03-07.40.11:981][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.08.03-07.40.11:981][  0]LogHAL: Display: Platform has ~ 32 GB [34046742528 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.08.03-07.40.11:981][  0]LogInit: Going up to parent DeviceProfile []
+[2022.08.03-07.40.11:981][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.08.03-07.40.11:981][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.03-07.40.11:981][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.08.03-07.40.11:982][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.08.03-07.40.11:982][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.08.03-07.40.11:982][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.08.03-07.40.11:982][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.08.03-07.40.11:982][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.08.03-07.40.11:982][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.08.03-07.40.11:982][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.08.03-07.40.11:982][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.08.03-07.40.11:982][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.08.03-07.40.11:982][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.08.03-07.40.11:982][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.03-07.40.11:982][  0]LogInit: Computer: MSI
+[2022.08.03-07.40.11:982][  0]LogInit: User: win10
+[2022.08.03-07.40.11:982][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.08.03-07.40.11:982][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.08.03-07.40.11:982][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2022.08.03-07.40.11:982][  0]LogMemory: Platform Memory Stats for Windows
+[2022.08.03-07.40.11:982][  0]LogMemory: Process Physical Memory: 122.21 MB used, 122.22 MB peak
+[2022.08.03-07.40.11:982][  0]LogMemory: Process Virtual Memory: 104.30 MB used, 104.30 MB peak
+[2022.08.03-07.40.11:982][  0]LogMemory: Physical Memory: 5928.66 MB used,  26540.84 MB free, 32469.50 MB total
+[2022.08.03-07.40.11:982][  0]LogMemory: Virtual Memory: 5210.94 MB used,  134212520.00 MB free, 134217728.00 MB total
+[2022.08.03-07.40.12:010][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.08.03-07.40.12:050][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.08.03-07.40.12:050][  0]LogInit: Using OS detected language (zh-CN).
+[2022.08.03-07.40.12:050][  0]LogInit: Using OS detected locale (zh-CN).
+[2022.08.03-07.40.12:051][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2022.08.03-07.40.12:120][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2022.08.03-07.40.12:120][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2022.08.03-07.40.12:120][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2022.08.03-07.40.12:120][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2022.08.03-07.40.12:120][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2022.08.03-07.40.12:120][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2022.08.03-07.40.12:121][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2022.08.03-07.40.12:121][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2022.08.03-07.40.12:121][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2022.08.03-07.40.12:121][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2022.08.03-07.40.12:121][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2022.08.03-07.40.12:152][  0]LogInit: Setting process to per monitor DPI aware
+[2022.08.03-07.40.12:198][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.08.03-07.40.12:198][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.08.03-07.40.12:281][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.08.03-07.40.12:281][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.08.03-07.40.12:282][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.08.03-07.40.12:282][  0]LogD3D11RHI: D3D11 adapters:
+[2022.08.03-07.40.12:371][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070 Laptop GPU' (Feature Level 11_0)
+[2022.08.03-07.40.12:371][  0]LogD3D11RHI:       8044/0/16234 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.08.03-07.40.12:397][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2022.08.03-07.40.12:397][  0]LogD3D11RHI:       128/0/16234 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.08.03-07.40.12:398][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.08.03-07.40.12:399][  0]LogD3D11RHI:       0/0/16234 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.08.03-07.40.12:399][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.08.03-07.40.12:404][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.08.03-07.40.12:404][  0]LogD3D11RHI:     GPU DeviceId: 0x249d (for the marketing name, search the web for "GPU Device Id")
+[2022.08.03-07.40.12:404][  0]LogWindows: EnumDisplayDevices:
+[2022.08.03-07.40.12:404][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2022.08.03-07.40.12:404][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.08.03-07.40.12:404][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.08.03-07.40.12:405][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:1)
+[2022.08.03-07.40.12:405][  0]LogWindows:    4. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.08.03-07.40.12:405][  0]LogWindows:    5. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.08.03-07.40.12:405][  0]LogWindows:    6. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.08.03-07.40.12:405][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2022.08.03-07.40.12:405][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070 Laptop GPU
+[2022.08.03-07.40.12:405][  0]LogD3D11RHI:   Driver Version: 516.40 (internal:31.0.15.1640, unified:516.40)
+[2022.08.03-07.40.12:405][  0]LogD3D11RHI:      Driver Date: 6-6-2022
+[2022.08.03-07.40.12:405][  0]LogRHI: Texture pool is 5630 MB (70% of 8044 MB)
+[2022.08.03-07.40.12:448][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.08.03-07.40.12:448][  0]LogD3D11RHI: Async texture creation enabled
+[2022.08.03-07.40.12:448][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.08.03-07.40.12:474][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.08.03-07.40.12:703][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.08.03-07.40.12:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.08.03-07.40.12:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.08.03-07.40.12:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.08.03-07.40.12:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.08.03-07.40.12:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.08.03-07.40.12:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.08.03-07.40.12:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.08.03-07.40.12:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.08.03-07.40.12:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.08.03-07.40.12:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.08.03-07.40.12:733][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.08.03-07.40.12:733][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.08.03-07.40.12:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.08.03-07.40.12:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.08.03-07.40.12:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.08.03-07.40.12:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.08.03-07.40.12:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.08.03-07.40.12:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.08.03-07.40.12:777][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.08.03-07.40.12:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.08.03-07.40.12:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.08.03-07.40.12:803][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.08.03-07.40.12:803][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.08.03-07.40.12:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.08.03-07.40.12:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.08.03-07.40.12:821][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.08.03-07.40.12:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.08.03-07.40.12:827][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.08.03-07.40.12:831][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.08.03-07.40.12:867][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Intermediate/Shaders/WorkingDirectory/12900/).
+[2022.08.03-07.40.12:867][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/win10/AppData/Local/Temp/UnrealShaderWorkingDir/E1D758CC4EC9D6FDF028438E4209FE78/'.
+[2022.08.03-07.40.12:867][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.08.03-07.40.12:867][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.08.03-07.40.12:867][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.08.03-07.40.13:397][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.08.03-07.40.13:432][  0]LogDerivedDataCache: Loaded boot cache 0.03s 76MB C:/Users/win10/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.08.03-07.40.13:432][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/win10/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.08.03-07.40.13:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.08.03-07.40.13:433][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.08.03-07.40.13:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.08.03-07.40.13:433][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.08.03-07.40.13:440][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.08.03-07.40.13:440][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.08.03-07.40.13:440][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.08.03-07.40.13:442][  0]LogDerivedDataCache: Using Local data cache path C:/Users/win10/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.08.03-07.40.13:442][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.08.03-07.40.13:442][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.08.03-07.40.13:477][  0]LogSlate: Using FreeType 2.10.0
+[2022.08.03-07.40.13:478][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.08.03-07.40.13:496][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2022.08.03-07.40.13:644][  0]LogInit: Selected Device Profile: [Windows]
+[2022.08.03-07.40.13:718][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.08.03-07.40.13:718][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.08.03-07.40.13:718][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.08.03-07.40.13:718][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.08.03-07.40.13:718][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.08.03-07.40.13:730][  0]LogNetVersion: ActionRoguelike 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3012751956)
+[2022.08.03-07.40.14:009][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000209E5478440), frame # 0
+[2022.08.03-07.40.14:009][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209EABFAAC0), frame # 0
+[2022.08.03-07.40.14:010][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209E5405E00), frame # 0
+[2022.08.03-07.40.14:050][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 2 prioritized culture(s) in 0.036785 seconds
+[2022.08.03-07.40.14:053][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.08.03-07.40.14:053][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.08.03-07.40.14:053][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.08.03-07.40.14:277][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.08.03-07.40.14:280][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.08.03-07.40.14:341][  0]SourceControl: 源码管理已禁用
+[2022.08.03-07.40.14:341][  0]SourceControl: 源码管理已禁用
+[2022.08.03-07.40.14:343][  0]SourceControl: 源码管理已禁用
+[2022.08.03-07.40.14:345][  0]SourceControl: 源码管理已禁用
+[2022.08.03-07.40.14:349][  0]SourceControl: 源码管理已禁用
+[2022.08.03-07.40.14:497][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.08.03-07.40.14:509][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.08.03-07.40.14:509][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.08.03-07.40.14:539][  0]LogOcInput: OculusInput pre-init called
+[2022.08.03-07.40.14:546][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.08.03-07.40.14:546][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.08.03-07.40.14:585][  0]LogEngine: Initializing Engine...
+[2022.08.03-07.40.14:586][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.08.03-07.40.14:586][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.08.03-07.40.14:587][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.08.03-07.40.14:658][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.08.03-07.40.14:664][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.08.03-07.40.14:664][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209EED65200), frame # 0
+[2022.08.03-07.40.14:664][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209EED33B00), frame # 0
+[2022.08.03-07.40.14:672][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.03-07.40.14:672][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.03-07.40.14:672][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.03-07.40.14:672][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.03-07.40.14:672][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.03-07.40.14:672][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.03-07.40.14:672][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.03-07.40.14:672][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.03-07.40.14:672][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.03-07.40.14:672][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.03-07.40.14:706][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.03-07.40.14:706][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.08.03-07.40.14:954][  0]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.08.03-07.40.14:955][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.03-07.40.14:956][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.03-07.40.14:956][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.03-07.40.14:957][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.03-07.40.14:958][  0]LogInit: FAudioDevice initialized.
+[2022.08.03-07.40.14:958][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.08.03-07.40.14:989][  0]LogDerivedDataCache: Saved boot cache 0.03s 76MB C:/Users/win10/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.08.03-07.40.14:991][  0]LogInit: Texture streaming: Enabled
+[2022.08.03-07.40.15:002][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.08.03-07.40.15:002][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.08.03-07.40.15:003][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.08.03-07.40.15:048][  0]LogInit: Transaction tracking system initialized
+[2022.08.03-07.40.15:061][  0]BlueprintLog: New page: 编辑器加载
+[2022.08.03-07.40.15:104][  0]LocalizationService: 本地化服务已禁用
+[2022.08.03-07.40.15:195][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.08.03-07.40.15:195][  0]LogCook: Display: Mobile HDR setting 1
+[2022.08.03-07.40.15:282][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Content/' took 0.01s
+[2022.08.03-07.40.15:421][  0]SourceControl: 源码管理已禁用
+[2022.08.03-07.40.15:421][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.174
+[2022.08.03-07.40.15:421][  0]Cmd: MAP LOAD FILE="../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.08.03-07.40.15:421][  0]LightingResults: New page: 光照构建
+[2022.08.03-07.40.15:422][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.08.03-07.40.15:422][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.03-07.40.15:422][  0]MapCheck: New page: 地图检测
+[2022.08.03-07.40.15:422][  0]LightingResults: New page: 光照构建
+[2022.08.03-07.40.15:432][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209EED65200), frame # 0
+[2022.08.03-07.40.15:432][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000209EED33B00), frame # 0
+[2022.08.03-07.40.15:433][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.08.03-07.40.15:804][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.03-07.40.15:804][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.03-07.40.15:804][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.03-07.40.15:805][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.03-07.40.15:973][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.03-07.40.15:973][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst.M_Energy_Burst 引用者 ParticleModuleRequired_0
+[2022.08.03-07.40.15:973][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.03-07.40.15:973][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst.M_Energy_Burst 引用者 ParticleModuleRequired_0
+[2022.08.03-07.40.15:973][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.03-07.40.15:973][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile.M_Gold_Pile 引用者 ParticleModuleRequired_3
+[2022.08.03-07.40.15:973][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.03-07.40.15:973][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile.M_Gold_Pile 引用者 ParticleModuleRequired_3
+[2022.08.03-07.40.15:973][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.03-07.40.15:973][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square.SM_Open_Square 引用者 ParticleModuleTypeDataMesh_0
+[2022.08.03-07.40.15:974][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.03-07.40.15:974][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square.SM_Open_Square 引用者 ParticleModuleTypeDataMesh_0
+[2022.08.03-07.40.15:974][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.03-07.40.15:974][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small.SM_Coin_Small 引用者 ParticleModuleTypeDataMesh_1
+[2022.08.03-07.40.15:974][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.03-07.40.15:974][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small.SM_Coin_Small 引用者 ParticleModuleTypeDataMesh_1
+[2022.08.03-07.40.16:246][  0]LogAIModule: Creating AISystem for world TestLevel
+[2022.08.03-07.40.16:246][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209DD55DC00), frame # 0
+[2022.08.03-07.40.16:246][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209DD573B00), frame # 0
+[2022.08.03-07.40.16:256][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.08.03-07.40.16:270][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.08.03-07.40.16:271][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.08.03-07.40.16:271][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.086毫秒。
+[2022.08.03-07.40.16:271][  0]LogFileHelpers: Loading map 'TestLevel' took 0.850
+[2022.08.03-07.40.16:279][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.033
+[2022.08.03-07.40.16:376][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.03-07.40.16:381][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.03-07.40.16:385][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.03-07.40.16:389][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.03-07.40.16:396][  0]LogCollectionManager: Loaded 0 collections in 0.000590 seconds
+[2022.08.03-07.40.16:415][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Collections/' took 0.00s
+[2022.08.03-07.40.16:415][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Content/Developers/win10/Collections/' took 0.00s
+[2022.08.03-07.40.16:415][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Content/Collections/' took 0.00s
+[2022.08.03-07.40.16:415][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 3460 classes and 827 folders.
+[2022.08.03-07.40.16:420][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.08.03-07.40.16:497][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.08.03-07.40.16:501][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2022.08.03-07.40.16:854][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.08.03-07.40.16:856][  0]LogSlate: Took 0.001075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.08.03-07.40.16:856][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.08.03-07.40.16:859][  0]LogSlate: Took 0.000572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.08.03-07.40.16:910][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2022.08.03-07.40.17:005][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.08.03-07.40.17:005][  0]LogLoad: (Engine Initialization) Total time: 5.76 seconds
+[2022.08.03-07.40.17:005][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.08.03-07.40.17:078][  0]LogAssetRegistry: Asset discovery search completed in 3.5833 seconds
+[2022.08.03-07.40.17:080][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.08.03-07.40.17:082][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.08.03-07.40.17:132][  0]LogSlate: Took 0.000544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.03-07.40.17:138][  0]LogSlate: Took 0.000411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.08.03-07.44.53:996][607]LogSlate: Window '消息日志' being destroyed
+[2022.08.03-07.44.54:014][607]LogSlate: Window '消息日志' being destroyed
+[2022.08.03-07.49.35:765][999]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.08.03-07.49.35:766][999]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2022.08.03-07.57.06:407][523]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.03-07.57.06:418][523]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ActionRoguelike/UI/Main_HUD.Main_HUD
+[2022.08.03-07.57.06:572][523]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2022.08.03-07.57.07:500][523]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.08.03-07.57.18:497][706]LogSlate: Window 'Main_HUD' being destroyed
+[2022.08.03-07.57.18:503][706]LogSlate: Window 'Main_HUD' being destroyed
+[2022.08.03-07.57.18:518][706]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.08.03-07.57.18:518][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.03-07.57.18:522][706]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.08.03-07.57.18:522][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.03-07.58.18:978][894]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ActionRoguelike/UI/DamagePopup_Wiget.DamagePopup_Wiget
+[2022.08.03-07.58.20:754][979]LogSlate: Took 0.000890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.08.03-07.59.00:204][366]LogSlate: Window 'DamagePopup_Wiget' being destroyed
+[2022.08.03-07.59.00:209][366]LogSlate: Window 'DamagePopup_Wiget' being destroyed
+[2022.08.03-07.59.00:210][366]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.08.03-07.59.00:210][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.03-07.59.00:216][366]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.08.03-07.59.00:216][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.03-07.59.01:931][465]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.08.03-08.06.09:629][641]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2022.08.03-08.06.09:629][641]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2022.08.03-08.06.31:898][800]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2022.08.03-08.06.42:514][147]Running D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" -game -rocket -progress
+[2022.08.03-08.06.42:823][147]Discovering modules, targets and source code for project...
+[2022.08.03-08.06.43:828][147]Binding IntelliSense data...
+[2022.08.03-08.06.45:544][147]Binding IntelliSense data... 100%
+[2022.08.03-08.06.45:544][147]Writing project files...
+[2022.08.03-08.06.48:060][147]Writing project files... 100%
+[2022.08.03-08.06.50:673][147]LogSlate: Window '消息' being destroyed
+[2022.08.03-08.06.50:677][147]Message dialog closed, result: Yes, title: 消息, text: 已成功添加类“SActionEffect”，但必须在重新编译“ActionRoguelike”模块后它才会出现在内容浏览器中。
+
+是否要立即编辑代码？
+[2022.08.03-08.06.50:789][147]LogSlate: Window '添加C++类' being destroyed
+[2022.08.03-08.07.24:474][224]LogHotReload: New module detected: UE4Editor-ActionRoguelike-0025.dll
+[2022.08.03-08.07.25:155][227]LogHotReload: Starting Hot-Reload from IDE
+[2022.08.03-08.07.25:187][227]LogClass: Could not find existing class SActionEffect in package /Script/ActionRoguelike for HotReload, assuming new class
+[2022.08.03-08.07.25:253][227]LogContentBrowser: Native class hierarchy updated for 'ActionRoguelike' in 0.0008 seconds. Added 27 classes and 4 folders.
+[2022.08.03-08.07.25:260][227]Display: HotReload successful (38 functions remapped  0 scriptstructs remapped)
+[2022.08.03-08.07.25:388][227]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 3461 classes and 827 folders.
+[2022.08.03-08.07.25:392][227]Display: HotReload took  0.2s.
+[2022.08.03-08.07.54:091][757]Candidate modules for hot reload:
+[2022.08.03-08.07.54:091][757]  ActionRoguelike
+[2022.08.03-08.07.54:092][757]Launching UnrealBuildTool... [D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionRoguelike,1322 ActionRoguelikeEditor Win64 Development -Project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" "D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"  -IgnoreJunk]
+[2022.08.03-08.07.54:097][757]Warning: Starting HotReload took  0.0s.
+[2022.08.03-08.07.55:426][836]CompilerResultsLog: New page: 编译——2022年8月4日 上午2:07:55
+[2022.08.03-08.07.55:426][836]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+[2022.08.03-08.07.55:426][836]CompilerResultsLog: Building ActionRoguelikeEditor...
+[2022.08.03-08.07.55:426][836]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.08.03-08.07.55:426][836]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.08.03-08.07.55:426][836]CompilerResultsLog:   [1/3] UE4Editor-ActionRoguelike-1322.lib
+[2022.08.03-08.07.55:426][836]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1322.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1322.exp
+[2022.08.03-08.07.55:426][836]CompilerResultsLog:   [2/3] UE4Editor-ActionRoguelike-1322.dll
+[2022.08.03-08.07.55:426][836]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1322.suppressed.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1322.suppressed.exp
+[2022.08.03-08.07.55:426][836]CompilerResultsLog:   [3/3] ActionRoguelikeEditor.target
+[2022.08.03-08.07.55:426][836]CompilerResultsLog: Total time in Parallel executor: 0.74 seconds
+[2022.08.03-08.07.55:426][836]CompilerResultsLog: Total execution time: 1.24 seconds
+[2022.08.03-08.07.55:426][836]LogMainFrame: MainFrame: Module compiling took 1.338 seconds
+[2022.08.03-08.07.55:504][836]LogContentBrowser: Native class hierarchy updated for 'ActionRoguelike' in 0.0004 seconds. Added 27 classes and 4 folders.
+[2022.08.03-08.07.55:509][836]Display: HotReload successful (38 functions remapped  0 scriptstructs remapped)
+[2022.08.03-08.07.55:617][836]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3461 classes and 827 folders.
+[2022.08.03-08.07.55:617][836]Display: HotReload took  1.5s.
+[2022.08.03-08.09.18:084][430]Candidate modules for hot reload:
+[2022.08.03-08.09.18:084][430]  ActionRoguelike
+[2022.08.03-08.09.18:084][430]Launching UnrealBuildTool... [D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionRoguelike,9057 ActionRoguelikeEditor Win64 Development -Project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" "D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"  -IgnoreJunk]
+[2022.08.03-08.09.18:090][430]Warning: Starting HotReload took  0.0s.
+[2022.08.03-08.09.24:513][813]CompilerResultsLog: New page: 编译——2022年8月4日 上午2:09:24
+[2022.08.03-08.09.24:513][813]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+[2022.08.03-08.09.24:513][813]CompilerResultsLog: Parsing headers for ActionRoguelikeEditor
+[2022.08.03-08.09.24:513][813]CompilerResultsLog:   Running UnrealHeaderTool "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\ActionRoguelike.uproject" "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\ActionRoguelikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\win10\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.08.03-08.09.24:513][813]CompilerResultsLog: Reflection code generated for ActionRoguelikeEditor in 4.1520571 seconds
+[2022.08.03-08.09.24:513][813]CompilerResultsLog: Building ActionRoguelikeEditor...
+[2022.08.03-08.09.24:513][813]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.08.03-08.09.24:513][813]CompilerResultsLog: Building 6 actions with 16 processes...
+[2022.08.03-08.09.24:513][813]CompilerResultsLog:   [1/6] ActionRoguelike.init.gen.cpp
+[2022.08.03-08.09.24:513][813]CompilerResultsLog:   [2/6] SActionEffect.cpp
+[2022.08.03-08.09.24:513][813]CompilerResultsLog:   [3/6] SActionEffect.gen.cpp
+[2022.08.03-08.09.24:513][813]CompilerResultsLog:   [4/6] UE4Editor-ActionRoguelike-9057.lib
+[2022.08.03-08.09.24:513][813]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9057.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9057.exp
+[2022.08.03-08.09.24:513][813]CompilerResultsLog:   [5/6] UE4Editor-ActionRoguelike-9057.dll
+[2022.08.03-08.09.24:513][813]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9057.suppressed.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9057.suppressed.exp
+[2022.08.03-08.09.24:513][813]CompilerResultsLog:   [6/6] ActionRoguelikeEditor.target
+[2022.08.03-08.09.24:513][813]CompilerResultsLog: Total time in Parallel executor: 1.64 seconds
+[2022.08.03-08.09.24:513][813]CompilerResultsLog: Total execution time: 6.35 seconds
+[2022.08.03-08.09.24:513][813]LogMainFrame: MainFrame: Module compiling took 6.432 seconds
+[2022.08.03-08.09.24:527][813]LogClass: Could not find existing class SActionEffect in package /Script/ActionRoguelike for HotReload, assuming new class
+[2022.08.03-08.09.24:603][813]LogHotReload: Re-instancing SActionEffect after hot-reload.
+[2022.08.03-08.09.24:638][813]LogContentBrowser: Native class hierarchy updated for 'ActionRoguelike' in 0.0004 seconds. Added 27 classes and 4 folders.
+[2022.08.03-08.09.24:644][813]Display: HotReload successful (38 functions remapped  0 scriptstructs remapped)
+[2022.08.03-08.09.24:774][813]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3461 classes and 827 folders.
+[2022.08.03-08.09.24:774][813]Display: HotReload took  6.7s.
+[2022.08.03-08.16.43:810][241]Candidate modules for hot reload:
+[2022.08.03-08.16.43:810][241]  ActionRoguelike
+[2022.08.03-08.16.43:810][241]Launching UnrealBuildTool... [D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionRoguelike,1484 ActionRoguelikeEditor Win64 Development -Project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" "D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"  -IgnoreJunk]
+[2022.08.03-08.16.43:816][241]Warning: Starting HotReload took  0.0s.
+[2022.08.03-08.16.49:630][587]CompilerResultsLog: New page: 编译——2022年8月4日 上午2:16:49
+[2022.08.03-08.16.49:631][587]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+[2022.08.03-08.16.49:631][587]CompilerResultsLog: Parsing headers for ActionRoguelikeEditor
+[2022.08.03-08.16.49:631][587]CompilerResultsLog:   Running UnrealHeaderTool "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\ActionRoguelike.uproject" "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\ActionRoguelikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\win10\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.08.03-08.16.49:631][587]CompilerResultsLog: Reflection code generated for ActionRoguelikeEditor in 3.8062739 seconds
+[2022.08.03-08.16.49:631][587]CompilerResultsLog: Building ActionRoguelikeEditor...
+[2022.08.03-08.16.49:631][587]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.08.03-08.16.49:631][587]CompilerResultsLog: Building 6 actions with 16 processes...
+[2022.08.03-08.16.49:631][587]CompilerResultsLog:   [1/6] ActionRoguelike.init.gen.cpp
+[2022.08.03-08.16.49:631][587]CompilerResultsLog:   [2/6] SActionEffect.cpp
+[2022.08.03-08.16.49:631][587]CompilerResultsLog:   [3/6] SActionEffect.gen.cpp
+[2022.08.03-08.16.49:631][587]CompilerResultsLog:   [4/6] UE4Editor-ActionRoguelike-1484.lib
+[2022.08.03-08.16.49:631][587]CompilerResultsLog:   SActionEffect.gen.cpp.obj : warning LNK4006: "protected: void __cdecl USActionEffect::ExecutePeriodicEffect(class AActor *)" (?ExecutePeriodicEffect@USActionEffect@@IEAAXPEAVAActor@@@Z) ???? SActionEffect.cpp.obj ?ж??壻?Ѻ??Եڶ???????
+[2022.08.03-08.16.49:631][587]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1484.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1484.exp
+[2022.08.03-08.16.49:631][587]CompilerResultsLog:   [5/6] UE4Editor-ActionRoguelike-1484.dll
+[2022.08.03-08.16.49:631][587]CompilerResultsLog: Error:   SActionEffect.gen.cpp.obj : error LNK2005: "protected: void __cdecl USActionEffect::ExecutePeriodicEffect(class AActor *)" (?ExecutePeriodicEffect@USActionEffect@@IEAAXPEAVAActor@@@Z) ?Ѿ??? SActionEffect.cpp.obj ?ж???
+[2022.08.03-08.16.49:631][587]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1484.suppressed.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1484.suppressed.exp
+[2022.08.03-08.16.49:631][587]CompilerResultsLog: Error:   SActionEffect.cpp.obj : error LNK2001: ?޷????????ⲿ???? "public: virtual void __cdecl USActionEffect::ExecutePeriodicEffect_Implementation(class AActor *)" (?ExecutePeriodicEffect_Implementation@USActionEffect@@UEAAXPEAVAActor@@@Z)
+[2022.08.03-08.16.49:631][587]CompilerResultsLog: Error:   SActionEffect.gen.cpp.obj : error LNK2001: ?޷????????ⲿ???? "public: virtual void __cdecl USActionEffect::ExecutePeriodicEffect_Implementation(class AActor *)" (?ExecutePeriodicEffect_Implementation@USActionEffect@@UEAAXPEAVAActor@@@Z)
+[2022.08.03-08.16.49:631][587]CompilerResultsLog: Error:   D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Binaries\Win64\UE4Editor-ActionRoguelike-1484.dll : fatal error LNK1120: 1 ???޷????????ⲿ???tiesLibrary", NewName="/Script/EditorScriptingUtilities.EditorSkeletalMeshLibrary")
+[2022.08.03-08.16.49:631][587]LogMainFrame: MainFrame: Module compiling took 5.825 seconds
+[2022.08.03-08.16.49:631][587]Warning: HotReload failed, recompile failed
+[2022.08.03-08.16.52:735][618]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'Ե (U+0535)'
+[2022.08.03-08.16.52:740][618]LogSlate: Took 0.004541 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.08.03-08.16.52:742][618]LogSlate: Took 0.000797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2022.08.03-08.49.51:064][938]LogSlate: Window '消息日志' being destroyed
+[2022.08.03-08.49.51:069][938]LogSlate: Window '消息日志' being destroyed
+[2022.08.03-08.49.51:741][978]Candidate modules for hot reload:
+[2022.08.03-08.49.51:741][978]  ActionRoguelike
+[2022.08.03-08.49.51:741][978]Launching UnrealBuildTool... [D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionRoguelike,2264 ActionRoguelikeEditor Win64 Development -Project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" "D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"  -IgnoreJunk]
+[2022.08.03-08.49.51:747][978]Warning: Starting HotReload took  0.0s.
+[2022.08.03-08.50.02:557][475]CompilerResultsLog: New page: 编译——2022年8月4日 上午2:50:02
+[2022.08.03-08.50.02:557][475]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+[2022.08.03-08.50.02:557][475]CompilerResultsLog: Parsing headers for ActionRoguelikeEditor
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   Running UnrealHeaderTool "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\ActionRoguelike.uproject" "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\ActionRoguelikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\win10\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.08.03-08.50.02:557][475]CompilerResultsLog: Reflection code generated for ActionRoguelikeEditor in 4.2439348 seconds
+[2022.08.03-08.50.02:557][475]CompilerResultsLog: Building ActionRoguelikeEditor...
+[2022.08.03-08.50.02:557][475]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.08.03-08.50.02:557][475]CompilerResultsLog: Building 15 actions with 16 processes...
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [1/15] ActionRoguelike.init.gen.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [2/15] SAction.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [3/15] SActionComponent.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [4/15] SAction_ProjectileAttack.gen.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [5/15] SActionComponent.gen.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [6/15] SActionEffect.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [7/15] SActionEffect.gen.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [8/15] SAction.gen.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [9/15] SMagicProjectile.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [10/15] SAction_ProjectileAttack.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [11/15] SCharacter.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [12/15] SAICharacter.cpp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [13/15] UE4Editor-ActionRoguelike-2264.lib
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   SActionEffect.gen.cpp.obj : warning LNK4006: "protected: void __cdecl USActionEffect::ExecutePeriodicEffect(class AActor *)" (?ExecutePeriodicEffect@USActionEffect@@IEAAXPEAVAActor@@@Z) ???? SActionEffect.cpp.obj ?ж??壻?Ѻ??Եڶ???????
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-2264.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-2264.exp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:   [14/15] UE4Editor-ActionRoguelike-2264.dll
+[2022.08.03-08.50.02:557][475]CompilerResultsLog: Error:   SActionEffect.gen.cpp.obj : error LNK2005: "protected: void __cdecl USActionEffect::ExecutePeriodicEffect(class AActor *)" (?ExecutePeriodicEffect@USActionEffect@@IEAAXPEAVAActor@@@Z) ?Ѿ??? SActionEffect.cpp.obj ?ж???
+[2022.08.03-08.50.02:557][475]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-2264.suppressed.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-2264.suppressed.exp
+[2022.08.03-08.50.02:557][475]CompilerResultsLog: Error:   SActionEffect.cpp.obj : error LNK2001: ?޷????????ⲿ???? "public: virtual void __cdecl USActionEffect::ExecutePeriodicEffect_Implementation(class AActor *)" (?ExecutePeriodicEffect_Implementation@USActionEffect@@UEAAXPEAVAActor@@@Z)
+[2022.08.03-08.50.02:557][475]CompilerResultsLog: Error:   SActionEffect.gen.cpp.obj : error LNK2001: ?޷????????ⲿ???? "public: virtual void __cdecl USActionEffect::ExecutePeriodicEffect_Implementation(class AActor *)" (?ExecutePeriodicEffect_Implementation@USActionEffect@@UEAAXPEAVAActor@@@Z)
+[2022.08.03-08.50.02:557][475]CompilerResultsLog: Error:   D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Binaries\Win64\UE4Editor-ActionRoguelike-2264.dll : fatal error LNK1120: 1 ???޷????????ⲿ???
+[2022.08.03-08.50.02:558][475]LogMainFrame: MainFrame: Module compiling took 10.820 seconds
+[2022.08.03-08.50.02:558][475]Warning: HotReload failed, recompile failed
+[2022.08.03-08.51.23:167][718]Candidate modules for hot reload:
+[2022.08.03-08.51.23:167][718]  ActionRoguelike
+[2022.08.03-08.51.23:167][718]Launching UnrealBuildTool... [D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionRoguelike,9490 ActionRoguelikeEditor Win64 Development -Project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" "D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"  -IgnoreJunk]
+[2022.08.03-08.51.23:173][718]Warning: Starting HotReload took  0.0s.
+[2022.08.03-08.51.24:139][773]LogSlate: Window '消息日志' being destroyed
+[2022.08.03-08.51.24:143][773]LogSlate: Window '消息日志' being destroyed
+[2022.08.03-08.51.29:103][862]CompilerResultsLog: New page: 编译——2022年8月4日 上午2:51:29
+[2022.08.03-08.51.29:103][862]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+[2022.08.03-08.51.29:103][862]CompilerResultsLog: Parsing headers for ActionRoguelikeEditor
+[2022.08.03-08.51.29:103][862]CompilerResultsLog:   Running UnrealHeaderTool "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\ActionRoguelike.uproject" "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\ActionRoguelikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\win10\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.08.03-08.51.29:103][862]CompilerResultsLog: Reflection code generated for ActionRoguelikeEditor in 3.8211001 seconds
+[2022.08.03-08.51.29:103][862]CompilerResultsLog: Building ActionRoguelikeEditor...
+[2022.08.03-08.51.29:103][862]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.08.03-08.51.29:103][862]CompilerResultsLog: Building 5 actions with 16 processes...
+[2022.08.03-08.51.29:103][862]CompilerResultsLog:   [1/5] SActionEffect.gen.cpp
+[2022.08.03-08.51.29:103][862]CompilerResultsLog:   [2/5] SActionEffect.cpp
+[2022.08.03-08.51.29:103][862]CompilerResultsLog:   [3/5] UE4Editor-ActionRoguelike-9490.lib
+[2022.08.03-08.51.29:103][862]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9490.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9490.exp
+[2022.08.03-08.51.29:103][862]CompilerResultsLog:   [4/5] UE4Editor-ActionRoguelike-9490.dll
+[2022.08.03-08.51.29:103][862]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9490.suppressed.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9490.suppressed.exp
+[2022.08.03-08.51.29:103][862]CompilerResultsLog:   [5/5] ActionRoguelikeEditor.target
+[2022.08.03-08.51.29:103][862]CompilerResultsLog: Total time in Parallel executor: 1.46 seconds
+[2022.08.03-08.51.29:103][862]CompilerResultsLog: Total execution time: 5.78 seconds
+[2022.08.03-08.51.29:103][862]LogMainFrame: MainFrame: Module compiling took 5.939 seconds
+[2022.08.03-08.51.29:118][862]LogClass: Could not find existing class SAction in package /Script/ActionRoguelike for HotReload, assuming new class
+[2022.08.03-08.51.29:118][862]LogClass: Function CanStart is new.
+[2022.08.03-08.51.29:118][862]LogClass: Function GetOwningComponent is new.
+[2022.08.03-08.51.29:118][862]LogClass: Function IsRunning is new.
+[2022.08.03-08.51.29:118][862]LogClass: Function StartAction is new.
+[2022.08.03-08.51.29:118][862]LogClass: Function StopAction is new.
+[2022.08.03-08.51.29:118][862]LogClass: Could not find existing class SActionComponent in package /Script/ActionRoguelike for HotReload, assuming new class
+[2022.08.03-08.51.29:118][862]LogClass: Function AddAction is new.
+[2022.08.03-08.51.29:118][862]LogClass: Function RemoveAction is new.
+[2022.08.03-08.51.29:118][862]LogClass: Function StartActionByName is new.
+[2022.08.03-08.51.29:118][862]LogClass: Function StopActionByName is new.
+[2022.08.03-08.51.29:118][862]LogClass: Could not find existing class SActionEffect in package /Script/ActionRoguelike for HotReload, assuming new class
+[2022.08.03-08.51.29:118][862]LogClass: Function ExecutePeriodicEffect is new.
+[2022.08.03-08.51.29:118][862]LogClass: Could not find existing class SAction_ProjectileAttack in package /Script/ActionRoguelike for HotReload, assuming new class
+[2022.08.03-08.51.29:118][862]LogClass: Function AttackDelay_Elapsed is new.
+[2022.08.03-08.51.29:201][862]LogHotReload: Re-instancing SAction after hot-reload.
+[2022.08.03-08.51.29:235][862]LogHotReload: Re-instancing SActionComponent after hot-reload.
+[2022.08.03-08.51.29:268][862]LogHotReload: Re-instancing SActionEffect after hot-reload.
+[2022.08.03-08.51.29:295][862]LogHotReload: Re-instancing SAction_ProjectileAttack after hot-reload.
+[2022.08.03-08.51.29:337][862]LogContentBrowser: Native class hierarchy updated for 'ActionRoguelike' in 0.0005 seconds. Added 27 classes and 4 folders.
+[2022.08.03-08.51.29:344][862]Display: HotReload successful (29 functions remapped  0 scriptstructs remapped)
+[2022.08.03-08.51.29:500][862]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3461 classes and 827 folders.
+[2022.08.03-08.51.29:500][862]Display: HotReload took  6.3s.
+[2022.08.03-08.55.28:465][113]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.08.03-08.55.37:874][113]LogSlate: Window '选取父类' being destroyed
+[2022.08.03-08.55.53:482][692]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms
+[2022.08.03-08.55.53:486][692]LogMetaData: Removing '/Game/ActionRoguelike/Actions/Effect_Burning.SKEL_Effect_Burning_C' ref from Metadata '/Game/ActionRoguelike/Actions/NewBlueprint.PackageMetaData'
+[2022.08.03-08.55.53:486][692]LogMetaData: Removing '/Game/ActionRoguelike/Actions/Effect_Burning.Effect_Burning_C' ref from Metadata '/Game/ActionRoguelike/Actions/NewBlueprint.PackageMetaData'
+[2022.08.03-08.55.53:512][692]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Effect_Burning86D3A87745C0B1358B1D49924B212DF7.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Actions/Effect_Burning.uasset'
+[2022.08.03-08.55.53:699][692]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2022.08.03-08.55.53:719][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.08.03-08.55.53:731][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.08.03-08.55.53:805][692]AssetCheck: New page: 资产保存：Effect_Burning
+[2022.08.03-08.55.53:805][692]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/Actions/Effect_Burning.Effect_Burning
+[2022.08.03-08.56.00:456][728]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ActionRoguelike/Actions/Effect_Burning.Effect_Burning
+[2022.08.03-08.58.27:257][539]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Effect_BurningCEE837B6438CAF9F60B065BF2D8FC50D.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Actions/Effect_Burning.uasset'
+[2022.08.03-08.58.27:269][539]AssetCheck: New page: 资产保存：Effect_Burning
+[2022.08.03-08.58.27:269][539]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/Actions/Effect_Burning.Effect_Burning
+[2022.08.03-08.58.27:610][560]BlueprintLog: New page: 编译Effect_Burning
+[2022.08.03-08.58.27:630][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.08.03-08.58.28:040][583]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Effect_Burning68BAC17D4C2ECF1B8D1A6EBEFF025A22.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Actions/Effect_Burning.uasset'
+[2022.08.03-08.58.28:049][583]AssetCheck: New page: 资产保存：Effect_Burning
+[2022.08.03-08.58.28:049][583]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/Actions/Effect_Burning.Effect_Burning
+[2022.08.03-08.58.36:487][ 89]BlueprintLog: New page: 编译Effect_Burning
+[2022.08.03-08.58.36:504][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.08.03-08.58.36:982][116]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Effect_BurningDACA09CB47F25E9729BAF08C56BF4BC9.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Actions/Effect_Burning.uasset'
+[2022.08.03-08.58.36:993][116]AssetCheck: New page: 资产保存：Effect_Burning
+[2022.08.03-08.58.36:993][116]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/Actions/Effect_Burning.Effect_Burning
+[2022.08.03-08.58.58:667][224]BlueprintLog: New page: 编译Effect_Burning
+[2022.08.03-08.58.58:687][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.08.03-08.58.59:088][247]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Effect_Burning7052B4514B376980BD87D49BB53BDBBD.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Actions/Effect_Burning.uasset'
+[2022.08.03-08.58.59:099][247]AssetCheck: New page: 资产保存：Effect_Burning
+[2022.08.03-08.58.59:099][247]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/Actions/Effect_Burning.Effect_Burning
+[2022.08.03-08.59.05:738][644]BlueprintLog: New page: 编译Effect_Burning
+[2022.08.03-08.59.05:757][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.08.03-08.59.06:317][676]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Effect_Burning12B6E79D45C0C75D66D6A89578A5C7D7.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Actions/Effect_Burning.uasset'
+[2022.08.03-08.59.06:329][676]AssetCheck: New page: 资产保存：Effect_Burning
+[2022.08.03-08.59.06:329][676]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/Actions/Effect_Burning.Effect_Burning
+[2022.08.03-09.00.09:921][882]LogStats: ConstructGameplayTagTree GameplayTag tables after adding new tag -  0.000 s
+[2022.08.03-09.00.45:823][701]LogStats: ConstructGameplayTagTree GameplayTag tables after adding new tag -  0.000 s
+[2022.08.03-09.01.00:153][104]BlueprintLog: New page: 编译Effect_Burning
+[2022.08.03-09.01.00:174][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.08.03-09.01.00:548][125]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Effect_BurningF4DA613B491443ECF6FA8096CCDA25D2.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Actions/Effect_Burning.uasset'
+[2022.08.03-09.01.00:557][125]AssetCheck: New page: 资产保存：Effect_Burning
+[2022.08.03-09.01.00:557][125]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/Actions/Effect_Burning.Effect_Burning
+[2022.08.03-09.02.11:475][350]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Effect_Burning80914D934CD8FF537CABAAA09CAEF3FD.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Actions/Effect_Burning.uasset'
+[2022.08.03-09.02.11:487][350]AssetCheck: New page: 资产保存：Effect_Burning
+[2022.08.03-09.02.11:487][350]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/Actions/Effect_Burning.Effect_Burning
+[2022.08.03-09.02.12:486][410]LogSlate: Window 'Effect_Burning' being destroyed
+[2022.08.03-09.02.12:493][410]LogSlate: Window 'Effect_Burning' being destroyed
+[2022.08.03-09.02.12:519][410]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.08.03-09.02.12:519][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.03-09.18.30:880][809]Candidate modules for hot reload:
+[2022.08.03-09.18.30:880][809]  ActionRoguelike
+[2022.08.03-09.18.30:880][809]Launching UnrealBuildTool... [D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionRoguelike,5860 ActionRoguelikeEditor Win64 Development -Project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" "D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"  -IgnoreJunk]
+[2022.08.03-09.18.30:886][809]Warning: Starting HotReload took  0.0s.
+[2022.08.03-09.18.36:164][858]CompilerResultsLog: New page: 编译——2022年8月4日 上午3:18:36
+[2022.08.03-09.18.36:164][858]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+[2022.08.03-09.18.36:165][858]CompilerResultsLog: Parsing headers for ActionRoguelikeEditor
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:   Running UnrealHeaderTool "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\ActionRoguelike.uproject" "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\ActionRoguelikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\win10\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.08.03-09.18.36:165][858]CompilerResultsLog: Reflection code generated for ActionRoguelikeEditor in 3.8126334 seconds
+[2022.08.03-09.18.36:165][858]CompilerResultsLog: Building ActionRoguelikeEditor...
+[2022.08.03-09.18.36:165][858]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.08.03-09.18.36:165][858]CompilerResultsLog: Building 7 actions with 16 processes...
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:   [1/7] SMagicProjectile.gen.cpp
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:    D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike/Public/SMagicProjectile.h(30) : error C2065: ??USActionEffect??: δ?????ı?ʶ??
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:    D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike/Public/SMagicProjectile.h(30) : error C2923: ??TSubclassOf??: ???ڲ?????TClass??????USActionEffect????????Ч?? ģ?? ???ͱ???
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:   D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike/Public/SMagicProjectile.h(30): note: ?μ???USActionEffect????????
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:    D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SMagicProjectile.gen.cpp(228) : error C2512: ??TSubclassOf??: û?к??ʵ?Ĭ?Ϲ??캯??????
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:   D:\Software\Epic\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(15): note: ?μ???TSubclassOf????????
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:   [2/7] ActionRoguelike.init.gen.cpp
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:   [3/7] SMagicProjectile.cpp
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:    D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SMagicProjectile.h(30) : error C2065: ??USActionEffect??: δ?????ı?ʶ??
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:    D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SMagicProjectile.h(30) : error C2923: ??TSubclassOf??: ???ڲ?????TClass??????USActionEffect????????Ч?? ģ?? ???ͱ???
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:   D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SMagicProjectile.h(30): note: ?μ???USActionEffect????????
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:    D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Private\SMagicProjectile.cpp(14) : error C2512: ??TSubclassOf??: û?к??ʵ?Ĭ?Ϲ??캯??????
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:   D:\Software\Epic\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(15): note: ?μ???TSubclassOf????????
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:    D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Private\SMagicProjectile.cpp(46) : error C2664: ??void USActionComponent::AddAction(AActor *,TSubclassOf<USAction>)??: ?޷??????? 2 ?ӡ?TSubclassOf??ת??Ϊ??TSubclassOf<USAction>??
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:   D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Private\SMagicProjectile.cpp(46): note: û?п?????ִ?и?ת?????û???????ת???????????????޷????ø???????
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:   D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SActionComponent.h(23): note: ?μ???USActionComponent::AddAction????????
+[2022.08.03-09.18.36:165][858]CompilerResultsLog:   [4/7] SActionEffect.cpp
+[2022.08.03-09.18.36:165][858]LogMainFrame: MainFrame: Module compiling took 5.288 seconds
+[2022.08.03-09.18.36:165][858]Warning: HotReload failed, recompile failed
+[2022.08.03-09.20.25:062][273]Candidate modules for hot reload:
+[2022.08.03-09.20.25:062][273]  ActionRoguelike
+[2022.08.03-09.20.25:062][273]Launching UnrealBuildTool... [D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionRoguelike,3783 ActionRoguelikeEditor Win64 Development -Project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" "D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"  -IgnoreJunk]
+[2022.08.03-09.20.25:067][273]Warning: Starting HotReload took  0.0s.
+[2022.08.03-09.20.31:143][311]CompilerResultsLog: New page: 编译——2022年8月4日 上午3:20:31
+[2022.08.03-09.20.31:143][311]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+[2022.08.03-09.20.31:143][311]CompilerResultsLog: Parsing headers for ActionRoguelikeEditor
+[2022.08.03-09.20.31:143][311]CompilerResultsLog:   Running UnrealHeaderTool "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\ActionRoguelike.uproject" "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\ActionRoguelikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\win10\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.08.03-09.20.31:143][311]CompilerResultsLog: Reflection code generated for ActionRoguelikeEditor in 3.6837991 seconds
+[2022.08.03-09.20.31:143][311]CompilerResultsLog: Building ActionRoguelikeEditor...
+[2022.08.03-09.20.31:143][311]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.08.03-09.20.31:143][311]CompilerResultsLog: Building 5 actions with 16 processes...
+[2022.08.03-09.20.31:143][311]CompilerResultsLog:   [1/5] SMagicProjectile.gen.cpp
+[2022.08.03-09.20.31:143][311]CompilerResultsLog:   [2/5] SMagicProjectile.cpp
+[2022.08.03-09.20.31:143][311]CompilerResultsLog:   [3/5] UE4Editor-ActionRoguelike-3783.lib
+[2022.08.03-09.20.31:143][311]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-3783.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-3783.exp
+[2022.08.03-09.20.31:143][311]CompilerResultsLog:   [4/5] UE4Editor-ActionRoguelike-3783.dll
+[2022.08.03-09.20.31:143][311]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-3783.suppressed.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-3783.suppressed.exp
+[2022.08.03-09.20.31:143][311]CompilerResultsLog:   [5/5] ActionRoguelikeEditor.target
+[2022.08.03-09.20.31:143][311]CompilerResultsLog: Total time in Parallel executor: 1.66 seconds
+[2022.08.03-09.20.31:143][311]CompilerResultsLog: Total execution time: 5.87 seconds
+[2022.08.03-09.20.31:143][311]LogMainFrame: MainFrame: Module compiling took 6.084 seconds
+[2022.08.03-09.20.31:184][311]LogClass: Could not find existing class SMagicProjectile in package /Script/ActionRoguelike for HotReload, assuming new class
+[2022.08.03-09.20.31:184][311]LogClass: Function OnActorOverlap is new.
+[2022.08.03-09.20.31:210][311]LogHotReload: Re-instancing SMagicProjectile after hot-reload.
+[2022.08.03-09.20.31:236][311]LogContentBrowser: Native class hierarchy updated for 'ActionRoguelike' in 0.0005 seconds. Added 27 classes and 4 folders.
+[2022.08.03-09.20.31:241][311]Display: HotReload successful (39 functions remapped  0 scriptstructs remapped)
+[2022.08.03-09.20.31:336][311]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3461 classes and 827 folders.
+[2022.08.03-09.20.31:336][311]Display: HotReload took  6.3s.
+[2022.08.03-09.20.34:870][325]LogSlate: Window '消息日志' being destroyed
+[2022.08.03-09.20.34:874][325]LogSlate: Window '消息日志' being destroyed
+[2022.08.03-09.20.39:770][618]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ActionRoguelike/Proj_MagicProjectile.Proj_MagicProjectile
+[2022.08.03-09.20.44:552][879]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.08.03-09.20.53:228][205]BlueprintLog: New page: 编译Proj_MagicProjectile
+[2022.08.03-09.20.53:320][205]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2022.08.03-09.20.54:015][242]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Proj_MagicProjectile4BE4A4154A160FB6F1B3F38EFDF6C055.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Proj_MagicProjectile.uasset'
+[2022.08.03-09.20.54:026][242]AssetCheck: New page: 资产保存：Proj_MagicProjectile
+[2022.08.03-09.20.54:026][242]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/Proj_MagicProjectile.Proj_MagicProjectile
+[2022.08.03-09.20.55:069][305]LogSlate: Window 'Proj_MagicProjectile' being destroyed
+[2022.08.03-09.20.55:074][305]LogSlate: Window 'Proj_MagicProjectile' being destroyed
+[2022.08.03-09.20.55:076][305]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.08.03-09.20.55:076][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.03-09.20.55:974][357]LogTemp: Repeating last play command: 选中的视口
+[2022.08.03-09.20.56:003][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.03-09.20.56:003][357]PIE: New page: PIE会话：TestLevel（2022年8月4日 上午3:20:56）
+[2022.08.03-09.20.56:005][357]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.08.03-09.20.56:006][357]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.08.03-09.20.56:006][357]LogPlayLevel: Creating play world package: /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.03-09.20.56:011][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004728s)
+[2022.08.03-09.20.56:012][357]LogAIModule: Creating AISystem for world TestLevel
+[2022.08.03-09.20.56:012][357]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020A7A583A00), frame # 59357
+[2022.08.03-09.20.56:012][357]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020A6C33FD80), frame # 59357
+[2022.08.03-09.20.56:012][357]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2022.08.03-09.20.56:012][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ActionRoguelike/Maps/TestLevel.TestLevel to /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel (0.005813s)
+[2022.08.03-09.20.56:049][357]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.08.03-09.20.56:050][357]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.03-09.20.56:050][357]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.03-09.20.56:050][357]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.03-09.20.56:050][357]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.03-09.20.56:050][357]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.03-09.20.56:050][357]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.03-09.20.56:050][357]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.03-09.20.56:050][357]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.03-09.20.56:051][357]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.03-09.20.56:051][357]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.03-09.20.56:056][357]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.03-09.20.56:056][357]LogAudioMixer: Display: 1: FrontRight
+[2022.08.03-09.20.56:100][357]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.08.03-09.20.56:101][357]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.03-09.20.56:101][357]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.03-09.20.56:101][357]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.03-09.20.56:101][357]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.03-09.20.56:112][357]LogInit: FAudioDevice initialized.
+[2022.08.03-09.20.56:120][357]LogLoad: Game class is 'SGameModeBP_C'
+[2022.08.03-09.20.56:122][357]LogWorld: Bringing World /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2022.08.03-18.20.56
+[2022.08.03-09.20.56:124][357]LogWorld: Bringing up level for play took: 0.003432
+[2022.08.03-09.20.56:124][357]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.08.03-09.20.56:150][357]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.08.03-09.20.56:150][357]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.08.03-09.20.56:156][357]PIE: 登陆的服务器
+[2022.08.03-09.20.56:157][357]PIE: PIE总开始时间：0.158秒。
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:164][357]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.03-09.20.56:430][359]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.03-09.20.56:628][371]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.03-09.20.57:761][439]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.03-09.20.57:962][451]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.03-09.20.57:978][452]LogTemp: Found 1 alive bots
+[2022.08.03-09.20.57:978][452]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.03-09.20.58:146][462]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+SMagicProjectile.OnActorOverlap
+
+[2022.08.03-09.20.58:643][462]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.498 s
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: === Handled ensure: ===
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: 
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/GameplayTags/Private/GameplayTagsManager.cpp] [Line: 1615]
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: Requested Tag Statuse.Parrying was not found. Check tag data table.
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: Stack: 
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff91d933e4b UE4Editor-GameplayTags.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff91d9169ee UE4Editor-GameplayTags.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff91d91662b UE4Editor-GameplayTags.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff966144ef1 UE4Editor-ActionRoguelike-3783.dll!ASMagicProjectile::OnActorOverlap() [D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Private\SMagicProjectile.cpp:28]
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff96614c60d UE4Editor-ActionRoguelike-3783.dll!ASMagicProjectile::execOnActorOverlap() [D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SMagicProjectile.gen.cpp:39]
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff915f20b34 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff916194753 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff9131bafe5 UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff913160f0b UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff9135971e8 UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff9135d82da UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff9135c00bd UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff9135c0777 UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff91361d24a UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff913519346 UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff9135401c4 UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff91425936f UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff91425e3c7 UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff9165387d8 UE4Editor-Core.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff916538aa3 UE4Editor-Core.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff91654f027 UE4Editor-Core.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff91427a402 UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff91427f6ca UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff913a3d0bf UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff913a47957 UE4Editor-Engine.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff91117af57 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff911a537e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff6bb9b7800 UE4Editor.exe!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff6bb9cba7c UE4Editor.exe!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff6bb9cbb5a UE4Editor.exe!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff6bb9de31d UE4Editor.exe!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff6bb9e145a UE4Editor.exe!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff9a81c7034 KERNEL32.DLL!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: [Callstack] 0x00007ff9a9f42651 ntdll.dll!UnknownFunction []
+[2022.08.03-09.20.58:643][462]LogOutputDevice: Error: 

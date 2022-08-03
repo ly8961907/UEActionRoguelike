@@ -38,17 +38,25 @@ static inline void FOnHealthChanged_DelegateWrapper(const FMulticastScriptDelega
 #define ActionRoguelike_Source_ActionRoguelike_Public_SAttributeComponent_h_14_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execApplyHealthChange); \
+	DECLARE_FUNCTION(execGetHealth); \
 	DECLARE_FUNCTION(execGetHealthMax); \
 	DECLARE_FUNCTION(execIsFullHealth); \
-	DECLARE_FUNCTION(execIsAlive);
+	DECLARE_FUNCTION(execIsAlive); \
+	DECLARE_FUNCTION(execKill); \
+	DECLARE_FUNCTION(execIsActorAlive); \
+	DECLARE_FUNCTION(execGetAttributes);
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SAttributeComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execApplyHealthChange); \
+	DECLARE_FUNCTION(execGetHealth); \
 	DECLARE_FUNCTION(execGetHealthMax); \
 	DECLARE_FUNCTION(execIsFullHealth); \
-	DECLARE_FUNCTION(execIsAlive);
+	DECLARE_FUNCTION(execIsAlive); \
+	DECLARE_FUNCTION(execKill); \
+	DECLARE_FUNCTION(execIsActorAlive); \
+	DECLARE_FUNCTION(execGetAttributes);
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SAttributeComponent_h_14_INCLASS_NO_PURE_DECLS \

@@ -1,0 +1,1793 @@
+﻿Log file open, 08/02/22 21:53:10
+LogInit: Display: Running engine for game: ActionRoguelike
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.292821
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Software/Epic/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.08.02-12.53.10:825][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.08.02-12.53.10:825][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.08.02-12.53.10:825][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.02-12.53.10:825][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.08.02-12.53.10:825][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.02-12.53.10:826][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.08.02-12.53.10:826][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.08.02-12.53.10:827][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.08.02-12.53.10:827][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.08.02-12.53.10:827][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.08.02-12.53.10:827][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.08.02-12.53.10:827][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.08.02-12.53.10:827][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.08.02-12.53.10:827][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.02-12.53.10:827][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.02-12.53.10:832][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.08.02-12.53.10:832][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.08.02-12.53.10:833][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.08.02-12.53.10:834][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.08.02-12.53.10:835][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.08.02-12.53.10:836][  0]LogInit: Selected Device Profile: [Windows]
+[2022.08.02-12.53.10:836][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.08.02-12.53.10:836][  0]LogHAL: Display: Platform has ~ 32 GB [34046742528 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.08.02-12.53.10:836][  0]LogInit: Going up to parent DeviceProfile []
+[2022.08.02-12.53.10:836][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.08.02-12.53.10:836][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.08.02-12.53.10:837][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.08.02-12.53.10:838][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.08.02-12.53.10:839][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.08.02-12.53.10:839][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.08.02-12.53.10:839][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.08.02-12.53.10:839][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.08.02-12.53.10:839][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.08.02-12.53.10:839][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.08.02-12.53.10:839][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.08.02-12.53.10:839][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.08.02-12.53.10:839][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.08.02-12.53.10:839][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.08.02-12.53.10:840][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.08.02-12.53.10:841][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.08.02-12.53.10:842][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2022.08.02-12.53.10:842][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.08.02-12.53.10:842][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.08.02-12.53.10:842][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.08.02-12.53.10:842][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.08.02-12.53.10:842][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.08.02-12.53.10:842][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.08.02-12.53.10:842][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.08.02-12.53.10:842][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.08.02-12.53.10:842][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.08.02-12.53.10:842][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.08.02-12.53.10:842][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.08.02-12.53.10:842][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2022.08.02-12.53.10:842][  0]LogInit: Computer: MSI
+[2022.08.02-12.53.10:842][  0]LogInit: User: win10
+[2022.08.02-12.53.10:842][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.08.02-12.53.10:842][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.08.02-12.53.10:843][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2022.08.02-12.53.10:843][  0]LogMemory: Platform Memory Stats for Windows
+[2022.08.02-12.53.10:843][  0]LogMemory: Process Physical Memory: 122.16 MB used, 122.17 MB peak
+[2022.08.02-12.53.10:843][  0]LogMemory: Process Virtual Memory: 113.36 MB used, 113.36 MB peak
+[2022.08.02-12.53.10:843][  0]LogMemory: Physical Memory: 16234.05 MB used,  16235.46 MB free, 32469.50 MB total
+[2022.08.02-12.53.10:843][  0]LogMemory: Virtual Memory: 5220.13 MB used,  134212504.00 MB free, 134217728.00 MB total
+[2022.08.02-12.53.10:899][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.08.02-12.53.11:131][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.08.02-12.53.11:132][  0]LogInit: Using OS detected language (zh-CN).
+[2022.08.02-12.53.11:132][  0]LogInit: Using OS detected locale (zh-CN).
+[2022.08.02-12.53.11:133][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2022.08.02-12.53.11:211][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2022.08.02-12.53.11:212][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2022.08.02-12.53.11:212][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2022.08.02-12.53.11:212][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2022.08.02-12.53.11:212][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2022.08.02-12.53.11:212][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2022.08.02-12.53.11:212][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2022.08.02-12.53.11:212][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2022.08.02-12.53.11:212][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2022.08.02-12.53.11:213][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2022.08.02-12.53.11:213][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2022.08.02-12.53.11:249][  0]LogInit: Setting process to per monitor DPI aware
+[2022.08.02-12.53.11:332][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.08.02-12.53.11:332][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.08.02-12.53.11:442][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.08.02-12.53.11:442][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.08.02-12.53.11:443][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.08.02-12.53.11:443][  0]LogD3D11RHI: D3D11 adapters:
+[2022.08.02-12.53.11:546][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070 Laptop GPU' (Feature Level 11_0)
+[2022.08.02-12.53.11:546][  0]LogD3D11RHI:       8044/0/16234 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.08.02-12.53.11:589][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2022.08.02-12.53.11:589][  0]LogD3D11RHI:       128/0/16234 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.08.02-12.53.11:594][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.08.02-12.53.11:594][  0]LogD3D11RHI:       0/0/16234 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.08.02-12.53.11:594][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.08.02-12.53.11:602][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.08.02-12.53.11:602][  0]LogD3D11RHI:     GPU DeviceId: 0x249d (for the marketing name, search the web for "GPU Device Id")
+[2022.08.02-12.53.11:602][  0]LogWindows: EnumDisplayDevices:
+[2022.08.02-12.53.11:603][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2022.08.02-12.53.11:603][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.08.02-12.53.11:603][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.08.02-12.53.11:603][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:1)
+[2022.08.02-12.53.11:604][  0]LogWindows:    4. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.08.02-12.53.11:604][  0]LogWindows:    5. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.08.02-12.53.11:604][  0]LogWindows:    6. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.08.02-12.53.11:604][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2022.08.02-12.53.11:604][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070 Laptop GPU
+[2022.08.02-12.53.11:604][  0]LogD3D11RHI:   Driver Version: 516.40 (internal:31.0.15.1640, unified:516.40)
+[2022.08.02-12.53.11:605][  0]LogD3D11RHI:      Driver Date: 6-6-2022
+[2022.08.02-12.53.11:605][  0]LogRHI: Texture pool is 5630 MB (70% of 8044 MB)
+[2022.08.02-12.53.11:662][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.08.02-12.53.11:662][  0]LogD3D11RHI: Async texture creation enabled
+[2022.08.02-12.53.11:662][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.08.02-12.53.11:680][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.08.02-12.53.11:945][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.08.02-12.53.11:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.08.02-12.53.11:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.08.02-12.53.11:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.08.02-12.53.11:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.08.02-12.53.11:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.08.02-12.53.11:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.08.02-12.53.11:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.08.02-12.53.11:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.08.02-12.53.11:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.08.02-12.53.11:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.08.02-12.53.11:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.08.02-12.53.11:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.08.02-12.53.11:996][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.08.02-12.53.12:004][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.08.02-12.53.12:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.08.02-12.53.12:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.08.02-12.53.12:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.08.02-12.53.12:038][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.08.02-12.53.12:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.08.02-12.53.12:069][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.08.02-12.53.12:069][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.08.02-12.53.12:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.08.02-12.53.12:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.08.02-12.53.12:090][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.08.02-12.53.12:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.08.02-12.53.12:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.08.02-12.53.12:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.08.02-12.53.12:116][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.08.02-12.53.12:126][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.08.02-12.53.12:196][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Intermediate/Shaders/WorkingDirectory/25624/).
+[2022.08.02-12.53.12:196][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/win10/AppData/Local/Temp/UnrealShaderWorkingDir/54FA7F7749359CDA9C0F78A89589952C/'.
+[2022.08.02-12.53.12:197][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.08.02-12.53.12:197][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.08.02-12.53.12:197][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.08.02-12.53.12:798][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.08.02-12.53.12:840][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/win10/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.08.02-12.53.12:840][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/win10/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.08.02-12.53.12:840][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.08.02-12.53.12:841][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.08.02-12.53.12:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.08.02-12.53.12:841][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.08.02-12.53.12:849][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.08.02-12.53.12:849][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.08.02-12.53.12:849][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.08.02-12.53.12:852][  0]LogDerivedDataCache: Using Local data cache path C:/Users/win10/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.08.02-12.53.12:852][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.08.02-12.53.12:852][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.08.02-12.53.12:890][  0]LogSlate: Using FreeType 2.10.0
+[2022.08.02-12.53.12:891][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.08.02-12.53.12:911][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
+[2022.08.02-12.53.13:093][  0]LogInit: Selected Device Profile: [Windows]
+[2022.08.02-12.53.13:202][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.08.02-12.53.13:202][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.08.02-12.53.13:202][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.08.02-12.53.13:202][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.08.02-12.53.13:202][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.08.02-12.53.13:215][  0]LogNetVersion: ActionRoguelike 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3012751956)
+[2022.08.02-12.53.13:542][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000018E7F2B0440), frame # 0
+[2022.08.02-12.53.13:542][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E05212AC0), frame # 0
+[2022.08.02-12.53.13:543][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E7F23DE00), frame # 0
+[2022.08.02-12.53.13:597][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 2 prioritized culture(s) in 0.049072 seconds
+[2022.08.02-12.53.13:601][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.08.02-12.53.13:601][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.08.02-12.53.13:601][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.08.02-12.53.13:949][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.08.02-12.53.13:954][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.08.02-12.53.14:061][  0]SourceControl: 源码管理已禁用
+[2022.08.02-12.53.14:061][  0]SourceControl: 源码管理已禁用
+[2022.08.02-12.53.14:065][  0]SourceControl: 源码管理已禁用
+[2022.08.02-12.53.14:068][  0]SourceControl: 源码管理已禁用
+[2022.08.02-12.53.14:076][  0]SourceControl: 源码管理已禁用
+[2022.08.02-12.53.14:346][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.08.02-12.53.14:368][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.08.02-12.53.14:369][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.08.02-12.53.14:413][  0]LogOcInput: OculusInput pre-init called
+[2022.08.02-12.53.14:423][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.08.02-12.53.14:423][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.08.02-12.53.14:478][  0]LogEngine: Initializing Engine...
+[2022.08.02-12.53.14:479][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.08.02-12.53.14:479][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.08.02-12.53.14:480][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.08.02-12.53.14:565][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.08.02-12.53.14:572][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.08.02-12.53.14:572][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E09479200), frame # 0
+[2022.08.02-12.53.14:573][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E09437B00), frame # 0
+[2022.08.02-12.53.14:587][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.02-12.53.14:587][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.02-12.53.14:587][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.02-12.53.14:587][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.02-12.53.14:587][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.02-12.53.14:587][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.02-12.53.14:587][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.02-12.53.14:587][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.02-12.53.14:588][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.02-12.53.14:588][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.02-12.53.14:646][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.02-12.53.14:647][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.08.02-12.53.14:890][  0]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.08.02-12.53.14:893][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.02-12.53.14:894][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.02-12.53.14:894][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.02-12.53.14:895][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.02-12.53.14:897][  0]LogInit: FAudioDevice initialized.
+[2022.08.02-12.53.14:897][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.08.02-12.53.14:930][  0]LogDerivedDataCache: Saved boot cache 0.03s 76MB C:/Users/win10/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.08.02-12.53.14:931][  0]LogInit: Texture streaming: Enabled
+[2022.08.02-12.53.14:951][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.08.02-12.53.14:951][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={6F363281-43BC-703C-4969-288C55729F34}
+[2022.08.02-12.53.14:951][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.08.02-12.53.14:953][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.08.02-12.53.14:990][  0]LogInit: Transaction tracking system initialized
+[2022.08.02-12.53.15:014][  0]BlueprintLog: New page: 编辑器加载
+[2022.08.02-12.53.15:091][  0]LocalizationService: 本地化服务已禁用
+[2022.08.02-12.53.15:224][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.08.02-12.53.15:225][  0]LogCook: Display: Mobile HDR setting 1
+[2022.08.02-12.53.15:367][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Content/' took 0.01s
+[2022.08.02-12.53.15:536][  0]SourceControl: 源码管理已禁用
+[2022.08.02-12.53.15:536][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.777
+[2022.08.02-12.53.15:536][  0]Cmd: MAP LOAD FILE="../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.08.02-12.53.15:537][  0]LightingResults: New page: 光照构建
+[2022.08.02-12.53.15:537][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-12.53.15:537][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-12.53.15:538][  0]MapCheck: New page: 地图检测
+[2022.08.02-12.53.15:538][  0]LightingResults: New page: 光照构建
+[2022.08.02-12.53.15:550][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E09479200), frame # 0
+[2022.08.02-12.53.15:550][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E09437B00), frame # 0
+[2022.08.02-12.53.15:550][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.08.02-12.53.15:832][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.02-12.53.15:832][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.02-12.53.15:832][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.02-12.53.15:832][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.02-12.53.15:832][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.02-12.53.15:832][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.02-12.53.15:833][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.02-12.53.15:833][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.02-12.53.15:833][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.02-12.53.15:833][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.02-12.53.15:833][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.02-12.53.15:833][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.02-12.53.15:833][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.02-12.53.15:833][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.02-12.53.15:834][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.02-12.53.15:834][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.02-12.53.16:013][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.02-12.53.16:013][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst.M_Energy_Burst 引用者 ParticleModuleRequired_0
+[2022.08.02-12.53.16:014][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst”：无法找到文件。
+[2022.08.02-12.53.16:014][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Materials/M_Energy_Burst.M_Energy_Burst 引用者 ParticleModuleRequired_0
+[2022.08.02-12.53.16:014][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.02-12.53.16:014][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile.M_Gold_Pile 引用者 ParticleModuleRequired_3
+[2022.08.02-12.53.16:014][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile”：无法找到文件。
+[2022.08.02-12.53.16:014][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Materials/M_Gold_Pile.M_Gold_Pile 引用者 ParticleModuleRequired_3
+[2022.08.02-12.53.16:015][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.02-12.53.16:015][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square.SM_Open_Square 引用者 ParticleModuleTypeDataMesh_0
+[2022.08.02-12.53.16:015][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square”：无法找到文件。
+[2022.08.02-12.53.16:015][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Meshes/SM_Open_Square.SM_Open_Square 引用者 ParticleModuleTypeDataMesh_0
+[2022.08.02-12.53.16:015][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.02-12.53.16:015][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small.SM_Coin_Small 引用者 ParticleModuleTypeDataMesh_1
+[2022.08.02-12.53.16:015][  0]LogLinker: Warning: 加载“../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ExampleContent/Effects/P_Treasure_Burst.uasset”时未能加载“/Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small”：无法找到文件。
+[2022.08.02-12.53.16:015][  0]LoadErrors: 加载失败 /Game/ExampleContent/NetworkFeatures/Meshes/SM_Coin_Small.SM_Coin_Small 引用者 ParticleModuleTypeDataMesh_1
+[2022.08.02-12.53.16:231][  0]LogAIModule: Creating AISystem for world TestLevel
+[2022.08.02-12.53.16:232][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E1BB29600), frame # 0
+[2022.08.02-12.53.16:232][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E1BB33B00), frame # 0
+[2022.08.02-12.53.16:241][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.08.02-12.53.16:256][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.08.02-12.53.16:256][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.08.02-12.53.16:256][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.127毫秒。
+[2022.08.02-12.53.16:256][  0]LogFileHelpers: Loading map 'TestLevel' took 0.720
+[2022.08.02-12.53.16:258][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.499
+[2022.08.02-12.53.16:377][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-12.53.16:382][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-12.53.16:387][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-12.53.16:392][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-12.53.16:397][  0]LogCollectionManager: Loaded 0 collections in 0.000455 seconds
+[2022.08.02-12.53.16:410][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Collections/' took 0.00s
+[2022.08.02-12.53.16:411][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Content/Developers/win10/Collections/' took 0.00s
+[2022.08.02-12.53.16:411][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/Content/Collections/' took 0.00s
+[2022.08.02-12.53.16:411][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 3460 classes and 827 folders.
+[2022.08.02-12.53.16:413][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.08.02-12.53.16:436][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.08.02-12.53.16:437][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2022.08.02-12.53.16:750][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.08.02-12.53.16:752][  0]LogSlate: Took 0.001507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.08.02-12.53.16:753][  0]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.08.02-12.53.16:755][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.08.02-12.53.16:802][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2022.08.02-12.53.16:893][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.08.02-12.53.16:893][  0]LogLoad: (Engine Initialization) Total time: 7.13 seconds
+[2022.08.02-12.53.16:893][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.08.02-12.53.16:973][  0]LogAssetRegistry: Asset discovery search completed in 4.0632 seconds
+[2022.08.02-12.53.16:976][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.08.02-12.53.16:977][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.08.02-12.53.17:025][  0]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.02-12.53.17:030][  0]LogSlate: Took 0.000067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.08.02-12.53.18:384][ 80]LogSlate: Window '消息日志' being destroyed
+[2022.08.02-12.53.18:389][ 80]LogSlate: Window '消息日志' being destroyed
+[2022.08.02-12.53.27:897][633]LogTemp: Repeating last play command: 选中的视口
+[2022.08.02-12.53.27:911][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.02-12.53.27:911][633]PIE: New page: PIE会话：TestLevel（2022年8月3日 上午6:53:27）
+[2022.08.02-12.53.27:913][633]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.08.02-12.53.27:915][633]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.08.02-12.53.27:915][633]LogPlayLevel: Creating play world package: /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-12.53.27:920][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005028s)
+[2022.08.02-12.53.27:921][633]LogAIModule: Creating AISystem for world TestLevel
+[2022.08.02-12.53.27:921][633]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E13D7FE00), frame # 633
+[2022.08.02-12.53.27:921][633]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E1233E5C0), frame # 633
+[2022.08.02-12.53.27:921][633]LogPlayLevel: PIE: World Init took: (0.001462s)
+[2022.08.02-12.53.27:922][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ActionRoguelike/Maps/TestLevel.TestLevel to /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel (0.006848s)
+[2022.08.02-12.53.27:934][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.08.02-12.53.27:936][633]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.02-12.53.27:936][633]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.02-12.53.27:936][633]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.02-12.53.27:936][633]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.02-12.53.27:937][633]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.02-12.53.27:937][633]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.02-12.53.27:937][633]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.02-12.53.27:937][633]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.02-12.53.27:937][633]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.02-12.53.27:937][633]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.02-12.53.27:942][633]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.02-12.53.27:943][633]LogAudioMixer: Display: 1: FrontRight
+[2022.08.02-12.53.28:006][633]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.08.02-12.53.28:006][633]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.02-12.53.28:007][633]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.02-12.53.28:007][633]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.02-12.53.28:007][633]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.02-12.53.28:019][633]LogInit: FAudioDevice initialized.
+[2022.08.02-12.53.28:028][633]LogLoad: Game class is 'SGameModeBP_C'
+[2022.08.02-12.53.28:031][633]LogWorld: Bringing World /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2022.08.02-21.53.28
+[2022.08.02-12.53.28:031][633]LogWorld: Bringing up level for play took: 0.002225
+[2022.08.02-12.53.28:032][633]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2022.08.02-12.53.28:036][633]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.08.02-12.53.28:036][633]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.08.02-12.53.28:041][633]LogTemp: Query Sucess
+[2022.08.02-12.53.28:041][633]PIE: 登陆的服务器
+[2022.08.02-12.53.28:042][633]PIE: PIE总开始时间：0.133秒。
+[2022.08.02-12.53.28:486][659]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.28:684][671]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.29:902][744]LogTemp: Found 1 alive bots
+[2022.08.02-12.53.29:902][744]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.53.30:534][782]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.30:735][794]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.31:152][819]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+SMagicProjectile.OnActorOverlap
+
+[2022.08.02-12.53.31:152][819]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/GameplayTags/Private/GameplayTagsManager.cpp] [Line: 1615] 
+Requested Tag Statuse.Parrying was not found. Check tag data table.
+
+[2022.08.02-12.53.31:152][819]LogStats:             FDebug::EnsureFailed -  0.000 s
+[2022.08.02-12.53.34:780][822]LogTemp: Found 1 alive bots
+[2022.08.02-12.53.34:781][822]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.53.35:625][854]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.35:826][866]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.36:459][904]LogTemp: Found 1 alive bots
+[2022.08.02-12.53.38:459][ 24]LogTemp: Found 2 alive bots
+[2022.08.02-12.53.38:459][ 24]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.53.40:462][144]LogTemp: Found 2 alive bots
+[2022.08.02-12.53.40:462][144]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.53.42:464][264]LogTemp: Found 2 alive bots
+[2022.08.02-12.53.42:464][264]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.53.44:464][384]LogTemp: Found 2 alive bots
+[2022.08.02-12.53.44:465][384]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.53.44:980][415]LogTemp: Running: Action_Sprint_C_0
+[2022.08.02-12.53.46:464][504]LogTemp: Found 2 alive bots
+[2022.08.02-12.53.46:464][504]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.53.48:465][624]LogTemp: Found 2 alive bots
+[2022.08.02-12.53.48:465][624]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.53.50:381][739]LogTemp: Running: Action_Sprint_C_0
+[2022.08.02-12.53.50:464][744]LogTemp: Found 2 alive bots
+[2022.08.02-12.53.50:464][744]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.53.50:515][747]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.50:714][759]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.51:131][784]LogTemp: Running: Action_Sprint_C_0
+[2022.08.02-12.53.51:314][795]LogTemp: Running: Action_Sprint_C_0
+[2022.08.02-12.53.51:781][823]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.51:982][835]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.52:466][864]LogTemp: Found 2 alive bots
+[2022.08.02-12.53.52:466][864]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.53.52:616][873]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.52:816][885]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.53.54:789][965]LogTemp: Found 2 alive bots
+[2022.08.02-12.53.54:789][965]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.53.55:152][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-12.53.55:152][966]LogWorld: BeginTearingDown for /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-12.53.55:153][966]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-12.53.55:154][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-12.53.55:168][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.02-12.53.55:170][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-12.53.55:213][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-12.53.55:215][966]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E1233E5C0), frame # 1966
+[2022.08.02-12.53.55:215][966]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E13D7FE00), frame # 1966
+[2022.08.02-12.53.55:216][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.08.02-12.53.55:239][967]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.08.02-12.56.19:470][485]Candidate modules for hot reload:
+[2022.08.02-12.56.19:470][485]  ActionRoguelike
+[2022.08.02-12.56.19:470][485]Launching UnrealBuildTool... [D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionRoguelike,1593 ActionRoguelikeEditor Win64 Development -Project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" "D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"  -IgnoreJunk]
+[2022.08.02-12.56.19:477][485]Warning: Starting HotReload took  0.0s.
+[2022.08.02-12.56.23:232][705]CompilerResultsLog: New page: 编译——2022年8月3日 上午6:56:23
+[2022.08.02-12.56.23:232][705]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+[2022.08.02-12.56.23:232][705]CompilerResultsLog: Building ActionRoguelikeEditor...
+[2022.08.02-12.56.23:232][705]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.08.02-12.56.23:233][705]CompilerResultsLog: Building 4 actions with 16 processes...
+[2022.08.02-12.56.23:233][705]CompilerResultsLog:   [1/4] SGameModeBase.cpp
+[2022.08.02-12.56.23:233][705]CompilerResultsLog:   [2/4] UE4Editor-ActionRoguelike-1593.lib
+[2022.08.02-12.56.23:233][705]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1593.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1593.exp
+[2022.08.02-12.56.23:233][705]CompilerResultsLog:   [3/4] UE4Editor-ActionRoguelike-1593.dll
+[2022.08.02-12.56.23:233][705]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1593.suppressed.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-1593.suppressed.exp
+[2022.08.02-12.56.23:233][705]CompilerResultsLog:   [4/4] ActionRoguelikeEditor.target
+[2022.08.02-12.56.23:233][705]CompilerResultsLog: Total time in Parallel executor: 3.12 seconds
+[2022.08.02-12.56.23:233][705]CompilerResultsLog: Total execution time: 3.66 seconds
+[2022.08.02-12.56.23:233][705]LogMainFrame: MainFrame: Module compiling took 3.767 seconds
+[2022.08.02-12.56.23:273][705]LogContentBrowser: Native class hierarchy updated for 'ActionRoguelike' in 0.0005 seconds. Added 26 classes and 4 folders.
+[2022.08.02-12.56.23:274][705]Display: HotReload successful (38 functions remapped  0 scriptstructs remapped)
+[2022.08.02-12.56.23:360][705]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3460 classes and 827 folders.
+[2022.08.02-12.56.23:360][705]Display: HotReload took  3.9s.
+[2022.08.02-12.56.23:374][705]LogSlate: Took 0.004891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2022.08.02-12.56.23:375][705]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'Ͷ (U+0376)'
+[2022.08.02-12.56.23:381][705]LogSlate: Took 0.004688 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.08.02-12.56.24:558][774]LogTemp: Repeating last play command: 选中的视口
+[2022.08.02-12.56.24:580][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.02-12.56.24:580][774]PIE: New page: PIE会话：TestLevel（2022年8月3日 上午6:56:24）
+[2022.08.02-12.56.24:611][774]LogPlayLevel: Creating play world package: /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-12.56.24:615][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004557s)
+[2022.08.02-12.56.24:616][774]LogAIModule: Creating AISystem for world TestLevel
+[2022.08.02-12.56.24:616][774]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E7ADDFC00), frame # 2774
+[2022.08.02-12.56.24:617][774]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E1B6D9300), frame # 2774
+[2022.08.02-12.56.24:617][774]LogPlayLevel: PIE: World Init took: (0.001265s)
+[2022.08.02-12.56.24:617][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ActionRoguelike/Maps/TestLevel.TestLevel to /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel (0.006218s)
+[2022.08.02-12.56.24:628][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.08.02-12.56.24:629][774]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.02-12.56.24:629][774]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.02-12.56.24:629][774]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.02-12.56.24:629][774]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.02-12.56.24:629][774]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.02-12.56.24:629][774]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.02-12.56.24:629][774]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.02-12.56.24:630][774]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.02-12.56.24:630][774]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.02-12.56.24:630][774]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.02-12.56.24:635][774]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.02-12.56.24:635][774]LogAudioMixer: Display: 1: FrontRight
+[2022.08.02-12.56.24:700][774]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.08.02-12.56.24:700][774]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.02-12.56.24:700][774]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.02-12.56.24:700][774]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.02-12.56.24:700][774]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.02-12.56.24:713][774]LogInit: FAudioDevice initialized.
+[2022.08.02-12.56.24:724][774]LogLoad: Game class is 'SGameModeBP_C'
+[2022.08.02-12.56.24:726][774]LogWorld: Bringing World /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2022.08.02-21.56.24
+[2022.08.02-12.56.24:726][774]LogWorld: Bringing up level for play took: 0.002001
+[2022.08.02-12.56.24:726][774]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2022.08.02-12.56.24:729][774]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.08.02-12.56.24:733][774]PIE: 登陆的服务器
+[2022.08.02-12.56.24:734][774]PIE: PIE总开始时间：0.157秒。
+[2022.08.02-12.56.25:644][782]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.56.25:851][787]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.56.26:570][802]LogTemp: Found 1 alive bots
+[2022.08.02-12.56.26:570][802]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.56.28:584][852]LogTemp: Found 1 alive bots
+[2022.08.02-12.56.28:584][852]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.56.30:578][902]LogTemp: Found 1 alive bots
+[2022.08.02-12.56.32:589][943]LogTemp: Found 2 alive bots
+[2022.08.02-12.56.32:589][943]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.56.34:602][995]LogTemp: Found 2 alive bots
+[2022.08.02-12.56.34:603][995]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.56.36:569][112]LogTemp: Found 2 alive bots
+[2022.08.02-12.56.36:569][112]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.56.38:798][207]LogTemp: Found 2 alive bots
+[2022.08.02-12.56.38:798][207]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.56.39:481][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-12.56.39:481][209]LogWorld: BeginTearingDown for /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-12.56.39:481][209]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-12.56.39:482][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-12.56.39:489][209]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.02-12.56.39:490][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-12.56.39:535][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-12.56.39:537][209]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E1B6D9300), frame # 3209
+[2022.08.02-12.56.39:538][209]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E7ADDFC00), frame # 3209
+[2022.08.02-12.56.39:538][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.08.02-12.56.39:558][210]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.08.02-12.57.12:549][532]LogEditorViewport: Clicking on Actor (LMB): Powerup_HealthPotion_C (Powerup_HealthPotion)
+[2022.08.02-12.57.28:486][706]Candidate modules for hot reload:
+[2022.08.02-12.57.28:486][706]  ActionRoguelike
+[2022.08.02-12.57.28:486][706]Launching UnrealBuildTool... [D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionRoguelike,2905 ActionRoguelikeEditor Win64 Development -Project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" "D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"  -IgnoreJunk]
+[2022.08.02-12.57.28:492][706]Warning: Starting HotReload took  0.0s.
+[2022.08.02-12.57.32:280][929]CompilerResultsLog: New page: 编译——2022年8月3日 上午6:57:32
+[2022.08.02-12.57.32:280][929]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+[2022.08.02-12.57.32:280][929]CompilerResultsLog: Building ActionRoguelikeEditor...
+[2022.08.02-12.57.32:280][929]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.08.02-12.57.32:280][929]CompilerResultsLog: Building 4 actions with 16 processes...
+[2022.08.02-12.57.32:280][929]CompilerResultsLog:   [1/4] SGameModeBase.cpp
+[2022.08.02-12.57.32:281][929]CompilerResultsLog:   [2/4] UE4Editor-ActionRoguelike-2905.lib
+[2022.08.02-12.57.32:281][929]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-2905.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-2905.exp
+[2022.08.02-12.57.32:281][929]CompilerResultsLog:   [3/4] UE4Editor-ActionRoguelike-2905.dll
+[2022.08.02-12.57.32:281][929]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-2905.suppressed.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-2905.suppressed.exp
+[2022.08.02-12.57.32:281][929]CompilerResultsLog:   [4/4] ActionRoguelikeEditor.target
+[2022.08.02-12.57.32:281][929]CompilerResultsLog: Total time in Parallel executor: 2.93 seconds
+[2022.08.02-12.57.32:281][929]CompilerResultsLog: Total execution time: 3.44 seconds
+[2022.08.02-12.57.32:282][929]LogMainFrame: MainFrame: Module compiling took 3.799 seconds
+[2022.08.02-12.57.32:315][929]LogContentBrowser: Native class hierarchy updated for 'ActionRoguelike' in 0.0004 seconds. Added 26 classes and 4 folders.
+[2022.08.02-12.57.32:316][929]Display: HotReload successful (38 functions remapped  0 scriptstructs remapped)
+[2022.08.02-12.57.32:380][929]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3460 classes and 827 folders.
+[2022.08.02-12.57.32:380][929]Display: HotReload took  3.9s.
+[2022.08.02-12.57.32:847][957]LogTemp: Repeating last play command: 选中的视口
+[2022.08.02-12.57.32:863][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.02-12.57.32:863][957]PIE: New page: PIE会话：TestLevel（2022年8月3日 上午6:57:32）
+[2022.08.02-12.57.32:901][957]LogPlayLevel: Creating play world package: /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-12.57.32:906][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004833s)
+[2022.08.02-12.57.32:907][957]LogAIModule: Creating AISystem for world TestLevel
+[2022.08.02-12.57.32:907][957]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E8629C600), frame # 3957
+[2022.08.02-12.57.32:907][957]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E123DBD80), frame # 3957
+[2022.08.02-12.57.32:907][957]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2022.08.02-12.57.32:907][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ActionRoguelike/Maps/TestLevel.TestLevel to /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel (0.006517s)
+[2022.08.02-12.57.32:921][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.08.02-12.57.32:922][957]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.02-12.57.32:923][957]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.02-12.57.32:923][957]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.02-12.57.32:923][957]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.02-12.57.32:923][957]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.02-12.57.32:923][957]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.02-12.57.32:923][957]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.02-12.57.32:923][957]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.02-12.57.32:924][957]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.02-12.57.32:924][957]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.02-12.57.32:929][957]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.02-12.57.32:929][957]LogAudioMixer: Display: 1: FrontRight
+[2022.08.02-12.57.32:991][957]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.08.02-12.57.32:991][957]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.02-12.57.32:991][957]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.02-12.57.32:991][957]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.02-12.57.32:992][957]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.02-12.57.33:004][957]LogInit: FAudioDevice initialized.
+[2022.08.02-12.57.33:012][957]LogLoad: Game class is 'SGameModeBP_C'
+[2022.08.02-12.57.33:014][957]LogWorld: Bringing World /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2022.08.02-21.57.33
+[2022.08.02-12.57.33:014][957]LogWorld: Bringing up level for play took: 0.001992
+[2022.08.02-12.57.33:015][957]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2022.08.02-12.57.33:017][957]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.08.02-12.57.33:021][957]PIE: 登陆的服务器
+[2022.08.02-12.57.33:022][957]PIE: PIE总开始时间：0.162秒。
+[2022.08.02-12.57.33:390][977]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.33:589][989]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.34:856][ 65]LogTemp: Found 1 alive bots
+[2022.08.02-12.57.34:856][ 65]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.57.36:856][185]LogTemp: Found 1 alive bots
+[2022.08.02-12.57.36:856][185]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.57.38:856][305]LogTemp: Found 1 alive bots
+[2022.08.02-12.57.40:856][425]LogTemp: Found 2 alive bots
+[2022.08.02-12.57.40:856][425]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.57.42:178][447]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.42:378][459]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.42:861][488]LogTemp: Found 2 alive bots
+[2022.08.02-12.57.42:861][488]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.57.44:428][582]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.44:627][594]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.44:861][608]LogTemp: Found 2 alive bots
+[2022.08.02-12.57.44:861][608]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.57.45:327][636]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.45:528][648]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.46:094][682]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.46:294][694]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.46:744][721]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.46:861][728]LogTemp: Found 2 alive bots
+[2022.08.02-12.57.46:862][728]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.57.46:944][733]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.57.48:861][848]LogTemp: Found 2 alive bots
+[2022.08.02-12.57.48:862][848]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.57.49:677][897]LogTemp: Running: Action_Sprint_C_0
+[2022.08.02-12.57.50:861][968]LogTemp: Found 2 alive bots
+[2022.08.02-12.57.50:861][968]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.57.52:096][ 42]LogTemp: Running: Action_Sprint_C_0
+[2022.08.02-12.57.53:007][ 77]LogTemp: Found 2 alive bots
+[2022.08.02-12.57.53:007][ 77]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.57.53:702][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-12.57.53:702][ 79]LogWorld: BeginTearingDown for /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-12.57.53:703][ 79]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-12.57.53:703][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-12.57.53:715][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.02-12.57.53:717][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-12.57.53:778][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-12.57.53:781][ 79]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E123DBD80), frame # 5079
+[2022.08.02-12.57.53:781][ 79]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E8629C600), frame # 5079
+[2022.08.02-12.57.53:782][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.08.02-12.57.53:811][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.08.02-12.58.00:679][262]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.08.02-12.58.01:991][341]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.02-12.58.02:004][341]LogAssetEditorSubsystem: Opening Asset editor for EnvQuery /Game/ActionRoguelike/Query_FindPowerupSpawns.Query_FindPowerupSpawns
+[2022.08.02-12.58.02:083][341]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.08.02-12.58.09:854][807]LogSlate: Window 'Query_FindPowerupSpawns' being destroyed
+[2022.08.02-12.58.09:862][807]LogSlate: Window 'Query_FindPowerupSpawns' being destroyed
+[2022.08.02-12.58.15:970][173]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.08.02-12.58.18:165][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.08.02-12.58.18:187][302]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/TestLevelF238A0614C13C5AEDAC5F6884E492175.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Maps/TestLevel.umap'
+[2022.08.02-12.58.18:224][302]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/TestLevel_BuiltDataAB90AC7A45345C4C31273DB518264F49.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Maps/TestLevel_BuiltData.uasset'
+[2022.08.02-12.58.18:235][302]AssetCheck: New page: 资产保存：多个资产
+[2022.08.02-12.58.18:235][302]LogContentValidation: Display: 正在验证World /Game/ActionRoguelike/Maps/TestLevel.TestLevel
+[2022.08.02-12.58.18:235][302]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/ActionRoguelike/Maps/TestLevel_BuiltData.TestLevel_BuiltData
+[2022.08.02-12.58.34:273][463]LogAssetEditorSubsystem: Opening Asset editor for EnvQuery /Game/ActionRoguelike/Query_FindPowerupSpawns.Query_FindPowerupSpawns
+[2022.08.02-12.58.36:140][569]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Query_FindPowerupSpawns40D1AEEE4F9A82975A91E5AF79EAE2A1.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Query_FindPowerupSpawns.uasset'
+[2022.08.02-12.58.36:152][569]AssetCheck: New page: 资产保存：Query_FindPowerupSpawns
+[2022.08.02-12.58.36:152][569]LogContentValidation: Display: 正在验证EnvQuery /Game/ActionRoguelike/Query_FindPowerupSpawns.Query_FindPowerupSpawns
+[2022.08.02-12.58.48:676][320]LogSlate: Window 'Query_FindPowerupSpawns' being destroyed
+[2022.08.02-12.58.48:683][320]LogSlate: Window 'Query_FindPowerupSpawns' being destroyed
+[2022.08.02-12.59.13:127][569]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.08.02-12.59.47:116][600]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2022.08.02-12.59.50:298][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.08.02-12.59.50:658][809]LogEditorViewport: Clicking on Actor (LMB): Powerup_HealthPotion_C (Powerup_HealthPotion)
+[2022.08.02-12.59.51:222][841]LogEditorViewport: Clicking on Actor (context menu): Powerup_HealthPotion_C (Powerup_HealthPotion)
+[2022.08.02-12.59.53:658][984]Cmd: DELETE
+[2022.08.02-12.59.53:658][984]Cmd: ACTOR DELETE
+[2022.08.02-12.59.53:661][984]LogEditorActor: Deleted Actor: Powerup_HealthPotion_C
+[2022.08.02-12.59.53:672][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.08.02-12.59.53:673][984]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2022.08.02-12.59.55:214][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.08.02-12.59.55:237][ 75]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/TestLevelF1DC62224088D77B98C75D8913685026.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Maps/TestLevel.umap'
+[2022.08.02-12.59.55:272][ 75]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/TestLevel_BuiltData1280160C4BCFDEE7C52C6EB4E9293F61.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/Maps/TestLevel_BuiltData.uasset'
+[2022.08.02-12.59.55:286][ 75]AssetCheck: New page: 资产保存：多个资产
+[2022.08.02-12.59.55:286][ 75]LogContentValidation: Display: 正在验证World /Game/ActionRoguelike/Maps/TestLevel.TestLevel
+[2022.08.02-12.59.55:286][ 75]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/ActionRoguelike/Maps/TestLevel_BuiltData.TestLevel_BuiltData
+[2022.08.02-12.59.56:125][126]LogTemp: Repeating last play command: 选中的视口
+[2022.08.02-12.59.56:139][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.02-12.59.56:139][126]PIE: New page: PIE会话：TestLevel（2022年8月3日 上午6:59:56）
+[2022.08.02-12.59.56:170][126]LogPlayLevel: Creating play world package: /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-12.59.56:175][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004682s)
+[2022.08.02-12.59.56:176][126]LogAIModule: Creating AISystem for world TestLevel
+[2022.08.02-12.59.56:176][126]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018EDA50B000), frame # 10126
+[2022.08.02-12.59.56:176][126]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E1BAD7880), frame # 10126
+[2022.08.02-12.59.56:176][126]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2022.08.02-12.59.56:176][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ActionRoguelike/Maps/TestLevel.TestLevel to /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel (0.006368s)
+[2022.08.02-12.59.56:187][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.08.02-12.59.56:188][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.02-12.59.56:188][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.02-12.59.56:188][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.02-12.59.56:188][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.02-12.59.56:188][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.02-12.59.56:188][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.02-12.59.56:189][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.02-12.59.56:189][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.02-12.59.56:189][126]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.02-12.59.56:189][126]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.02-12.59.56:194][126]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.02-12.59.56:194][126]LogAudioMixer: Display: 1: FrontRight
+[2022.08.02-12.59.56:256][126]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.08.02-12.59.56:256][126]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.02-12.59.56:256][126]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.02-12.59.56:256][126]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.02-12.59.56:257][126]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.02-12.59.56:268][126]LogInit: FAudioDevice initialized.
+[2022.08.02-12.59.56:281][126]LogLoad: Game class is 'SGameModeBP_C'
+[2022.08.02-12.59.56:283][126]LogWorld: Bringing World /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2022.08.02-21.59.56
+[2022.08.02-12.59.56:283][126]LogWorld: Bringing up level for play took: 0.002077
+[2022.08.02-12.59.56:284][126]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2022.08.02-12.59.56:287][126]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.08.02-12.59.56:291][126]PIE: 登陆的服务器
+[2022.08.02-12.59.56:292][126]PIE: PIE总开始时间：0.153秒。
+[2022.08.02-12.59.56:692][150]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.59.56:891][162]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.59.58:141][237]LogTemp: Found 1 alive bots
+[2022.08.02-12.59.58:142][237]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-12.59.58:924][284]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-12.59.59:124][296]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.00.00:142][357]LogTemp: Found 1 alive bots
+[2022.08.02-13.00.00:142][357]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.00.02:141][477]LogTemp: Found 1 alive bots
+[2022.08.02-13.00.04:141][597]LogTemp: Found 2 alive bots
+[2022.08.02-13.00.04:141][597]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.00.06:141][717]LogTemp: Found 2 alive bots
+[2022.08.02-13.00.06:141][717]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.00.08:127][836]LogTemp: Found 2 alive bots
+[2022.08.02-13.00.08:128][836]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.00.09:191][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-13.00.09:192][840]LogWorld: BeginTearingDown for /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-13.00.09:192][840]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-13.00.09:193][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.00.09:205][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.02-13.00.09:207][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.00.09:268][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-13.00.09:270][840]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E1BAD7880), frame # 10840
+[2022.08.02-13.00.09:271][840]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018EDA50B000), frame # 10840
+[2022.08.02-13.00.09:271][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.08.02-13.00.09:296][841]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.08.02-13.00.11:437][968]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ActionRoguelike/SGameModeBP.SGameModeBP
+[2022.08.02-13.00.11:573][968]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2022.08.02-13.00.37:943][408]BlueprintLog: New page: 编译SGameModeBP
+[2022.08.02-13.00.37:977][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.08.02-13.00.38:430][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ActionRoguelike/SGameModeBP" FILE="../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/SGameModeBP.uasset" SILENT=true
+[2022.08.02-13.00.38:440][434]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/SGameModeBPF24510904AF116F63F8DE0A23D629755.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/SGameModeBP.uasset'
+[2022.08.02-13.00.38:448][434]AssetCheck: New page: 资产保存：SGameModeBP
+[2022.08.02-13.00.38:449][434]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/SGameModeBP.SGameModeBP
+[2022.08.02-13.00.41:933][632]LogSlate: Window 'SGameModeBP' being destroyed
+[2022.08.02-13.00.41:942][632]LogSlate: Window 'SGameModeBP' being destroyed
+[2022.08.02-13.00.41:955][632]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-13.00.41:956][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.01.08:744][ 20]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.08.02-13.03.43:877][880]LogSlate: Window '编辑器偏好设置' being destroyed
+[2022.08.02-13.03.43:882][880]LogSlate: Window '编辑器偏好设置' being destroyed
+[2022.08.02-13.03.47:289][ 71]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.08.02-13.03.51:435][ 71]LogSlate: Window '选取父类' being destroyed
+[2022.08.02-13.03.52:498][125]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/ActionRoguelike/NewBlueprint.
+[2022.08.02-13.03.53:363][176]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ActionRoguelike/NewBlueprint.NewBlueprint
+[2022.08.02-13.04.01:876][668]BlueprintLog: New page: 编译NewBlueprint
+[2022.08.02-13.04.01:914][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.08.02-13.04.02:453][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ActionRoguelike/NewBlueprint" FILE="../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/NewBlueprint.uasset" SILENT=true
+[2022.08.02-13.04.02:458][697]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/NewBlueprintA9EDB567464FB897FDB12BB4D4924D66.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/NewBlueprint.uasset'
+[2022.08.02-13.04.02:469][697]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/ActionRoguelike/NewBlueprint.
+[2022.08.02-13.04.02:473][697]AssetCheck: New page: 资产保存：NewBlueprint
+[2022.08.02-13.04.02:474][697]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/NewBlueprint.NewBlueprint
+[2022.08.02-13.04.03:302][746]LogSlate: Window 'NewBlueprint' being destroyed
+[2022.08.02-13.04.03:308][746]LogSlate: Window 'NewBlueprint' being destroyed
+[2022.08.02-13.04.03:320][746]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-13.04.03:320][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.04.03:483][753]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.08.02-13.04.11:395][218]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint_C (NewBlueprint)
+[2022.08.02-13.04.11:654][233]LogEditorViewport: Clicking on Actor (context menu): NewBlueprint_C (NewBlueprint)
+[2022.08.02-13.04.15:198][442]Cmd: DELETE
+[2022.08.02-13.04.15:198][442]Cmd: ACTOR DELETE
+[2022.08.02-13.04.15:201][442]LogEditorActor: Actor NewBlueprint is referenced by AIController1.
+[2022.08.02-13.04.16:171][442]LogSlate: Window '消息' being destroyed
+[2022.08.02-13.04.16:175][442]Message dialog closed, result: Yes, title: 消息, text: Actor NewBlueprint is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+AIController1
+[2022.08.02-13.04.16:175][442]LogEditorActor: Deleted Actor: NewBlueprint_C
+[2022.08.02-13.04.16:196][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.08.02-13.04.16:202][442]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2022.08.02-13.05.20:702][398]LogTemp: Repeating last play command: 选中的视口
+[2022.08.02-13.05.20:716][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.02-13.05.20:717][398]PIE: New page: PIE会话：TestLevel（2022年8月3日 上午7:05:20）
+[2022.08.02-13.05.20:739][398]LogPlayLevel: Creating play world package: /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-13.05.20:744][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004683s)
+[2022.08.02-13.05.20:745][398]LogAIModule: Creating AISystem for world TestLevel
+[2022.08.02-13.05.20:745][398]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018F033F2200), frame # 18398
+[2022.08.02-13.05.20:745][398]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018EF7B791C0), frame # 18398
+[2022.08.02-13.05.20:745][398]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2022.08.02-13.05.20:745][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ActionRoguelike/Maps/TestLevel.TestLevel to /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel (0.006053s)
+[2022.08.02-13.05.20:763][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.08.02-13.05.20:766][398]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.02-13.05.20:766][398]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.02-13.05.20:766][398]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.02-13.05.20:766][398]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.02-13.05.20:767][398]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.02-13.05.20:767][398]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.02-13.05.20:767][398]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.02-13.05.20:767][398]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.02-13.05.20:767][398]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.02-13.05.20:767][398]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.02-13.05.20:773][398]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.02-13.05.20:773][398]LogAudioMixer: Display: 1: FrontRight
+[2022.08.02-13.05.20:833][398]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.08.02-13.05.20:833][398]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.02-13.05.20:833][398]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.02-13.05.20:833][398]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.02-13.05.20:834][398]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.02-13.05.20:845][398]LogInit: FAudioDevice initialized.
+[2022.08.02-13.05.20:854][398]LogLoad: Game class is 'SGameModeBP_C'
+[2022.08.02-13.05.20:856][398]LogWorld: Bringing World /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2022.08.02-22.05.20
+[2022.08.02-13.05.20:857][398]LogWorld: Bringing up level for play took: 0.002040
+[2022.08.02-13.05.20:857][398]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.08.02-13.05.20:859][398]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.08.02-13.05.20:863][398]PIE: 登陆的服务器
+[2022.08.02-13.05.20:864][398]PIE: PIE总开始时间：0.148秒。
+[2022.08.02-13.05.22:712][509]LogTemp: Found 1 alive bots
+[2022.08.02-13.05.22:712][509]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.05.24:713][629]LogTemp: Found 1 alive bots
+[2022.08.02-13.05.24:713][629]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.05.26:580][741]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.05.26:713][749]LogTemp: Found 1 alive bots
+[2022.08.02-13.05.26:779][753]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.05.27:596][802]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.05.27:796][814]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.05.28:263][842]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.05.28:463][854]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.05.28:713][869]LogTemp: Found 2 alive bots
+[2022.08.02-13.05.28:713][869]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.05.30:571][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-13.05.30:571][902]LogWorld: BeginTearingDown for /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-13.05.30:572][902]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-13.05.30:572][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.05.30:581][902]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.02-13.05.30:584][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.05.30:599][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-13.05.30:639][902]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018EF7B791C0), frame # 18902
+[2022.08.02-13.05.30:639][902]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018F033F2200), frame # 18902
+[2022.08.02-13.05.30:640][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.08.02-13.05.30:667][903]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.08.02-13.08.28:064][515]Candidate modules for hot reload:
+[2022.08.02-13.08.28:064][515]  ActionRoguelike
+[2022.08.02-13.08.28:064][515]Launching UnrealBuildTool... [D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionRoguelike,9881 ActionRoguelikeEditor Win64 Development -Project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" "D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"  -IgnoreJunk]
+[2022.08.02-13.08.28:072][515]Warning: Starting HotReload took  0.0s.
+[2022.08.02-13.08.32:368][766]CompilerResultsLog: New page: 编译——2022年8月3日 上午7:08:32
+[2022.08.02-13.08.32:368][766]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+[2022.08.02-13.08.32:368][766]CompilerResultsLog: Building ActionRoguelikeEditor...
+[2022.08.02-13.08.32:368][766]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.08.02-13.08.32:368][766]CompilerResultsLog: Building 4 actions with 16 processes...
+[2022.08.02-13.08.32:368][766]CompilerResultsLog:   [1/4] SGameModeBase.cpp
+[2022.08.02-13.08.32:368][766]CompilerResultsLog:   [2/4] UE4Editor-ActionRoguelike-9881.lib
+[2022.08.02-13.08.32:368][766]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9881.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9881.exp
+[2022.08.02-13.08.32:368][766]CompilerResultsLog:   [3/4] UE4Editor-ActionRoguelike-9881.dll
+[2022.08.02-13.08.32:368][766]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9881.suppressed.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-9881.suppressed.exp
+[2022.08.02-13.08.32:369][766]CompilerResultsLog:   [4/4] ActionRoguelikeEditor.target
+[2022.08.02-13.08.32:369][766]CompilerResultsLog: Total time in Parallel executor: 3.39 seconds
+[2022.08.02-13.08.32:369][766]CompilerResultsLog: Total execution time: 3.91 seconds
+[2022.08.02-13.08.32:369][766]LogMainFrame: MainFrame: Module compiling took 4.311 seconds
+[2022.08.02-13.08.32:417][766]LogContentBrowser: Native class hierarchy updated for 'ActionRoguelike' in 0.0005 seconds. Added 26 classes and 4 folders.
+[2022.08.02-13.08.32:420][766]Display: HotReload successful (38 functions remapped  0 scriptstructs remapped)
+[2022.08.02-13.08.32:524][766]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 3460 classes and 827 folders.
+[2022.08.02-13.08.32:524][766]Display: HotReload took  4.5s.
+[2022.08.02-13.08.33:362][800]LogTemp: Repeating last play command: 选中的视口
+[2022.08.02-13.08.33:383][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.02-13.08.33:384][800]PIE: New page: PIE会话：TestLevel（2022年8月3日 上午7:08:33）
+[2022.08.02-13.08.33:420][800]LogPlayLevel: Creating play world package: /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-13.08.33:428][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008245s)
+[2022.08.02-13.08.33:428][800]LogAIModule: Creating AISystem for world TestLevel
+[2022.08.02-13.08.33:429][800]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018EF8FF3E00), frame # 19800
+[2022.08.02-13.08.33:429][800]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018F03315300), frame # 19800
+[2022.08.02-13.08.33:429][800]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2022.08.02-13.08.33:429][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ActionRoguelike/Maps/TestLevel.TestLevel to /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel (0.010155s)
+[2022.08.02-13.08.33:483][800]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.08.02-13.08.33:485][800]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.02-13.08.33:485][800]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.02-13.08.33:485][800]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.02-13.08.33:486][800]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.02-13.08.33:486][800]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.02-13.08.33:486][800]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.02-13.08.33:486][800]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.02-13.08.33:486][800]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.02-13.08.33:486][800]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.02-13.08.33:486][800]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.02-13.08.33:492][800]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.02-13.08.33:492][800]LogAudioMixer: Display: 1: FrontRight
+[2022.08.02-13.08.33:559][800]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.08.02-13.08.33:559][800]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.02-13.08.33:559][800]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.02-13.08.33:559][800]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.02-13.08.33:560][800]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.02-13.08.33:571][800]LogInit: FAudioDevice initialized.
+[2022.08.02-13.08.33:584][800]LogLoad: Game class is 'SGameModeBP_C'
+[2022.08.02-13.08.33:586][800]LogWorld: Bringing World /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2022.08.02-22.08.33
+[2022.08.02-13.08.33:586][800]LogWorld: Bringing up level for play took: 0.001939
+[2022.08.02-13.08.33:587][800]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.08.02-13.08.33:589][800]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.08.02-13.08.33:593][800]PIE: 登陆的服务器
+[2022.08.02-13.08.33:594][800]PIE: PIE总开始时间：0.214秒。
+[2022.08.02-13.08.33:596][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:596][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:596][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:596][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:597][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:598][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:599][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:600][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:601][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:602][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:602][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:602][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:602][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:602][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:602][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:602][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:602][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:602][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:602][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:603][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:603][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:603][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:603][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:603][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:603][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:603][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:603][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:603][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:603][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:603][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:604][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:605][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:606][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:607][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:608][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:609][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:610][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:611][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:612][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:613][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:614][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:615][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:615][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:615][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:615][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:615][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:615][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.33:615][800]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.08.34:013][823]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.08.34:213][835]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.08.35:380][905]LogTemp: Found 1 alive bots
+[2022.08.02-13.08.35:380][905]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.08.37:667][  4]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.08.37:668][  4]LogTemp: Found 1 alive bots
+[2022.08.02-13.08.37:669][  4]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.08.37:866][ 16]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.08.38:890][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-13.08.38:890][ 37]LogWorld: BeginTearingDown for /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-13.08.38:890][ 37]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-13.08.38:891][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.08.38:902][ 37]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.02-13.08.38:904][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.08.38:980][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-13.08.38:995][ 37]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018EF8FF3E00), frame # 20037
+[2022.08.02-13.08.38:995][ 37]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018F03315300), frame # 20037
+[2022.08.02-13.08.38:996][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.08.02-13.08.39:021][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.08.02-13.09.22:335][240]Candidate modules for hot reload:
+[2022.08.02-13.09.22:335][240]  ActionRoguelike
+[2022.08.02-13.09.22:335][240]Launching UnrealBuildTool... [D:/Software/Epic/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionRoguelike,5555 ActionRoguelikeEditor Win64 Development -Project="D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject" "D:/Software/Git/Project/UEActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"  -IgnoreJunk]
+[2022.08.02-13.09.22:341][240]Warning: Starting HotReload took  0.0s.
+[2022.08.02-13.09.25:596][433]CompilerResultsLog: New page: 编译——2022年8月3日 上午7:09:25
+[2022.08.02-13.09.25:596][433]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+[2022.08.02-13.09.25:596][433]CompilerResultsLog: Building ActionRoguelikeEditor...
+[2022.08.02-13.09.25:596][433]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.08.02-13.09.25:596][433]CompilerResultsLog: Building 4 actions with 16 processes...
+[2022.08.02-13.09.25:596][433]CompilerResultsLog:   [1/4] SGameModeBase.cpp
+[2022.08.02-13.09.25:596][433]CompilerResultsLog:   [2/4] UE4Editor-ActionRoguelike-5555.lib
+[2022.08.02-13.09.25:596][433]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-5555.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-5555.exp
+[2022.08.02-13.09.25:596][433]CompilerResultsLog:   [3/4] UE4Editor-ActionRoguelike-5555.dll
+[2022.08.02-13.09.25:596][433]CompilerResultsLog:     ???ڴ????? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-5555.suppressed.lib ?Ͷ??? D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-5555.suppressed.exp
+[2022.08.02-13.09.25:597][433]CompilerResultsLog:   [4/4] ActionRoguelikeEditor.target
+[2022.08.02-13.09.25:597][433]CompilerResultsLog: Total time in Parallel executor: 2.67 seconds
+[2022.08.02-13.09.25:597][433]CompilerResultsLog: Total execution time: 3.18 seconds
+[2022.08.02-13.09.25:597][433]LogMainFrame: MainFrame: Module compiling took 3.266 seconds
+[2022.08.02-13.09.25:635][433]LogContentBrowser: Native class hierarchy updated for 'ActionRoguelike' in 0.0004 seconds. Added 26 classes and 4 folders.
+[2022.08.02-13.09.25:638][433]Display: HotReload successful (38 functions remapped  0 scriptstructs remapped)
+[2022.08.02-13.09.25:716][433]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3460 classes and 827 folders.
+[2022.08.02-13.09.25:716][433]Display: HotReload took  3.4s.
+[2022.08.02-13.09.26:405][459]LogTemp: Repeating last play command: 选中的视口
+[2022.08.02-13.09.26:422][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.02-13.09.26:422][459]PIE: New page: PIE会话：TestLevel（2022年8月3日 上午7:09:26）
+[2022.08.02-13.09.26:449][459]LogPlayLevel: Creating play world package: /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-13.09.26:454][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004395s)
+[2022.08.02-13.09.26:455][459]LogAIModule: Creating AISystem for world TestLevel
+[2022.08.02-13.09.26:455][459]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018EF8FF1C00), frame # 20459
+[2022.08.02-13.09.26:455][459]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E21846D40), frame # 20459
+[2022.08.02-13.09.26:455][459]LogPlayLevel: PIE: World Init took: (0.001325s)
+[2022.08.02-13.09.26:456][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ActionRoguelike/Maps/TestLevel.TestLevel to /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel (0.006174s)
+[2022.08.02-13.09.26:501][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.08.02-13.09.26:502][459]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.02-13.09.26:503][459]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.02-13.09.26:503][459]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.02-13.09.26:503][459]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.02-13.09.26:503][459]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.02-13.09.26:503][459]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.02-13.09.26:503][459]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.02-13.09.26:503][459]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.02-13.09.26:503][459]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.02-13.09.26:503][459]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.02-13.09.26:508][459]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.02-13.09.26:509][459]LogAudioMixer: Display: 1: FrontRight
+[2022.08.02-13.09.26:571][459]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.08.02-13.09.26:571][459]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.02-13.09.26:571][459]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.02-13.09.26:571][459]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.02-13.09.26:572][459]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.02-13.09.26:583][459]LogInit: FAudioDevice initialized.
+[2022.08.02-13.09.26:593][459]LogLoad: Game class is 'SGameModeBP_C'
+[2022.08.02-13.09.26:595][459]LogWorld: Bringing World /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2022.08.02-22.09.26
+[2022.08.02-13.09.26:596][459]LogWorld: Bringing up level for play took: 0.001879
+[2022.08.02-13.09.26:596][459]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.08.02-13.09.26:598][459]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.08.02-13.09.26:602][459]PIE: 登陆的服务器
+[2022.08.02-13.09.26:603][459]PIE: PIE总开始时间：0.185秒。
+[2022.08.02-13.09.26:605][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:606][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:606][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:606][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:606][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:606][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:606][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:606][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:607][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:607][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:607][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:607][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:607][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:607][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:607][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:607][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:608][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:608][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:608][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:608][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:608][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:608][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:608][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:608][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:609][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:609][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:609][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:609][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:609][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:610][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:610][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:610][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:610][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:610][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:610][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:611][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:611][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:611][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:611][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:612][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:612][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:612][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:612][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:613][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:613][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:613][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:614][459]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.09.26:947][479]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.09.27:146][491]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.09.28:413][567]LogTemp: Found 1 alive bots
+[2022.08.02-13.09.28:413][567]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.09.30:414][687]LogTemp: Found 1 alive bots
+[2022.08.02-13.09.30:414][687]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.09.32:412][807]LogTemp: Found 1 alive bots
+[2022.08.02-13.09.34:350][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-13.09.34:351][864]LogWorld: BeginTearingDown for /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-13.09.34:351][864]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-13.09.34:352][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.09.34:366][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.02-13.09.34:368][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.09.34:419][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-13.09.34:420][864]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E21846D40), frame # 20864
+[2022.08.02-13.09.34:420][864]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018EF8FF1C00), frame # 20864
+[2022.08.02-13.09.34:425][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.08.02-13.09.34:453][865]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.08.02-13.10.03:485][979]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ActionRoguelike/SGameModeBP.SGameModeBP
+[2022.08.02-13.10.07:470][198]BlueprintLog: New page: 编译SGameModeBP
+[2022.08.02-13.10.07:497][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2022.08.02-13.10.08:113][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ActionRoguelike/SGameModeBP" FILE="../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/SGameModeBP.uasset" SILENT=true
+[2022.08.02-13.10.08:122][234]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/SGameModeBP78CF143B41EE4439AD5CB28A29BFF06A.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/SGameModeBP.uasset'
+[2022.08.02-13.10.08:134][234]AssetCheck: New page: 资产保存：SGameModeBP
+[2022.08.02-13.10.08:134][234]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/SGameModeBP.SGameModeBP
+[2022.08.02-13.10.09:109][292]LogSlate: Window 'SGameModeBP' being destroyed
+[2022.08.02-13.10.09:114][292]LogSlate: Window 'SGameModeBP' being destroyed
+[2022.08.02-13.10.09:114][292]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-13.10.09:114][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.10.09:720][327]LogTemp: Repeating last play command: 选中的视口
+[2022.08.02-13.10.09:734][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.02-13.10.09:734][327]PIE: New page: PIE会话：TestLevel（2022年8月3日 上午7:10:09）
+[2022.08.02-13.10.09:735][327]LogPlayLevel: Creating play world package: /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-13.10.09:739][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004463s)
+[2022.08.02-13.10.09:740][327]LogAIModule: Creating AISystem for world TestLevel
+[2022.08.02-13.10.09:740][327]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018EF3AB5E00), frame # 21327
+[2022.08.02-13.10.09:740][327]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018EF9841A80), frame # 21327
+[2022.08.02-13.10.09:741][327]LogPlayLevel: PIE: World Init took: (0.001329s)
+[2022.08.02-13.10.09:741][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ActionRoguelike/Maps/TestLevel.TestLevel to /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel (0.006098s)
+[2022.08.02-13.10.09:759][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.08.02-13.10.09:760][327]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.02-13.10.09:760][327]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.02-13.10.09:760][327]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.02-13.10.09:760][327]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.02-13.10.09:760][327]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.02-13.10.09:761][327]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.02-13.10.09:761][327]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.02-13.10.09:761][327]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.02-13.10.09:761][327]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.02-13.10.09:761][327]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.02-13.10.09:766][327]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.02-13.10.09:766][327]LogAudioMixer: Display: 1: FrontRight
+[2022.08.02-13.10.09:825][327]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek High Definition Audio)
+[2022.08.02-13.10.09:825][327]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.02-13.10.09:825][327]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.02-13.10.09:825][327]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.02-13.10.09:825][327]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.02-13.10.09:836][327]LogInit: FAudioDevice initialized.
+[2022.08.02-13.10.09:845][327]LogLoad: Game class is 'SGameModeBP_C'
+[2022.08.02-13.10.09:847][327]LogWorld: Bringing World /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2022.08.02-22.10.09
+[2022.08.02-13.10.09:848][327]LogWorld: Bringing up level for play took: 0.002076
+[2022.08.02-13.10.09:848][327]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.08.02-13.10.09:851][327]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2022.08.02-13.10.09:854][327]PIE: 登陆的服务器
+[2022.08.02-13.10.09:855][327]PIE: PIE总开始时间：0.121秒。
+[2022.08.02-13.10.09:858][327]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.10.09:858][327]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.10.09:858][327]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.10.09:858][327]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.10.09:858][327]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.10.09:858][327]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.10.09:859][327]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.10.09:859][327]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.10.09:859][327]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.10.09:859][327]LogTemp: Warning: Spawn bot EQS Query failed!
+[2022.08.02-13.10.10:240][350]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.10.10:442][362]LogTemp: Running: Action_MagicProjectile_C_0
+[2022.08.02-13.10.11:721][439]LogTemp: Found 1 alive bots
+[2022.08.02-13.10.11:722][439]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.10.13:722][559]LogTemp: Found 1 alive bots
+[2022.08.02-13.10.13:723][559]LogTemp: At maximum bot capacity. Skipping bot spawn
+[2022.08.02-13.10.15:722][679]LogTemp: Found 1 alive bots
+[2022.08.02-13.10.17:240][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-13.10.17:240][710]LogWorld: BeginTearingDown for /Game/ActionRoguelike/Maps/UEDPIE_0_TestLevel
+[2022.08.02-13.10.17:241][710]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-13.10.17:241][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.10.17:251][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.02-13.10.17:254][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.10.17:269][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.02-13.10.17:323][710]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018EF9841A80), frame # 21710
+[2022.08.02-13.10.17:324][710]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018EF3AB5E00), frame # 21710
+[2022.08.02-13.10.17:325][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.08.02-13.10.17:352][711]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.08.02-13.10.18:349][770]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ActionRoguelike/SGameModeBP.SGameModeBP
+[2022.08.02-13.10.22:537][  6]BlueprintLog: New page: 编译SGameModeBP
+[2022.08.02-13.10.22:564][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.08.02-13.10.22:900][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ActionRoguelike/SGameModeBP" FILE="../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/SGameModeBP.uasset" SILENT=true
+[2022.08.02-13.10.22:908][ 25]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/SGameModeBP6F800E0D4CF5A369F759929C94058661.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Content/ActionRoguelike/SGameModeBP.uasset'
+[2022.08.02-13.10.22:918][ 25]AssetCheck: New page: 资产保存：SGameModeBP
+[2022.08.02-13.10.22:918][ 25]LogContentValidation: Display: 正在验证Blueprint /Game/ActionRoguelike/SGameModeBP.SGameModeBP
+[2022.08.02-13.10.24:141][ 98]LogSlate: Window 'SGameModeBP' being destroyed
+[2022.08.02-13.10.24:147][ 98]LogSlate: Window 'SGameModeBP' being destroyed
+[2022.08.02-13.10.24:147][ 98]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.08.02-13.10.24:147][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.02-13.11.02:765][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.08.02-13.11.02:793][231]LogSavePackage: Moving '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/TestLevel_Auto13C907C534EDB413B0DD1B2B6E57795E4.tmp' to '../../../../../Git/Project/UEActionRoguelike/ActionRoguelike/Saved/Autosaves/Game/ActionRoguelike/Maps/TestLevel_Auto1.umap'
+[2022.08.02-13.11.02:795][231]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ActionRoguelike/Maps/TestLevel' took 0.051
+[2022.08.02-13.11.02:796][231]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.051
+[2022.08.02-13.21.03:252][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2022.08.02-13.21.03:254][ 25]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ActionRoguelike/Maps/TestLevel' took 0.022

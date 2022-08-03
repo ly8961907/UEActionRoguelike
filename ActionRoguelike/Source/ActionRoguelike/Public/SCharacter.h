@@ -11,40 +11,12 @@ class ACTIONROGUELIKE_API ASCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
-public:
-	// Sets default values for this character's properties
-	ASCharacter();
 
 protected:
 
-
-	UPROPERTY(EditAnywhere, Category = "Attack")
-		TSubclassOf<AActor> MagicProjectileclass;
-
-	UPROPERTY(EditAnywhere, Category = "Attack")
-		TSubclassOf<AActor> BlackholeProjectileclass;
-
-	UPROPERTY(EditAnywhere, Category = "Attack")
-		TSubclassOf<AActor> DashProjectileclass;
-
-	UPROPERTY(EditAnywhere, Category = "Attack")
-		class UAnimMontage* PrimaryAttackAnim;
-
-	UPROPERTY(EditAnywhere, Category = "Attack")
-		class UAnimMontage* BlackholeAttackAnim;
-
-	UPROPERTY(EditAnywhere, Category = "Attack")
-		class UAnimMontage* DashAttackAnim;
-
-	/* Particle System played during attack animation */
-	UPROPERTY(EditAnywhere, Category = "Attack")
-		class UParticleSystem* CastingEffect;
-
-	FTimerHandle TimerHandle_PrimaryAttack;
-	FTimerHandle TimerHandle_BlackholeAttack;
-	FTimerHandle TimerHandle_DashAttack;
-
-public:
+	/* VisibleAnywhere = read-only, still useful to view in-editor and enforce a convention. */
+	UPROPERTY(VisibleAnywhere, Category = "Effects")
+		FName TimeToHitParamName;
 
 	UPROPERTY(VisibleAnywhere)
 		class USpringArmComponent* SpringArmComp;
@@ -58,36 +30,43 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 		class USAttributeComponent* AttributeComp;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+		class USActionComponent* ActionComp;
+
 	void MoveForward(float value);
 
 	void MoveRight(float value);
+
+	void SprintStart();
+
+	void SprintStop();
 
 	virtual void Jump() override;
 
 	void PrimaryAttack();
 
-	void PrimaryAttack_TimeElapsed();
-
 	void BlackholeAttack();
-
-	void BlackholeAttack_TimeElapsed();
 
 	void DashAttack();
 
-	void DashAttack_TimeElapsed();
-
-	void StartAttackEffect(int Hand);
-
 	void PrimaryInteract();
 
-	// Re-use spawn logic between attacks
-	void SpawnProjectile(TSubclassOf<AActor> ClassToSpawn, int Hand);
+
+	virtual void PostInitializeComponents() override;
+
+	virtual FVector GetPawnViewLocation() const override;
+
+	UFUNCTION()
+		void OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth, float Delta);
+
+
+public:
+	// Sets default values for this character's properties
+	ASCharacter();
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	virtual void PostInitializeComponents() override;
-
-	UFUNCTION()
-		void OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth, float Delta);
+	UFUNCTION(Exec)
+		void HealSelf(float Amount = 100);
 };

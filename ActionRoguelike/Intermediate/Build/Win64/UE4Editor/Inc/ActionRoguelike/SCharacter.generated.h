@@ -18,11 +18,13 @@ class USAttributeComponent;
 #define ActionRoguelike_Source_ActionRoguelike_Public_SCharacter_h_12_SPARSE_DATA
 #define ActionRoguelike_Source_ActionRoguelike_Public_SCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execHealSelf); \
 	DECLARE_FUNCTION(execOnHealthChanged);
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execHealSelf); \
 	DECLARE_FUNCTION(execOnHealthChanged);
 
 
@@ -69,13 +71,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASCharacter); \
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__MagicProjectileclass() { return STRUCT_OFFSET(ASCharacter, MagicProjectileclass); } \
-	FORCEINLINE static uint32 __PPO__BlackholeProjectileclass() { return STRUCT_OFFSET(ASCharacter, BlackholeProjectileclass); } \
-	FORCEINLINE static uint32 __PPO__DashProjectileclass() { return STRUCT_OFFSET(ASCharacter, DashProjectileclass); } \
-	FORCEINLINE static uint32 __PPO__PrimaryAttackAnim() { return STRUCT_OFFSET(ASCharacter, PrimaryAttackAnim); } \
-	FORCEINLINE static uint32 __PPO__BlackholeAttackAnim() { return STRUCT_OFFSET(ASCharacter, BlackholeAttackAnim); } \
-	FORCEINLINE static uint32 __PPO__DashAttackAnim() { return STRUCT_OFFSET(ASCharacter, DashAttackAnim); } \
-	FORCEINLINE static uint32 __PPO__CastingEffect() { return STRUCT_OFFSET(ASCharacter, CastingEffect); }
+	FORCEINLINE static uint32 __PPO__TimeToHitParamName() { return STRUCT_OFFSET(ASCharacter, TimeToHitParamName); } \
+	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(ASCharacter, SpringArmComp); } \
+	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(ASCharacter, CameraComp); } \
+	FORCEINLINE static uint32 __PPO__InterationComp() { return STRUCT_OFFSET(ASCharacter, InterationComp); } \
+	FORCEINLINE static uint32 __PPO__AttributeComp() { return STRUCT_OFFSET(ASCharacter, AttributeComp); } \
+	FORCEINLINE static uint32 __PPO__ActionComp() { return STRUCT_OFFSET(ASCharacter, ActionComp); }
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SCharacter_h_9_PROLOG

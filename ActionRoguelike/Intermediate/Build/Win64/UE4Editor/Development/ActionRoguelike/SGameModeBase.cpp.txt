@@ -40,4 +40,10 @@ D:\Software\Epic\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Ch
 D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SAICharacter.generated.h
 D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SAttributeComponent.h
 D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SAttributeComponent.generated.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SCharacter.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SCharacter.generated.h
 D:\Software\Epic\UE_4.25\Engine\Source\Runtime\Engine\Public\EngineUtils.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SPlayerState.h
+D:\Software\Epic\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerState.h
+D:\Software\Epic\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState.generated.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SPlayerState.generated.h

@@ -20,6 +20,9 @@ void EmptyLinkFunctionForGeneratedCodeSMagicProjectile() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ACTIONROGUELIKE_API UClass* Z_Construct_UClass_USActionEffect_NoRegister();
+	GAMEPLAYTAGS_API UScriptStruct* Z_Construct_UScriptStruct_FGameplayTag();
 // End Cross Module References
 	DEFINE_FUNCTION(ASMagicProjectile::execOnActorOverlap)
 	{
@@ -135,6 +138,14 @@ void EmptyLinkFunctionForGeneratedCodeSMagicProjectile() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BurningActionClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BurningActionClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ParryTag_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ParryTag;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageAmount_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DamageAmount;
@@ -156,6 +167,20 @@ void EmptyLinkFunctionForGeneratedCodeSMagicProjectile() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_BurningActionClass_MetaData[] = {
+		{ "Category", "Damage" },
+		{ "ModuleRelativePath", "Public/SMagicProjectile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_BurningActionClass = { "BurningActionClass", nullptr, (EPropertyFlags)0x0024080000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASMagicProjectile, BurningActionClass), Z_Construct_UClass_USActionEffect_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_BurningActionClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_BurningActionClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_ParryTag_MetaData[] = {
+		{ "Category", "Damage" },
+		{ "ModuleRelativePath", "Public/SMagicProjectile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_ParryTag = { "ParryTag", nullptr, (EPropertyFlags)0x0020080000010001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASMagicProjectile, ParryTag), Z_Construct_UScriptStruct_FGameplayTag, METADATA_PARAMS(Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_ParryTag_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_ParryTag_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_DamageAmount_MetaData[] = {
 		{ "Category", "Damage" },
 		{ "ModuleRelativePath", "Public/SMagicProjectile.h" },
@@ -163,6 +188,8 @@ void EmptyLinkFunctionForGeneratedCodeSMagicProjectile() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_DamageAmount = { "DamageAmount", nullptr, (EPropertyFlags)0x0020080000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASMagicProjectile, DamageAmount), METADATA_PARAMS(Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_DamageAmount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_DamageAmount_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASMagicProjectile_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_BurningActionClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_ParryTag,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASMagicProjectile_Statics::NewProp_DamageAmount,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASMagicProjectile_Statics::StaticCppClassTypeInfo = {
@@ -192,7 +219,7 @@ void EmptyLinkFunctionForGeneratedCodeSMagicProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASMagicProjectile, 1443768367);
+	IMPLEMENT_CLASS(ASMagicProjectile, 1160479246);
 	template<> ACTIONROGUELIKE_API UClass* StaticClass<ASMagicProjectile>()
 	{
 		return ASMagicProjectile::StaticClass();

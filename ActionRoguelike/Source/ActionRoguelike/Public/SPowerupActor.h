@@ -23,6 +23,9 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 		class USphereComponent* SphereComp;
 
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+		UStaticMeshComponent* MeshComp;
+
 	UPROPERTY(EditAnywhere, Category = "Powerup")
 		float RespawnTime;
 

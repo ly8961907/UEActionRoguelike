@@ -5,7 +5,12 @@
 #include "AIController.h"
 #include "GameFramework/Character.h"
 #include "BehaviorTree/BlackboardComponent.h"
+#include "SAttributeComponent.h"
 
+USBTTask_RangedAttack::USBTTask_RangedAttack()
+{
+	MaxBulletsSpread = 2.0f;
+}
 
 EBTNodeResult::Type USBTTask_RangedAttack::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
@@ -26,11 +31,21 @@ EBTNodeResult::Type USBTTask_RangedAttack::ExecuteTask(UBehaviorTreeComponent& O
 			return EBTNodeResult::Failed;
 		}
 
+		if (!USAttributeComponent::IsActorAlive(TargetActor))//当玩家死亡，停止整个决策树
+		{
+			return EBTNodeResult::Failed;
+		}
+
 		FVector Direction = TargetActor->GetActorLocation() - MuzzleLocation;
 		FRotator MuzzleRotation = Direction.Rotation();
 
+		MuzzleRotation.Pitch += FMath::RandRange(-MaxBulletsSpread, MaxBulletsSpread);//让AI射击带有随机偏移量
+		MuzzleRotation.Yaw += FMath::RandRange(-MaxBulletsSpread, MaxBulletsSpread);
+
 		FActorSpawnParameters Params;
 		Params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+		Params.Instigator = MyPawn;
+
 		AActor* NewProj = GetWorld()->SpawnActor<AActor>(ProjectileClass, MuzzleLocation, MuzzleRotation, Params);
 
 		return NewProj ? EBTNodeResult::Succeeded : EBTNodeResult::Failed;

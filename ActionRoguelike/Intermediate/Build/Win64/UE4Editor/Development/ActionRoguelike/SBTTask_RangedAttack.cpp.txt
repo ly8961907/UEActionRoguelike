@@ -70,3 +70,5 @@ D:\Software\Epic\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\
 D:\Software\Epic\UE_4.25\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BlackboardData.h
 D:\Software\Epic\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardData.generated.h
 D:\Software\Epic\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardComponent.generated.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SAttributeComponent.h
+D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SAttributeComponent.generated.h

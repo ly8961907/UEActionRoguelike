@@ -37,6 +37,10 @@ void EmptyLinkFunctionForGeneratedCodeSBTTask_RangedAttack() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxBulletsSpread_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxBulletsSpread;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -59,8 +63,16 @@ void EmptyLinkFunctionForGeneratedCodeSBTTask_RangedAttack() {}
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_USBTTask_RangedAttack_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USBTTask_RangedAttack, ProjectileClass), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_USBTTask_RangedAttack_Statics::NewProp_ProjectileClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USBTTask_RangedAttack_Statics::NewProp_ProjectileClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USBTTask_RangedAttack_Statics::NewProp_MaxBulletsSpread_MetaData[] = {
+		{ "Category", "AI" },
+		{ "ModuleRelativePath", "Public/AI/SBTTask_RangedAttack.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_USBTTask_RangedAttack_Statics::NewProp_MaxBulletsSpread = { "MaxBulletsSpread", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USBTTask_RangedAttack, MaxBulletsSpread), METADATA_PARAMS(Z_Construct_UClass_USBTTask_RangedAttack_Statics::NewProp_MaxBulletsSpread_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USBTTask_RangedAttack_Statics::NewProp_MaxBulletsSpread_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_USBTTask_RangedAttack_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USBTTask_RangedAttack_Statics::NewProp_ProjectileClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USBTTask_RangedAttack_Statics::NewProp_MaxBulletsSpread,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_USBTTask_RangedAttack_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<USBTTask_RangedAttack>::IsAbstract,
@@ -89,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeSBTTask_RangedAttack() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USBTTask_RangedAttack, 3521361513);
+	IMPLEMENT_CLASS(USBTTask_RangedAttack, 2486462972);
 	template<> ACTIONROGUELIKE_API UClass* StaticClass<USBTTask_RangedAttack>()
 	{
 		return USBTTask_RangedAttack::StaticClass();

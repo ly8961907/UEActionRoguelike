@@ -70,6 +70,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASPowerupActor); \
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SPowerupActor_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SphereComp() { return STRUCT_OFFSET(ASPowerupActor, SphereComp); } \
+	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(ASPowerupActor, MeshComp); } \
 	FORCEINLINE static uint32 __PPO__RespawnTime() { return STRUCT_OFFSET(ASPowerupActor, RespawnTime); }
 
 

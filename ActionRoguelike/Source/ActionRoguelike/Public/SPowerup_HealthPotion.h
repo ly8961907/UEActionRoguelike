@@ -15,8 +15,9 @@ class ACTIONROGUELIKE_API ASPowerup_HealthPotion : public ASPowerupActor
 	GENERATED_BODY()
 
 protected:
-	UPROPERTY(VisibleAnywhere, Category = "Components")
-		class UStaticMeshComponent* MeshComp;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Costs")
+		int CreditCost;
 
 public:
 	void Interact_Implementation(APawn* InstigatorPawn) override;

@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AController;
 class UEnvQueryInstanceBlueprintWrapper;
 #ifdef ACTIONROGUELIKE_SGameModeBase_generated_h
 #error "SGameModeBase.generated.h already included, missing '#pragma once' in SGameModeBase.h"
@@ -17,13 +18,19 @@ class UEnvQueryInstanceBlueprintWrapper;
 #define ActionRoguelike_Source_ActionRoguelike_Public_SGameModeBase_h_18_SPARSE_DATA
 #define ActionRoguelike_Source_ActionRoguelike_Public_SGameModeBase_h_18_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnQueryCompleted); \
+	DECLARE_FUNCTION(execKillAll); \
+	DECLARE_FUNCTION(execRespawnPlayerElapsed); \
+	DECLARE_FUNCTION(execOnPowerupSpawnQueryCompleted); \
+	DECLARE_FUNCTION(execOnBotSpawnQueryCompleted); \
 	DECLARE_FUNCTION(execSpawnBotTimerElapsed);
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SGameModeBase_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnQueryCompleted); \
+	DECLARE_FUNCTION(execKillAll); \
+	DECLARE_FUNCTION(execRespawnPlayerElapsed); \
+	DECLARE_FUNCTION(execOnPowerupSpawnQueryCompleted); \
+	DECLARE_FUNCTION(execOnBotSpawnQueryCompleted); \
 	DECLARE_FUNCTION(execSpawnBotTimerElapsed);
 
 
@@ -73,7 +80,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASGameModeBase); \
 	FORCEINLINE static uint32 __PPO__MinionClass() { return STRUCT_OFFSET(ASGameModeBase, MinionClass); } \
 	FORCEINLINE static uint32 __PPO__DifficultyCurve() { return STRUCT_OFFSET(ASGameModeBase, DifficultyCurve); } \
 	FORCEINLINE static uint32 __PPO__SpawnBotQuery() { return STRUCT_OFFSET(ASGameModeBase, SpawnBotQuery); } \
-	FORCEINLINE static uint32 __PPO__SpawnTimerInterval() { return STRUCT_OFFSET(ASGameModeBase, SpawnTimerInterval); }
+	FORCEINLINE static uint32 __PPO__SpawnTimerInterval() { return STRUCT_OFFSET(ASGameModeBase, SpawnTimerInterval); } \
+	FORCEINLINE static uint32 __PPO__CreditsPerKill() { return STRUCT_OFFSET(ASGameModeBase, CreditsPerKill); } \
+	FORCEINLINE static uint32 __PPO__PowerupSpawnQuery() { return STRUCT_OFFSET(ASGameModeBase, PowerupSpawnQuery); } \
+	FORCEINLINE static uint32 __PPO__PowerupClasses() { return STRUCT_OFFSET(ASGameModeBase, PowerupClasses); } \
+	FORCEINLINE static uint32 __PPO__RequiredPowerupDistance() { return STRUCT_OFFSET(ASGameModeBase, RequiredPowerupDistance); } \
+	FORCEINLINE static uint32 __PPO__DesiredPowerupCount() { return STRUCT_OFFSET(ASGameModeBase, DesiredPowerupCount); }
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SGameModeBase_h_15_PROLOG
