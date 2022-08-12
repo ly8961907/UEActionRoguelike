@@ -18,12 +18,14 @@ struct FHitResult;
 #define ActionRoguelike_Source_ActionRoguelike_Public_SGameplayFunctionLibrary_h_15_SPARSE_DATA
 #define ActionRoguelike_Source_ActionRoguelike_Public_SGameplayFunctionLibrary_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execApplyMana); \
 	DECLARE_FUNCTION(execApplyDirectionalDamage); \
 	DECLARE_FUNCTION(execApplyDamage);
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SGameplayFunctionLibrary_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execApplyMana); \
 	DECLARE_FUNCTION(execApplyDirectionalDamage); \
 	DECLARE_FUNCTION(execApplyDamage);
 

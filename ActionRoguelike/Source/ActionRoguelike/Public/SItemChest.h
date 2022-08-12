@@ -24,13 +24,14 @@ public:
 
 	void Interact_Implementation(APawn* InstigatorPawn);
 
-public:	
-	// Sets default values for this actor's properties
-	ASItemChest();
 
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	//作用，每当这个函数变化，我们可以让unreal去调用一个函数如下就是调用了 ORLO这个函数，同时 这个函数必须是UFUNCTION（）
+	UPROPERTY(ReplicatedUsing = "OnRep_LidOpened", BlueprintReadOnly) //RepNotify
+	bool bLidOpened;
+
+	UFUNCTION()//必须标记不然Unreal就不知道去哪里找到这个函数了
+	void OnRep_LidOpened();
 
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* BaseMesh;
@@ -39,7 +40,7 @@ protected:
 	UStaticMeshComponent* LidMesh;
 
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	// Sets default values for this actor's properties
+	ASItemChest();
 
 };

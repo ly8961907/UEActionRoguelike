@@ -17,28 +17,59 @@ class USAction;
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_SPARSE_DATA
 #define ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_RPC_WRAPPERS \
+	virtual void ServerStopAction_Implementation(AActor* Instigator, FName ActionName); \
+	virtual void ServerStartAction_Implementation(AActor* Instigator, FName ActionName); \
  \
+	DECLARE_FUNCTION(execServerStopAction); \
+	DECLARE_FUNCTION(execServerStartAction); \
 	DECLARE_FUNCTION(execStopActionByName); \
 	DECLARE_FUNCTION(execStartActionByName); \
+	DECLARE_FUNCTION(execGetAction); \
 	DECLARE_FUNCTION(execRemoveAction); \
 	DECLARE_FUNCTION(execAddAction);
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void ServerStopAction_Implementation(AActor* Instigator, FName ActionName); \
+	virtual void ServerStartAction_Implementation(AActor* Instigator, FName ActionName); \
  \
+	DECLARE_FUNCTION(execServerStopAction); \
+	DECLARE_FUNCTION(execServerStartAction); \
 	DECLARE_FUNCTION(execStopActionByName); \
 	DECLARE_FUNCTION(execStartActionByName); \
+	DECLARE_FUNCTION(execGetAction); \
 	DECLARE_FUNCTION(execRemoveAction); \
 	DECLARE_FUNCTION(execAddAction);
 
 
+#define ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_EVENT_PARMS \
+	struct SActionComponent_eventServerStartAction_Parms \
+	{ \
+		AActor* Instigator; \
+		FName ActionName; \
+	}; \
+	struct SActionComponent_eventServerStopAction_Parms \
+	{ \
+		AActor* Instigator; \
+		FName ActionName; \
+	};
+
+
+#define ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_CALLBACK_WRAPPERS
 #define ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSActionComponent(); \
 	friend struct Z_Construct_UClass_USActionComponent_Statics; \
 public: \
 	DECLARE_CLASS(USActionComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ActionRoguelike"), NO_API) \
-	DECLARE_SERIALIZER(USActionComponent)
+	DECLARE_SERIALIZER(USActionComponent) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override; \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		Actions=NETFIELD_REP_START, \
+		NETFIELD_REP_END=Actions	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_INCLASS \
@@ -47,7 +78,14 @@ private: \
 	friend struct Z_Construct_UClass_USActionComponent_Statics; \
 public: \
 	DECLARE_CLASS(USActionComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ActionRoguelike"), NO_API) \
-	DECLARE_SERIALIZER(USActionComponent)
+	DECLARE_SERIALIZER(USActionComponent) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override; \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		Actions=NETFIELD_REP_START, \
+		NETFIELD_REP_END=Actions	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_STANDARD_CONSTRUCTORS \
@@ -79,13 +117,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USActionComponent); \
 	FORCEINLINE static uint32 __PPO__Actions() { return STRUCT_OFFSET(USActionComponent, Actions); }
 
 
-#define ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_12_PROLOG
+#define ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_12_PROLOG \
+	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_EVENT_PARMS
+
+
 #define ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_PRIVATE_PROPERTY_OFFSET \
 	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_SPARSE_DATA \
 	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_RPC_WRAPPERS \
+	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_CALLBACK_WRAPPERS \
 	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_INCLASS \
 	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_STANDARD_CONSTRUCTORS \
 public: \
@@ -98,6 +140,7 @@ public: \
 	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_PRIVATE_PROPERTY_OFFSET \
 	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_SPARSE_DATA \
 	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_CALLBACK_WRAPPERS \
 	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_INCLASS_NO_PURE_DECLS \
 	ActionRoguelike_Source_ActionRoguelike_Public_SActionComponent_h_15_ENHANCED_CONSTRUCTORS \
 private: \

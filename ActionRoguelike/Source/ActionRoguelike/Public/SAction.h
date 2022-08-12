@@ -9,6 +9,19 @@
 
 class UWorld;
 
+USTRUCT()
+struct FActionRepData //保证数据同时到达
+{
+	GENERATED_BODY()
+
+public:
+
+	UPROPERTY()
+	bool bIsRunning;
+	UPROPERTY()
+	AActor* Instigator;
+};
+
 /**
  * 
  */
@@ -19,6 +32,9 @@ class ACTIONROGUELIKE_API USAction : public UObject
 
 protected:
 
+	UPROPERTY(Replicated)
+		USActionComponent* ActionComp;
+
 	UFUNCTION(BlueprintCallable, Category = "Action")
 		USActionComponent* GetOwningComponent() const;
 
@@ -28,9 +44,16 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Tags")
 		FGameplayTagContainer BlockedTags;//检查我们是否允许去执行 action can only start if owning actor has none of these tags applied
 
-	bool bIsRunning;
+	UPROPERTY(ReplicatedUsing="OnRep_RepData")
+		//bool bIsRunning;
+		FActionRepData RepData;
+
+	UFUNCTION()
+		void OnRep_RepData();
 
 public:
+
+	void Initialize(USActionComponent* NewActionComp);
 
 	UPROPERTY(EditDefaultsOnly, Category = "Action")
 		bool bAuntoStart;
@@ -52,4 +75,9 @@ public:
 		FName ActionName;
 
 	UWorld* GetWorld() const override;
+
+	bool IsSupportedForNetworking() const override
+	{
+		return true;
+	}
 };

@@ -23,12 +23,15 @@ void USAction_ProjectileAttack::StartAction_Implementation(AActor* Instigator)
 
 		UGameplayStatics::SpawnEmitterAttached(CastingEffect, Character->GetMesh(), HandSocketName, FVector::ZeroVector, FRotator::ZeroRotator, EAttachLocation::SnapToTarget);
 
-		FTimerHandle TimerHandle_AttackDelay;
-		FTimerDelegate Delegate;
-		Delegate.BindUFunction(this, "AttackDelay_Elapsed", Character);
+		if (Character->HasAuthority())
+		{
+			FTimerHandle TimerHandle_AttackDelay;
+			FTimerDelegate Delegate;
+			Delegate.BindUFunction(this, "AttackDelay_Elapsed", Character);
 
-		GetWorld()->GetTimerManager().SetTimer(TimerHandle_AttackDelay, Delegate, AttackAnimDelay, false);
-		////GetWorldTimerManager().ClearTimer(TimeHandle_PrimaryAttack);如果人物死了 仍然在攻击，使用这个函数可以解决这个问题
+			GetWorld()->GetTimerManager().SetTimer(TimerHandle_AttackDelay, Delegate, AttackAnimDelay, false);
+			////GetWorldTimerManager().ClearTimer(TimeHandle_PrimaryAttack);如果人物死了 仍然在攻击，使用这个函数可以解决这个问题
+		}
 	}
 }
 

@@ -13,14 +13,115 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeSAction() {}
 // Cross Module References
+	ACTIONROGUELIKE_API UScriptStruct* Z_Construct_UScriptStruct_FActionRepData();
+	UPackage* Z_Construct_UPackage__Script_ActionRoguelike();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ACTIONROGUELIKE_API UClass* Z_Construct_UClass_USAction_NoRegister();
 	ACTIONROGUELIKE_API UClass* Z_Construct_UClass_USAction();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
-	UPackage* Z_Construct_UPackage__Script_ActionRoguelike();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ACTIONROGUELIKE_API UClass* Z_Construct_UClass_USActionComponent_NoRegister();
 	GAMEPLAYTAGS_API UScriptStruct* Z_Construct_UScriptStruct_FGameplayTagContainer();
 // End Cross Module References
+class UScriptStruct* FActionRepData::StaticStruct()
+{
+	static class UScriptStruct* Singleton = NULL;
+	if (!Singleton)
+	{
+		extern ACTIONROGUELIKE_API uint32 Get_Z_Construct_UScriptStruct_FActionRepData_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FActionRepData, Z_Construct_UPackage__Script_ActionRoguelike(), TEXT("ActionRepData"), sizeof(FActionRepData), Get_Z_Construct_UScriptStruct_FActionRepData_Hash());
+	}
+	return Singleton;
+}
+template<> ACTIONROGUELIKE_API UScriptStruct* StaticStruct<FActionRepData>()
+{
+	return FActionRepData::StaticStruct();
+}
+static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FActionRepData(FActionRepData::StaticStruct, TEXT("/Script/ActionRoguelike"), TEXT("ActionRepData"), false, nullptr, nullptr);
+static struct FScriptStruct_ActionRoguelike_StaticRegisterNativesFActionRepData
+{
+	FScriptStruct_ActionRoguelike_StaticRegisterNativesFActionRepData()
+	{
+		UScriptStruct::DeferCppStructOps(FName(TEXT("ActionRepData")),new UScriptStruct::TCppStructOps<FActionRepData>);
+	}
+} ScriptStruct_ActionRoguelike_StaticRegisterNativesFActionRepData;
+	struct Z_Construct_UScriptStruct_FActionRepData_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+		static void* NewStructOps();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Instigator_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Instigator;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsRunning_MetaData[];
+#endif
+		static void NewProp_bIsRunning_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsRunning;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FActionRepData_Statics::Struct_MetaDataParams[] = {
+		{ "Comment", "//??\xd6\xa4????\xcd\xac\xca\xb1????\n" },
+		{ "ModuleRelativePath", "Public/SAction.h" },
+		{ "ToolTip", "??\xd6\xa4????\xcd\xac\xca\xb1????" },
+	};
+#endif
+	void* Z_Construct_UScriptStruct_FActionRepData_Statics::NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FActionRepData>();
+	}
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_Instigator_MetaData[] = {
+		{ "ModuleRelativePath", "Public/SAction.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_Instigator = { "Instigator", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FActionRepData, Instigator), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_Instigator_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_Instigator_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_bIsRunning_MetaData[] = {
+		{ "ModuleRelativePath", "Public/SAction.h" },
+	};
+#endif
+	void Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_bIsRunning_SetBit(void* Obj)
+	{
+		((FActionRepData*)Obj)->bIsRunning = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_bIsRunning = { "bIsRunning", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FActionRepData), &Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_bIsRunning_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_bIsRunning_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_bIsRunning_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FActionRepData_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_Instigator,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FActionRepData_Statics::NewProp_bIsRunning,
+	};
+	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FActionRepData_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_ActionRoguelike,
+		nullptr,
+		&NewStructOps,
+		"ActionRepData",
+		sizeof(FActionRepData),
+		alignof(FActionRepData),
+		Z_Construct_UScriptStruct_FActionRepData_Statics::PropPointers,
+		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FActionRepData_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FActionRepData_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FActionRepData_Statics::Struct_MetaDataParams))
+	};
+	UScriptStruct* Z_Construct_UScriptStruct_FActionRepData()
+	{
+#if WITH_HOT_RELOAD
+		extern uint32 Get_Z_Construct_UScriptStruct_FActionRepData_Hash();
+		UPackage* Outer = Z_Construct_UPackage__Script_ActionRoguelike();
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("ActionRepData"), sizeof(FActionRepData), Get_Z_Construct_UScriptStruct_FActionRepData_Hash(), false);
+#else
+		static UScriptStruct* ReturnStruct = nullptr;
+#endif
+		if (!ReturnStruct)
+		{
+			UE4CodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FActionRepData_Statics::ReturnStructParams);
+		}
+		return ReturnStruct;
+	}
+	uint32 Get_Z_Construct_UScriptStruct_FActionRepData_Hash() { return 3506015927U; }
 	DEFINE_FUNCTION(USAction::execStopAction)
 	{
 		P_GET_OBJECT(AActor,Z_Param_Instigator);
@@ -50,6 +151,13 @@ void EmptyLinkFunctionForGeneratedCodeSAction() {}
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		*(bool*)Z_Param__Result=P_THIS->IsRunning();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(USAction::execOnRep_RepData)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnRep_RepData();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(USAction::execGetOwningComponent)
@@ -88,6 +196,7 @@ void EmptyLinkFunctionForGeneratedCodeSAction() {}
 			{ "CanStart", &USAction::execCanStart },
 			{ "GetOwningComponent", &USAction::execGetOwningComponent },
 			{ "IsRunning", &USAction::execIsRunning },
+			{ "OnRep_RepData", &USAction::execOnRep_RepData },
 			{ "StartAction", &USAction::execStartAction },
 			{ "StopAction", &USAction::execStopAction },
 		};
@@ -209,6 +318,28 @@ void EmptyLinkFunctionForGeneratedCodeSAction() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_USAction_OnRep_RepData_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USAction_OnRep_RepData_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/SAction.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_USAction_OnRep_RepData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USAction, nullptr, "OnRep_RepData", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USAction_OnRep_RepData_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_USAction_OnRep_RepData_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_USAction_OnRep_RepData()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_USAction_OnRep_RepData_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_USAction_StartAction_Statics
 	{
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Instigator;
@@ -288,6 +419,10 @@ void EmptyLinkFunctionForGeneratedCodeSAction() {}
 		static void NewProp_bAuntoStart_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bAuntoStart;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RepData_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_RepData;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BlockedTags_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_BlockedTags;
@@ -295,6 +430,10 @@ void EmptyLinkFunctionForGeneratedCodeSAction() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GrantsTags_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_GrantsTags;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActionComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActionComp;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -307,6 +446,7 @@ void EmptyLinkFunctionForGeneratedCodeSAction() {}
 		{ &Z_Construct_UFunction_USAction_CanStart, "CanStart" }, // 364523108
 		{ &Z_Construct_UFunction_USAction_GetOwningComponent, "GetOwningComponent" }, // 3868691811
 		{ &Z_Construct_UFunction_USAction_IsRunning, "IsRunning" }, // 4209980909
+		{ &Z_Construct_UFunction_USAction_OnRep_RepData, "OnRep_RepData" }, // 3851535223
 		{ &Z_Construct_UFunction_USAction_StartAction, "StartAction" }, // 1316576373
 		{ &Z_Construct_UFunction_USAction_StopAction, "StopAction" }, // 3419132261
 	};
@@ -340,6 +480,14 @@ void EmptyLinkFunctionForGeneratedCodeSAction() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_USAction_Statics::NewProp_bAuntoStart = { "bAuntoStart", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(USAction), &Z_Construct_UClass_USAction_Statics::NewProp_bAuntoStart_SetBit, METADATA_PARAMS(Z_Construct_UClass_USAction_Statics::NewProp_bAuntoStart_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USAction_Statics::NewProp_bAuntoStart_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USAction_Statics::NewProp_RepData_MetaData[] = {
+		{ "Comment", "//?????????\xc7\xb7?????\xc8\xa5\xd6\xb4?? action can only start if owning actor has none of these tags applied\n//bool bIsRunning;\n" },
+		{ "ModuleRelativePath", "Public/SAction.h" },
+		{ "ToolTip", "?????????\xc7\xb7?????\xc8\xa5\xd6\xb4?? action can only start if owning actor has none of these tags applied\nbool bIsRunning;" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_USAction_Statics::NewProp_RepData = { "RepData", "OnRep_RepData", (EPropertyFlags)0x0020080100000020, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USAction, RepData), Z_Construct_UScriptStruct_FActionRepData, METADATA_PARAMS(Z_Construct_UClass_USAction_Statics::NewProp_RepData_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USAction_Statics::NewProp_RepData_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USAction_Statics::NewProp_BlockedTags_MetaData[] = {
 		{ "Category", "Tags" },
 		{ "Comment", "//tags ???? ??actor?? activated????actor stop tags???\xc6\xb3?\n" },
@@ -355,11 +503,20 @@ void EmptyLinkFunctionForGeneratedCodeSAction() {}
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_USAction_Statics::NewProp_GrantsTags = { "GrantsTags", nullptr, (EPropertyFlags)0x0020080000010001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USAction, GrantsTags), Z_Construct_UScriptStruct_FGameplayTagContainer, METADATA_PARAMS(Z_Construct_UClass_USAction_Statics::NewProp_GrantsTags_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USAction_Statics::NewProp_GrantsTags_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USAction_Statics::NewProp_ActionComp_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/SAction.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USAction_Statics::NewProp_ActionComp = { "ActionComp", nullptr, (EPropertyFlags)0x0020080000080028, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USAction, ActionComp), Z_Construct_UClass_USActionComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_USAction_Statics::NewProp_ActionComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USAction_Statics::NewProp_ActionComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_USAction_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USAction_Statics::NewProp_ActionName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USAction_Statics::NewProp_bAuntoStart,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USAction_Statics::NewProp_RepData,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USAction_Statics::NewProp_BlockedTags,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USAction_Statics::NewProp_GrantsTags,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USAction_Statics::NewProp_ActionComp,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_USAction_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<USAction>::IsAbstract,
@@ -376,7 +533,7 @@ void EmptyLinkFunctionForGeneratedCodeSAction() {}
 		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_USAction_Statics::PropPointers),
 		0,
-		0x001000A0u,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_USAction_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_USAction_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_USAction()
@@ -388,12 +545,24 @@ void EmptyLinkFunctionForGeneratedCodeSAction() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USAction, 3303470416);
+	IMPLEMENT_CLASS(USAction, 4267836410);
 	template<> ACTIONROGUELIKE_API UClass* StaticClass<USAction>()
 	{
 		return USAction::StaticClass();
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USAction(Z_Construct_UClass_USAction, &USAction::StaticClass, TEXT("/Script/ActionRoguelike"), TEXT("USAction"), false, nullptr, nullptr, nullptr);
+
+	void USAction::ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const
+	{
+		static const FName Name_ActionComp(TEXT("ActionComp"));
+		static const FName Name_RepData(TEXT("RepData"));
+
+		const bool bIsValid = true
+			&& Name_ActionComp == ClassReps[(int32)ENetFields_Private::ActionComp].Property->GetFName()
+			&& Name_RepData == ClassReps[(int32)ENetFields_Private::RepData].Property->GetFName();
+
+		checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in USAction"));
+	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USAction);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER

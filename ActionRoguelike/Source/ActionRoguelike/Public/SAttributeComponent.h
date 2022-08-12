@@ -6,7 +6,11 @@
 #include "Components/ActorComponent.h"
 #include "SAttributeComponent.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_FourParams(FOnHealthChanged, AActor*, InstigatorActor, USAttributeComponent*, OwningComp, float, NewHealth, float, Delta);
+//DECLARE_DYNAMIC_MULTICAST_DELEGATE_FourParams(FOnHealthChanged, AActor*, InstigatorActor, USAttributeComponent*, OwningComp, float, NewHealth, float, Delta);
+// 
+// Alternative: Share the same signature with generic names
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_FourParams(FOnAttributeChanged, AActor*, InstigatorActor, USAttributeComponent*, OwningComp, float, NewValue, float, Delta);
+
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class ACTIONROGUELIKE_API USAttributeComponent : public UActorComponent
@@ -36,31 +40,50 @@ protected:
 	// --
 	// Category = "" - display only for detail panels and blueprint context menu.
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Replicated, Category = "Attributes")
+		float Health;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Replicated, Category = "Attributes")
+		float MaxHealth;
+
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Attributes")
-	float Health;
+		float Mana;
+
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Attributes")
-	float MaxHealth;
+		float MaxMana;
+
+	UFUNCTION(NetMulticast, Reliable) //@FIXME :mark as unreliable once we moved the 'state' out of scharacter
+	void MulticastHealthChanged(AActor* InstigatorActor, float NewHealth, float Delta);
 
 public:	
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, Category = "Attributes")
 		bool Kill(AActor *InstigatorActor);
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, Category = "Attributes")
 		bool IsAlive() const;//ÈÃº¯ÊýÖ»¿É¶Á
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, Category = "Attributes")
 		bool IsFullHealth() const;
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, Category = "Attributes")
 		float GetHealthMax() const;
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, Category = "Attributes")
 		float GetHealth() const;
-			
-	UPROPERTY(BlueprintAssignable)
-	FOnHealthChanged OnHealthChanged;
 
 	UFUNCTION(BlueprintCallable, Category = "Attributes")
-	bool ApplyHealthChange(AActor * InstigatorActor, float Delta);
+		bool ApplyHealthChange(AActor * InstigatorActor, float Delta);
+
+	UPROPERTY(BlueprintAssignable, Category = "Attributes")
+		FOnAttributeChanged OnHealthChanged;
+
+	UPROPERTY(BlueprintAssignable, Category = "Attributes")
+		FOnAttributeChanged OnManaChanged;
+
+	UFUNCTION(BlueprintCallable, Category = "Attributes")
+		float GetMana() const;
+
+	UFUNCTION(BlueprintCallable, Category = "Attributes")
+		bool ApplyManaChange(AActor* InstigatorActor, float Delta);
 };

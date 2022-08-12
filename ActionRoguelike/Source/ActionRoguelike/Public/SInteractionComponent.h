@@ -19,6 +19,13 @@ public:
 
 protected:
 
+	//	Reliable - will always arrive eventually, request will be re sent unless be acknowledgment was received
+	// 就像tcp ip 他会不断向他发送请求直到收到回复
+	// unreliable - not guaranteed packet can get lost 
+	// 就像udp 不关心是不是到达
+	UFUNCTION(Server, Reliable)
+	void ServerInteract(AActor * InFocus);
+
 	void FindBestInteractable();
 
 	// Called when the game starts

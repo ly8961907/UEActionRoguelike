@@ -141,7 +141,7 @@ void EmptyLinkFunctionForGeneratedCodeSActionEffect() {}
 		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_USActionEffect_Statics::PropPointers),
 		0,
-		0x001000A0u,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_USActionEffect_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_USActionEffect_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_USActionEffect()
@@ -153,7 +153,7 @@ void EmptyLinkFunctionForGeneratedCodeSActionEffect() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USActionEffect, 1934243634);
+	IMPLEMENT_CLASS(USActionEffect, 889812302);
 	template<> ACTIONROGUELIKE_API UClass* StaticClass<USActionEffect>()
 	{
 		return USActionEffect::StaticClass();

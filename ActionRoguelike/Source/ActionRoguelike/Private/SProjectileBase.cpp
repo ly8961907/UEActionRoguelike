@@ -35,6 +35,8 @@ ASProjectileBase::ASProjectileBase()
 
 	ImpactShakeInnerRadius = 0.0f;
 	ImpactShakeOuterRadius = 1500.0f;
+
+	SetReplicates(true);
 }
 
 // Called when the game starts or when spawned

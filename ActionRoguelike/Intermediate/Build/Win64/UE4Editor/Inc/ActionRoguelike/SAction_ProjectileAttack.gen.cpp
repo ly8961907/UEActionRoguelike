@@ -179,7 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeSAction_ProjectileAttack() {}
 		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_USAction_ProjectileAttack_Statics::PropPointers),
 		0,
-		0x001000A0u,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_USAction_ProjectileAttack_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_USAction_ProjectileAttack_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_USAction_ProjectileAttack()
@@ -191,7 +191,7 @@ void EmptyLinkFunctionForGeneratedCodeSAction_ProjectileAttack() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USAction_ProjectileAttack, 3069973324);
+	IMPLEMENT_CLASS(USAction_ProjectileAttack, 2732303334);
 	template<> ACTIONROGUELIKE_API UClass* StaticClass<USAction_ProjectileAttack>()
 	{
 		return USAction_ProjectileAttack::StaticClass();

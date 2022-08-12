@@ -1,7 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Software\Git\Project\UEActionRoguelike).
+  Creating makefile for ActionRoguelikeEditor (no existing makefile)
+  Parsing headers for ActionRoguelikeEditor
+    Running UnrealHeaderTool "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\ActionRoguelike.uproject" "D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\ActionRoguelikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\win10\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for ActionRoguelikeEditor in 4.7189704 seconds
   Building ActionRoguelikeEditor...
   Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 1 action with 16 processes...
-    [1/1] ActionRoguelikeEditor.target
-  Total time in Parallel executor: 0.88 seconds
-  Total execution time: 1.44 seconds
+  Building 6 actions with 16 processes...
+    [1/6] ActionRoguelike.init.gen.cpp
+    [2/6] SPlayerController.cpp
+    [3/6] SPlayerController.gen.cpp
+    [4/6] UE4Editor-ActionRoguelike-0002.lib
+      ���ڴ����� D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-0002.lib �Ͷ��� D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-0002.exp
+    [5/6] UE4Editor-ActionRoguelike-0002.dll
+      ���ڴ����� D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-0002.suppressed.lib �Ͷ��� D:\Software\Git\Project\UEActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike-0002.suppressed.exp
+    [6/6] ActionRoguelikeEditor.target
+  Total time in Parallel executor: 1.73 seconds
+  Total execution time: 8.24 seconds

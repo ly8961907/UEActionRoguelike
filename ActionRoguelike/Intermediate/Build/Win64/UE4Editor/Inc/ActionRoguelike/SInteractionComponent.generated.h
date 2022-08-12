@@ -8,14 +8,33 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef ACTIONROGUELIKE_SInteractionComponent_generated_h
 #error "SInteractionComponent.generated.h already included, missing '#pragma once' in SInteractionComponent.h"
 #endif
 #define ACTIONROGUELIKE_SInteractionComponent_generated_h
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_SPARSE_DATA
-#define ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_RPC_WRAPPERS
-#define ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_RPC_WRAPPERS \
+	virtual void ServerInteract_Implementation(AActor* InFocus); \
+ \
+	DECLARE_FUNCTION(execServerInteract);
+
+
+#define ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void ServerInteract_Implementation(AActor* InFocus); \
+ \
+	DECLARE_FUNCTION(execServerInteract);
+
+
+#define ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_EVENT_PARMS \
+	struct SInteractionComponent_eventServerInteract_Parms \
+	{ \
+		AActor* InFocus; \
+	};
+
+
+#define ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_CALLBACK_WRAPPERS
 #define ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSInteractionComponent(); \
@@ -67,13 +86,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USInteractionComponent); \
 	FORCEINLINE static uint32 __PPO__DefaultWidgetInstance() { return STRUCT_OFFSET(USInteractionComponent, DefaultWidgetInstance); }
 
 
-#define ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_11_PROLOG
+#define ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_11_PROLOG \
+	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_EVENT_PARMS
+
+
 #define ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_PRIVATE_PROPERTY_OFFSET \
 	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_SPARSE_DATA \
 	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_RPC_WRAPPERS \
+	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_CALLBACK_WRAPPERS \
 	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_INCLASS \
 	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_STANDARD_CONSTRUCTORS \
 public: \
@@ -86,6 +109,7 @@ public: \
 	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_PRIVATE_PROPERTY_OFFSET \
 	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_SPARSE_DATA \
 	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_CALLBACK_WRAPPERS \
 	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_INCLASS_NO_PURE_DECLS \
 	ActionRoguelike_Source_ActionRoguelike_Public_SInteractionComponent_h_14_ENHANCED_CONSTRUCTORS \
 private: \

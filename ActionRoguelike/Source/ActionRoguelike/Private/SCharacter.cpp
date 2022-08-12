@@ -33,6 +33,8 @@ ASCharacter::ASCharacter()
 	GetCharacterMovement()->bOrientRotationToMovement = true;//让角色朝着摄像机面向的方向移动
 	bUseControllerRotationYaw = false;	
 
+	TimeToHitParamName = "TimeToHit";
+
 }
 
 void ASCharacter::PostInitializeComponents()
@@ -141,11 +143,16 @@ void ASCharacter::OnHealthChanged(AActor* InstigatorActor, USAttributeComponent*
 	if (Delta < 0.0f)
 	{
 		GetMesh()->SetScalarParameterValueOnMaterials(TimeToHitParamName, GetWorld()->TimeSeconds);
+
+		float ManaDelta = FMath::Abs(Delta);
+		AttributeComp->ApplyManaChange(InstigatorActor, ManaDelta);
 	}
 
 	if (NewHealth <= 0.0f && Delta <= 0.0f)
 	{
 		APlayerController* PC = Cast<APlayerController>(GetController());
 		DisableInput(PC);
+
+		SetLifeSpan(5.0f);
 	}
 }

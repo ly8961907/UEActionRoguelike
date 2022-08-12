@@ -22,6 +22,24 @@ void EmptyLinkFunctionForGeneratedCodeSActionComponent() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	GAMEPLAYTAGS_API UScriptStruct* Z_Construct_UScriptStruct_FGameplayTagContainer();
 // End Cross Module References
+	DEFINE_FUNCTION(USActionComponent::execServerStopAction)
+	{
+		P_GET_OBJECT(AActor,Z_Param_Instigator);
+		P_GET_PROPERTY(FNameProperty,Z_Param_ActionName);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ServerStopAction_Implementation(Z_Param_Instigator,Z_Param_ActionName);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(USActionComponent::execServerStartAction)
+	{
+		P_GET_OBJECT(AActor,Z_Param_Instigator);
+		P_GET_PROPERTY(FNameProperty,Z_Param_ActionName);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ServerStartAction_Implementation(Z_Param_Instigator,Z_Param_ActionName);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(USActionComponent::execStopActionByName)
 	{
 		P_GET_OBJECT(AActor,Z_Param_Instigator);
@@ -38,6 +56,14 @@ void EmptyLinkFunctionForGeneratedCodeSActionComponent() {}
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		*(bool*)Z_Param__Result=P_THIS->StartActionByName(Z_Param_Instigator,Z_Param_ActionName);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(USActionComponent::execGetAction)
+	{
+		P_GET_OBJECT(UClass,Z_Param_ActionClass);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(USAction**)Z_Param__Result=P_THIS->GetAction(Z_Param_ActionClass);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(USActionComponent::execRemoveAction)
@@ -57,12 +83,31 @@ void EmptyLinkFunctionForGeneratedCodeSActionComponent() {}
 		P_THIS->AddAction(Z_Param_Instigator,Z_Param_ActionClass);
 		P_NATIVE_END;
 	}
+	static FName NAME_USActionComponent_ServerStartAction = FName(TEXT("ServerStartAction"));
+	void USActionComponent::ServerStartAction(AActor* Instigator, FName ActionName)
+	{
+		SActionComponent_eventServerStartAction_Parms Parms;
+		Parms.Instigator=Instigator;
+		Parms.ActionName=ActionName;
+		ProcessEvent(FindFunctionChecked(NAME_USActionComponent_ServerStartAction),&Parms);
+	}
+	static FName NAME_USActionComponent_ServerStopAction = FName(TEXT("ServerStopAction"));
+	void USActionComponent::ServerStopAction(AActor* Instigator, FName ActionName)
+	{
+		SActionComponent_eventServerStopAction_Parms Parms;
+		Parms.Instigator=Instigator;
+		Parms.ActionName=ActionName;
+		ProcessEvent(FindFunctionChecked(NAME_USActionComponent_ServerStopAction),&Parms);
+	}
 	void USActionComponent::StaticRegisterNativesUSActionComponent()
 	{
 		UClass* Class = USActionComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AddAction", &USActionComponent::execAddAction },
+			{ "GetAction", &USActionComponent::execGetAction },
 			{ "RemoveAction", &USActionComponent::execRemoveAction },
+			{ "ServerStartAction", &USActionComponent::execServerStartAction },
+			{ "ServerStopAction", &USActionComponent::execServerStopAction },
 			{ "StartActionByName", &USActionComponent::execStartActionByName },
 			{ "StopActionByName", &USActionComponent::execStopActionByName },
 		};
@@ -107,6 +152,43 @@ void EmptyLinkFunctionForGeneratedCodeSActionComponent() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_USActionComponent_GetAction_Statics
+	{
+		struct SActionComponent_eventGetAction_Parms
+		{
+			TSubclassOf<USAction>  ActionClass;
+			USAction* ReturnValue;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ActionClass;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USActionComponent_GetAction_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SActionComponent_eventGetAction_Parms, ReturnValue), Z_Construct_UClass_USAction_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_USActionComponent_GetAction_Statics::NewProp_ActionClass = { "ActionClass", nullptr, (EPropertyFlags)0x0014000000000080, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SActionComponent_eventGetAction_Parms, ActionClass), Z_Construct_UClass_USAction_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USActionComponent_GetAction_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USActionComponent_GetAction_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USActionComponent_GetAction_Statics::NewProp_ActionClass,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USActionComponent_GetAction_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Action" },
+		{ "ModuleRelativePath", "Public/SActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_USActionComponent_GetAction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USActionComponent, nullptr, "GetAction", nullptr, nullptr, sizeof(SActionComponent_eventGetAction_Parms), Z_Construct_UFunction_USActionComponent_GetAction_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_USActionComponent_GetAction_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USActionComponent_GetAction_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_USActionComponent_GetAction_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_USActionComponent_GetAction()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_USActionComponent_GetAction_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_USActionComponent_RemoveAction_Statics
 	{
 		struct SActionComponent_eventRemoveAction_Parms
@@ -137,6 +219,68 @@ void EmptyLinkFunctionForGeneratedCodeSActionComponent() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_USActionComponent_RemoveAction_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics
+	{
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_ActionName;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Instigator;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::NewProp_ActionName = { "ActionName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SActionComponent_eventServerStartAction_Parms, ActionName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::NewProp_Instigator = { "Instigator", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SActionComponent_eventServerStartAction_Parms, Instigator), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::NewProp_ActionName,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::NewProp_Instigator,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/SActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USActionComponent, nullptr, "ServerStartAction", nullptr, nullptr, sizeof(SActionComponent_eventServerStartAction_Parms), Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00280CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_USActionComponent_ServerStartAction()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_USActionComponent_ServerStartAction_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics
+	{
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_ActionName;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Instigator;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::NewProp_ActionName = { "ActionName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SActionComponent_eventServerStopAction_Parms, ActionName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::NewProp_Instigator = { "Instigator", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SActionComponent_eventServerStopAction_Parms, Instigator), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::NewProp_ActionName,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::NewProp_Instigator,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/SActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USActionComponent, nullptr, "ServerStopAction", nullptr, nullptr, sizeof(SActionComponent_eventServerStopAction_Parms), Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00280CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_USActionComponent_ServerStopAction()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_USActionComponent_ServerStopAction_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -267,7 +411,10 @@ void EmptyLinkFunctionForGeneratedCodeSActionComponent() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_USActionComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_USActionComponent_AddAction, "AddAction" }, // 2501547961
+		{ &Z_Construct_UFunction_USActionComponent_GetAction, "GetAction" }, // 3746763165
 		{ &Z_Construct_UFunction_USActionComponent_RemoveAction, "RemoveAction" }, // 2642186221
+		{ &Z_Construct_UFunction_USActionComponent_ServerStartAction, "ServerStartAction" }, // 318242462
+		{ &Z_Construct_UFunction_USActionComponent_ServerStopAction, "ServerStopAction" }, // 1366222577
 		{ &Z_Construct_UFunction_USActionComponent_StartActionByName, "StartActionByName" }, // 442911286
 		{ &Z_Construct_UFunction_USActionComponent_StopActionByName, "StopActionByName" }, // 4150119106
 	};
@@ -284,7 +431,7 @@ void EmptyLinkFunctionForGeneratedCodeSActionComponent() {}
 		{ "ModuleRelativePath", "Public/SActionComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_USActionComponent_Statics::NewProp_Actions = { "Actions", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USActionComponent, Actions), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_USActionComponent_Statics::NewProp_Actions_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USActionComponent_Statics::NewProp_Actions_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_USActionComponent_Statics::NewProp_Actions = { "Actions", nullptr, (EPropertyFlags)0x0020080000000020, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USActionComponent, Actions), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_USActionComponent_Statics::NewProp_Actions_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USActionComponent_Statics::NewProp_Actions_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USActionComponent_Statics::NewProp_Actions_Inner = { "Actions", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_USAction_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USActionComponent_Statics::NewProp_DefaultActions_MetaData[] = {
@@ -335,12 +482,22 @@ void EmptyLinkFunctionForGeneratedCodeSActionComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USActionComponent, 2195156578);
+	IMPLEMENT_CLASS(USActionComponent, 2585259226);
 	template<> ACTIONROGUELIKE_API UClass* StaticClass<USActionComponent>()
 	{
 		return USActionComponent::StaticClass();
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USActionComponent(Z_Construct_UClass_USActionComponent, &USActionComponent::StaticClass, TEXT("/Script/ActionRoguelike"), TEXT("USActionComponent"), false, nullptr, nullptr, nullptr);
+
+	void USActionComponent::ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const
+	{
+		static const FName Name_Actions(TEXT("Actions"));
+
+		const bool bIsValid = true
+			&& Name_Actions == ClassReps[(int32)ENetFields_Private::Actions].Property->GetFName();
+
+		checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in USActionComponent"));
+	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USActionComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER

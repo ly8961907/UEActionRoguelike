@@ -64,10 +64,11 @@ void EmptyLinkFunctionForGeneratedCodeSWorldUserWidget() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USWorldUserWidget_Statics::NewProp_AttachedAtctor_MetaData[] = {
 		{ "Category", "UI" },
+		{ "ExposeOnSpawn", "TRUE" },
 		{ "ModuleRelativePath", "Public/SWorldUserWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USWorldUserWidget_Statics::NewProp_AttachedAtctor = { "AttachedAtctor", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USWorldUserWidget, AttachedAtctor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_USWorldUserWidget_Statics::NewProp_AttachedAtctor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USWorldUserWidget_Statics::NewProp_AttachedAtctor_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USWorldUserWidget_Statics::NewProp_AttachedAtctor = { "AttachedAtctor", nullptr, (EPropertyFlags)0x0011000000000004, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USWorldUserWidget, AttachedAtctor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_USWorldUserWidget_Statics::NewProp_AttachedAtctor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USWorldUserWidget_Statics::NewProp_AttachedAtctor_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USWorldUserWidget_Statics::NewProp_WorldOffset_MetaData[] = {
 		{ "Category", "UI" },
@@ -115,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeSWorldUserWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USWorldUserWidget, 2071405514);
+	IMPLEMENT_CLASS(USWorldUserWidget, 409126630);
 	template<> ACTIONROGUELIKE_API UClass* StaticClass<USWorldUserWidget>()
 	{
 		return USWorldUserWidget::StaticClass();

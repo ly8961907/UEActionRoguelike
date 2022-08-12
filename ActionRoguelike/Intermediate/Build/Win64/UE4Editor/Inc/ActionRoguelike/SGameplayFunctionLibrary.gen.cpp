@@ -20,6 +20,16 @@ void EmptyLinkFunctionForGeneratedCodeSGameplayFunctionLibrary() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 // End Cross Module References
+	DEFINE_FUNCTION(USGameplayFunctionLibrary::execApplyMana)
+	{
+		P_GET_OBJECT(AActor,Z_Param_ManaCauser);
+		P_GET_OBJECT(AActor,Z_Param_TargetActor);
+		P_GET_PROPERTY(FFloatProperty,Z_Param_ManaAmount);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=USGameplayFunctionLibrary::ApplyMana(Z_Param_ManaCauser,Z_Param_TargetActor,Z_Param_ManaAmount);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(USGameplayFunctionLibrary::execApplyDirectionalDamage)
 	{
 		P_GET_OBJECT(AActor,Z_Param_DamageCauser);
@@ -47,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeSGameplayFunctionLibrary() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ApplyDamage", &USGameplayFunctionLibrary::execApplyDamage },
 			{ "ApplyDirectionalDamage", &USGameplayFunctionLibrary::execApplyDirectionalDamage },
+			{ "ApplyMana", &USGameplayFunctionLibrary::execApplyMana },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -162,6 +173,56 @@ void EmptyLinkFunctionForGeneratedCodeSGameplayFunctionLibrary() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics
+	{
+		struct SGameplayFunctionLibrary_eventApplyMana_Parms
+		{
+			AActor* ManaCauser;
+			AActor* TargetActor;
+			float ManaAmount;
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ManaAmount;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TargetActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ManaCauser;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((SGameplayFunctionLibrary_eventApplyMana_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(SGameplayFunctionLibrary_eventApplyMana_Parms), &Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::NewProp_ManaAmount = { "ManaAmount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SGameplayFunctionLibrary_eventApplyMana_Parms, ManaAmount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::NewProp_TargetActor = { "TargetActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SGameplayFunctionLibrary_eventApplyMana_Parms, TargetActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::NewProp_ManaCauser = { "ManaCauser", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SGameplayFunctionLibrary_eventApplyMana_Parms, ManaCauser), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::NewProp_ManaAmount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::NewProp_TargetActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::NewProp_ManaCauser,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Gameplay" },
+		{ "ModuleRelativePath", "Public/SGameplayFunctionLibrary.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USGameplayFunctionLibrary, nullptr, "ApplyMana", nullptr, nullptr, sizeof(SGameplayFunctionLibrary_eventApplyMana_Parms), Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_USGameplayFunctionLibrary_NoRegister()
 	{
 		return USGameplayFunctionLibrary::StaticClass();
@@ -183,6 +244,7 @@ void EmptyLinkFunctionForGeneratedCodeSGameplayFunctionLibrary() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_USGameplayFunctionLibrary_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyDamage, "ApplyDamage" }, // 3455631137
 		{ &Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyDirectionalDamage, "ApplyDirectionalDamage" }, // 854743915
+		{ &Z_Construct_UFunction_USGameplayFunctionLibrary_ApplyMana, "ApplyMana" }, // 1910529047
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USGameplayFunctionLibrary_Statics::Class_MetaDataParams[] = {
@@ -218,7 +280,7 @@ void EmptyLinkFunctionForGeneratedCodeSGameplayFunctionLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USGameplayFunctionLibrary, 882501338);
+	IMPLEMENT_CLASS(USGameplayFunctionLibrary, 2367789583);
 	template<> ACTIONROGUELIKE_API UClass* StaticClass<USGameplayFunctionLibrary>()
 	{
 		return USGameplayFunctionLibrary::StaticClass();

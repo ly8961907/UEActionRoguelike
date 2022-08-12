@@ -20,13 +20,17 @@ class APawn;
 #define ActionRoguelike_Source_ActionRoguelike_Public_AI_SAICharacter_h_14_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnHealthChanged); \
-	DECLARE_FUNCTION(execOnPawnSeen);
+	DECLARE_FUNCTION(execOnPawnSeen); \
+	DECLARE_FUNCTION(execGetTargetActor); \
+	DECLARE_FUNCTION(execSetTargetActor);
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_AI_SAICharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnHealthChanged); \
-	DECLARE_FUNCTION(execOnPawnSeen);
+	DECLARE_FUNCTION(execOnPawnSeen); \
+	DECLARE_FUNCTION(execGetTargetActor); \
+	DECLARE_FUNCTION(execSetTargetActor);
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_AI_SAICharacter_h_14_INCLASS_NO_PURE_DECLS \
@@ -73,7 +77,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASAICharacter); \
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_AI_SAICharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__TimeToHitParamName() { return STRUCT_OFFSET(ASAICharacter, TimeToHitParamName); } \
+	FORCEINLINE static uint32 __PPO__TargetActorKey() { return STRUCT_OFFSET(ASAICharacter, TargetActorKey); } \
 	FORCEINLINE static uint32 __PPO__HealthBarWidgetClass() { return STRUCT_OFFSET(ASAICharacter, HealthBarWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__SpottedWidgetClass() { return STRUCT_OFFSET(ASAICharacter, SpottedWidgetClass); } \
 	FORCEINLINE static uint32 __PPO__PawnSensingComp() { return STRUCT_OFFSET(ASAICharacter, PawnSensingComp); } \
 	FORCEINLINE static uint32 __PPO__AttributeComp() { return STRUCT_OFFSET(ASAICharacter, AttributeComp); } \
 	FORCEINLINE static uint32 __PPO__ActionComp() { return STRUCT_OFFSET(ASAICharacter, ActionComp); }

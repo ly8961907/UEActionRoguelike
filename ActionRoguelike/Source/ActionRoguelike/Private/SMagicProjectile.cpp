@@ -25,7 +25,7 @@ void ASMagicProjectile::OnActorOverlap(UPrimitiveComponent* OverlappedComponent,
 	if (OtherActor && OtherActor != GetInstigator())//防止攻击到自己， 忽略产生自己的类
 	{
 
-		static FGameplayTag Tag = FGameplayTag::RequestGameplayTag("Statuse.Parrying");//做成static让他只检查一次
+		//static FGameplayTag Tag = FGameplayTag::RequestGameplayTag("Statuse.Parrying");//做成static让他只检查一次
 
 		USActionComponent* ActionComp = Cast<USActionComponent>(OtherActor->GetComponentByClass(USActionComponent::StaticClass()));
 		if (ActionComp && ActionComp->ActiveGameplayTags.HasTag(ParryTag))
@@ -41,7 +41,7 @@ void ASMagicProjectile::OnActorOverlap(UPrimitiveComponent* OverlappedComponent,
 		{
 			Explode();
 
-			if (ActionComp)
+			if (ActionComp && HasAuthority())//防止客户端执行
 			{
 				ActionComp->AddAction(GetInstigator(), BurningActionClass);
 			}

@@ -22,9 +22,22 @@ bool USGameplayFunctionLibrary::ApplyDirectionalDamage(AActor* DamageCauser, AAc
 		UPrimitiveComponent* HitComp = HitResult.GetComponent();
 		if (HitComp && HitComp->IsSimulatingPhysics(HitResult.BoneName))
 		{
-			HitComp->AddImpulseAtLocation(-HitResult.ImpactNormal * 300000.0f, HitResult.ImpactPoint, HitResult.BoneName);
+			FVector Direction = HitResult.TraceEnd - HitResult.TraceStart;
+			Direction.Normalize();
+
+			HitComp->AddImpulseAtLocation(/*-HitResult.ImpactNormal*/ Direction * 300000.0f, HitResult.ImpactPoint, HitResult.BoneName);
 		}
 		return true;
+	}
+	return false;
+}
+
+bool USGameplayFunctionLibrary::ApplyMana(AActor* ManaCauser, AActor* TargetActor, float ManaAmount)
+{
+	USAttributeComponent* AttributeComponent = USAttributeComponent::GetAttributes(TargetActor);
+	if (AttributeComponent)
+	{
+		return AttributeComponent->ApplyManaChange(ManaCauser, ManaAmount);
 	}
 	return false;
 }

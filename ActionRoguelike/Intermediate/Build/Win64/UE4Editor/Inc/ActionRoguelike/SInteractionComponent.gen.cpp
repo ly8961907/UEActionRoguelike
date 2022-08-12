@@ -17,13 +17,63 @@ void EmptyLinkFunctionForGeneratedCodeSInteractionComponent() {}
 	ACTIONROGUELIKE_API UClass* Z_Construct_UClass_USInteractionComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_ActionRoguelike();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ACTIONROGUELIKE_API UClass* Z_Construct_UClass_USWorldUserWidget_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UEnum* Z_Construct_UEnum_Engine_ECollisionChannel();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(USInteractionComponent::execServerInteract)
+	{
+		P_GET_OBJECT(AActor,Z_Param_InFocus);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ServerInteract_Implementation(Z_Param_InFocus);
+		P_NATIVE_END;
+	}
+	static FName NAME_USInteractionComponent_ServerInteract = FName(TEXT("ServerInteract"));
+	void USInteractionComponent::ServerInteract(AActor* InFocus)
+	{
+		SInteractionComponent_eventServerInteract_Parms Parms;
+		Parms.InFocus=InFocus;
+		ProcessEvent(FindFunctionChecked(NAME_USInteractionComponent_ServerInteract),&Parms);
+	}
 	void USInteractionComponent::StaticRegisterNativesUSInteractionComponent()
 	{
+		UClass* Class = USInteractionComponent::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "ServerInteract", &USInteractionComponent::execServerInteract },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_USInteractionComponent_ServerInteract_Statics
+	{
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InFocus;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USInteractionComponent_ServerInteract_Statics::NewProp_InFocus = { "InFocus", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SInteractionComponent_eventServerInteract_Parms, InFocus), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USInteractionComponent_ServerInteract_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USInteractionComponent_ServerInteract_Statics::NewProp_InFocus,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USInteractionComponent_ServerInteract_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//\x09Reliable - will always arrive eventually, request will be re sent unless be acknowledgment was received\n// ????tcp ip ???\xe1\xb2\xbb??????????????\xd6\xb1???\xd5\xb5??\xd8\xb8?\n// unreliable - not guaranteed packet can get lost \n// ????udp ???????\xc7\xb2??\xc7\xb5???\n" },
+		{ "ModuleRelativePath", "Public/SInteractionComponent.h" },
+		{ "ToolTip", "Reliable - will always arrive eventually, request will be re sent unless be acknowledgment was received\n????tcp ip ???\xe1\xb2\xbb??????????????\xd6\xb1???\xd5\xb5??\xd8\xb8?\nunreliable - not guaranteed packet can get lost\n????udp ???????\xc7\xb2??\xc7\xb5???" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_USInteractionComponent_ServerInteract_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USInteractionComponent, nullptr, "ServerInteract", nullptr, nullptr, sizeof(SInteractionComponent_eventServerInteract_Parms), Z_Construct_UFunction_USInteractionComponent_ServerInteract_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_USInteractionComponent_ServerInteract_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00280CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USInteractionComponent_ServerInteract_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_USInteractionComponent_ServerInteract_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_USInteractionComponent_ServerInteract()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_USInteractionComponent_ServerInteract_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_USInteractionComponent_NoRegister()
 	{
@@ -32,6 +82,7 @@ void EmptyLinkFunctionForGeneratedCodeSInteractionComponent() {}
 	struct Z_Construct_UClass_USInteractionComponent_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -66,6 +117,9 @@ void EmptyLinkFunctionForGeneratedCodeSInteractionComponent() {}
 	UObject* (*const Z_Construct_UClass_USInteractionComponent_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_UActorComponent,
 		(UObject* (*)())Z_Construct_UPackage__Script_ActionRoguelike,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_USInteractionComponent_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_USInteractionComponent_ServerInteract, "ServerInteract" }, // 1319150664
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USInteractionComponent_Statics::Class_MetaDataParams[] = {
@@ -132,11 +186,11 @@ void EmptyLinkFunctionForGeneratedCodeSInteractionComponent() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_USInteractionComponent_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_USInteractionComponent_Statics::PropPointers),
 		0,
 		0x00B000A4u,
@@ -151,7 +205,7 @@ void EmptyLinkFunctionForGeneratedCodeSInteractionComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USInteractionComponent, 2086330680);
+	IMPLEMENT_CLASS(USInteractionComponent, 491208848);
 	template<> ACTIONROGUELIKE_API UClass* StaticClass<USInteractionComponent>()
 	{
 		return USInteractionComponent::StaticClass();
